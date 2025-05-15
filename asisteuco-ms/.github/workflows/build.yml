@@ -1,37 +1,48 @@
-name: SonarQube # O "Build and Analyze" o el nombre que prefieras para el workflow
+name: SonarQube Analysis # O el nombre que desees para el workflow
+
 on:
   push:
     branches:
-      - main
+      - main # O tu rama principal (ej. master)
   pull_request:
     types: [opened, synchronize, reopened]
+
 jobs:
-  build_and_analyze: # Cambiado el nombre del job para evitar confusión con el "name" del workflow.
-    name: Build and analyze
+  build_and_analyze: # Puedes nombrar este job como quieras
+    name: Build and Analyze with SonarQube
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-      - name: Set up JDK 24 # Considera JDK 17 o 21 si encuentras problemas con JDK 24
+          fetch-depth: 0  # Necesario para un análisis preciso de SonarQube
+
+      - name: Set up JDK 24 # Considera JDK 17 o 21 si tienes problemas
         uses: actions/setup-java@v4
         with:
-          java-version: 24 # O '17', '21'
+          java-version: '24' # O '17', '21'
           distribution: 'zulu'
+
       - name: Cache SonarQube packages
         uses: actions/cache@v4
         with:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
+
       - name: Cache Maven packages
         uses: actions/cache@v4
         with:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Build and analyze
+
+      - name: Build and analyze with SonarQube
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Necesario para análisis de PRs
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Asegúrate que este sea el nombre del secret en GitHub
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=JZuluf_AsisteUco
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Necesario para análisis de PRs
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Asegúrate que este sea el nombre del secret en GitHub
+        # Reemplaza JZuluf_AsisteUco con la projectKey correcta si es diferente
+        # Reemplaza jzuluf con la organizationKey correcta si es diferente
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
+          -Dsonar.projectKey=JZuluf_AsisteUco \
+          -Dsonar.organization=jzuluf
