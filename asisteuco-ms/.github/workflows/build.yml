@@ -69,9 +69,9 @@ jobs:
         #     -Dsonar.projectKey=JZuluf_AsisteUco \
         #     -Dsonar.organization=jzuluf \
         #     -Dsonar.sources=src # Opcional, si tus fuentes están en 'src/' relativo a pom.xml
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-            -Dsonar.projectKey=JZuluf_AsisteUco \
-            -Dsonar.organization=jzuluf \
-            -Dsonar.sources=src # Opcional: si tus fuentes están en 'src/' dentro de asisteuco-ms/
+        # ... (resto del YML) ...
+      run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
+          -Dsonar.projectKey=JZuluf_AsisteUco \
+          -Dsonar.organization=jzuluf# Opcional: si tus fuentes están en 'src/' dentro de asisteuco-ms/
                                 # SonarScanner para Maven usualmente detecta 'src/main/java' automáticamente.
                                 # Puedes quitarlo si no es necesario o causa problemas.
