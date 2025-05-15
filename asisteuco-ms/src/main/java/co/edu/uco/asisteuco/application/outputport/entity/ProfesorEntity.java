@@ -11,14 +11,11 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
-//TODO: Hacer el resto del entity con las tablas que faltan
-
 @Entity
-//TODO:Cuidado con dejar quemado el literal
-@Table(name = "Estudiante")
+@Table(name = "Profesor")
 
-public class EstudianteEntity {
-
+public class ProfesorEntity {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.UUID)
 	@Column(name = "id", updatable = false, nullable = false, columnDefinition = "UUID DEFAULT gen_random_uuid()")
@@ -31,21 +28,21 @@ public class EstudianteEntity {
 	@Column(name = "nombres_completos")
 	private String nombresCompletos;
 	
-	public EstudianteEntity() {
+	public ProfesorEntity() {
 		setDefaultId();
 		setDefaultTipoIdentificacion();
 		setDefaultNumeroIdentificacion();
 		setDefaultNombresCompletos();
 	}
 	
-	public EstudianteEntity(final UUID id) {
+	public void EstudianteEntity(final UUID id) {
 		setId(id);
 		setDefaultTipoIdentificacion();
 		setDefaultNumeroIdentificacion();
 		setDefaultNombresCompletos();
 	}
 	
-	public EstudianteEntity(final UUID id,final TipoIdentificacionEntity tipoIdentificacion,final String numeroIdentificacion,final
+	public ProfesorEntity(final UUID id,final TipoIdentificacionEntity tipoIdentificacion,final String numeroIdentificacion,final
 			String nombresCompletos) {
 		setId(id);
 		setTipoIdentificacion(tipoIdentificacion);
