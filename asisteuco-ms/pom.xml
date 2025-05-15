@@ -27,12 +27,14 @@
 		<url/>
 	</scm>
 	<properties>
-    		<sonar.projectKey>JZuluf_AsisteUco</sonar.projectKey> <sonar.organization>jzuluf</sonar.organization>
-    		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    		<sonar.inclusions>src/main/java/**</sonar.inclusions>
-    		<sonar.test.inclusions>src/test/java/**</sonar.test.inclusions>
-    		<java.version>23</java.version>
-	</properties>
+		<java.version>17</java.version> <maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		
+		<sonar.projectKey>JZuluf_AsisteUco</sonar.projectKey>
+		<sonar.organization>jzuluf</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+   	 </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
