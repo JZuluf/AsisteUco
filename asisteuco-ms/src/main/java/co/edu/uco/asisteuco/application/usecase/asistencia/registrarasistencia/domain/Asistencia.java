@@ -18,7 +18,7 @@ public final class Asistencia {
 		return sesion;
 	}
 
-	private void setSesion(final Sesion sesion) {
+	public void setSesion(final Sesion sesion) {
 		this.sesion = sesion;
 	}
 
@@ -26,7 +26,7 @@ public final class Asistencia {
 		return profesor;
 	}
 
-	private void setProfesor(final Profesor profesor) {
+	public void setProfesor(final Profesor profesor) {
 		this.profesor = profesor;
 	}
 
@@ -34,10 +34,8 @@ public final class Asistencia {
 		return estudiantes;
 	}
 
-	private void setEstudiantes(final List<Estudiante> estudiantes) {
+	public void setEstudiantes(final List<Estudiante> estudiantes) {
 		this.estudiantes = estudiantes;
 	}
-	
-	
 	
 }

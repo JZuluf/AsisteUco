@@ -17,12 +17,15 @@ public final class RegistrarAsistenciaResponseDTO {
 	public boolean isTransaccionExitosa() {
 		return transaccionExitosa;
 	}
+	
 	public void setTransaccionExitosa(final boolean transaccionExitosa) {
 		this.transaccionExitosa = transaccionExitosa;
 	}
+	
 	public List<String> getMensajes() {
 		return mensajes;
 	}
+	
 	public void setMensajes(final List<String> mensajes) {
 		this.mensajes = mensajes;
 	}

@@ -9,6 +9,10 @@ public final class RegistrarAsistenciaRequestDTO {
 	private UUID profesor;
 	private List<Estudiante> estudiantes;
 	
+	public RegistrarAsistenciaRequestDTO() {
+		super();
+	}
+	
 	private UUID getSesion() {
 		return sesion;
 	}
@@ -33,9 +37,6 @@ public final class RegistrarAsistenciaRequestDTO {
 		this.estudiantes = estudiantes;
 	}
 
-	public RegistrarAsistenciaRequestDTO() {
-		super();
-	}
 	
 	public class Estudiante{
 		private UUID id;
