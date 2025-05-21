@@ -33,5 +33,9 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
 		
 		return responseDto;
 		}
+	//TODO Esto es para la conexion a la base de datos DriverManager.connect("jdbc:mysql://localhost:3306/your_database", "username", "password");
+		// TODO Auto-generated method stub
+		
+		//return null;
 }
 

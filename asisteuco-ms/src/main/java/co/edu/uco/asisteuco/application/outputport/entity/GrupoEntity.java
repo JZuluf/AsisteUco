@@ -23,21 +23,20 @@ public class GrupoEntity {
 	@ManyToOne
 	@JoinColumn(name = "profesor_id")
 	private ProfesorEntity profesor;
-	@ManyToOne
 	@JoinColumn(name = "materia_id")
 	private String materia;
 	@Column(name = "cantidad_estudiantes")
 	private String cantidadEstudiantes;
 	
-	private UUID getId() {
+	public UUID getId() {
 		return id;
 	}
 	
-	private void setId(final UUID id) {
+	public void setId(final UUID id) {
 		this.id = id;
 	}
 	
-	private void setDefaultId() {
+	public void setDefaultId() {
 		this.id = UUID.randomUUID();
 		setId(id);
 	}
@@ -50,7 +49,7 @@ public class GrupoEntity {
 		this.profesor = profesor;
 	}
 	
-	private void setDefaultProfesor() {
+	public void setDefaultProfesor() {
 		this.profesor = new ProfesorEntity();
 		setProfesor(profesor);
 	}
@@ -63,7 +62,7 @@ public class GrupoEntity {
 		this.materia = materia;
 	}
 	
-	private void setDefaultMateria() {
+	public void setDefaultMateria() {
 		this.materia = "";
 		setMateria(materia);
 	}
@@ -76,7 +75,7 @@ public class GrupoEntity {
 		this.cantidadEstudiantes = cantidadEstudiantes;
 	}
 	
-	private void setDefaultCantidadEstudiantes() {
+	public void setDefaultCantidadEstudiantes() {
 		this.cantidadEstudiantes = "";
 		setCantidadEstudiantes(cantidadEstudiantes);
 	}
