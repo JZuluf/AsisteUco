@@ -124,7 +124,6 @@ public class RegistrarAsistenciaUseCaseImpl implements RegistrarAsistenciaUseCas
         resultado.agregarMensajes(estudianteExiste.validate(idEstudiante).getMensajes());
     }
 
-
     // Cambiado el tipo del parámetro a Estudiante (del dominio)
     private void registrarAsistenciaEstudiante(Estudiante estudiante) {
         //1. Registrar asistencia
