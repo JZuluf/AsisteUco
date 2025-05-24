@@ -8,8 +8,8 @@ import co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEnti
 
 @Repository
 public interface TipoIdentificacionRepository extends JpaRepository<TipoIdentificacionEntity, UUID> {
-	// No additional methods are needed for now
-	// The JpaRepository interface provides basic CRUD operations
-	// and we can add custom queries if needed in the future
+
+	boolean existsByClave(String clave);
+	boolean existsByNombre(String nombre);
 
 }
