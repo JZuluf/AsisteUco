@@ -2,10 +2,21 @@ package co.edu.uco.asisteuco.application.outputport.dto;
 
 import java.util.UUID;
 
-class TipoIdentificacionDTO {
+public final class TipoIdentificacionDTO {
+
     private UUID uuid;
     private String clave;
     private String nombre;
+
+    public TipoIdentificacionDTO() {
+        super();
+    }
+
+    public TipoIdentificacionDTO(UUID uuid, String clave, String nombre) {
+        this.uuid = uuid;
+        this.clave = clave;
+        this.nombre = nombre;
+    }
 
     public UUID getUuid() {
         return uuid;
@@ -31,3 +42,4 @@ class TipoIdentificacionDTO {
         this.nombre = nombre;
     }
 }
+

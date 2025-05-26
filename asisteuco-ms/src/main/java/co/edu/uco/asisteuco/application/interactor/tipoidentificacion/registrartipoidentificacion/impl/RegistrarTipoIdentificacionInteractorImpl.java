@@ -1,13 +1,13 @@
-package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.impl;
+package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.RegistrarTipoIdentificacionInteractor;
-import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO;
-import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO;
+import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.RegistrarTipoIdentificacionInteractor;
+import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO;
+import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO;
 import co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity;
 import co.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository;
 
@@ -40,6 +40,5 @@ public class RegistrarTipoIdentificacionInteractorImpl implements RegistrarTipoI
 
         return response;
     }
-    
     
 }

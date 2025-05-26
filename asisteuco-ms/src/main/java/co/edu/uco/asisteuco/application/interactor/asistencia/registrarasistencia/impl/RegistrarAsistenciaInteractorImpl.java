@@ -16,20 +16,23 @@ import co.edu.uco.asisteuco.application.outputport.repository.ProfesorRepository
 import co.edu.uco.asisteuco.application.outputport.repository.SesionRepository;
 import co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.RegistrarAsistenciaUseCase;
 import co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia;
+import co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante;
+import co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor;
+import co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion;
 import jakarta.transaction.Transactional;
 
 @Service
 public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInteractor {
 
     private final RegistrarAsistenciaUseCase registrarAsistenciaUseCase;
-    private final SesionRepository sesionRepository; // Necesitarás inyectar tus repositorios
+    private final SesionRepository sesionRepository; 
     private final ProfesorRepository profesorRepository;
     private final EstudianteRepository estudianteRepository;
-    // Probablemente un mapper para convertir DTOs/Entidades a Dominio
+
 
     public RegistrarAsistenciaInteractorImpl(
             RegistrarAsistenciaUseCase registrarAsistenciaUseCase,
-            SesionRepository sesionRepository, /* y otros repositorios/mappers */
+            SesionRepository sesionRepository, 
             ProfesorRepository profesorRepository,
             EstudianteRepository estudianteRepository) {
         this.registrarAsistenciaUseCase = registrarAsistenciaUseCase;
@@ -58,7 +61,7 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
 
 
         // 3. Procesar lista de estudiantes
-        List<co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante> estudiantesDominio = 
+        List<Estudiante> estudiantesDominio = 
             new ArrayList<>();
         if (dto.getEstudiantes() != null) {
             for (RegistrarAsistenciaRequestDTO.Estudiante estudianteDto : dto.getEstudiantes()) {
@@ -67,7 +70,7 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
                 // Crear objeto de dominio Estudiante y añadir 'asistio'
                 // Asumimos que tu domain.Estudiante tiene un campo para 'asistio' o lo manejas de otra forma.
                 // Esto es conceptual; la estructura de tu domain.Estudiante podría ser diferente.
-                co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante estDominio =
+                Estudiante estDominio =
                     mapToDomain(estudianteEntity, estudianteDto.isAsistio()); // Debes implementar este mapeo
                 estudiantesDominio.add(estDominio);
             }
@@ -87,18 +90,18 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
     }
 
     // Métodos de mapeo de ejemplo (debes implementarlos según tu arquitectura)
-    private co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion mapToDomain(SesionEntity entity) {
+    private Sesion mapToDomain(SesionEntity entity) {
         // Lógica para convertir SesionEntity a domain.Sesion
         if (entity == null) return null;
         // Ejemplo: return new co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion(...);
         return null; // Implementar
     }
-    private co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor mapToDomain(ProfesorEntity entity) {
+    private Profesor mapToDomain(ProfesorEntity entity) {
         // Lógica para convertir ProfesorEntity a domain.Profesor
         if (entity == null) return null;
         return null; // Implementar
     }
-    private co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante mapToDomain(EstudianteEntity entity, boolean asistio) {
+    private Estudiante mapToDomain(EstudianteEntity entity, boolean asistio) {
         // Lógica para convertir EstudianteEntity a domain.Estudiante y asignar 'asistio'
         if (entity == null) return null;
         // Ejemplo: var estDomain = new co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante(...);

@@ -1,4 +1,4 @@
-package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.dto.request;
+package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request;
 
 import java.util.UUID;
 

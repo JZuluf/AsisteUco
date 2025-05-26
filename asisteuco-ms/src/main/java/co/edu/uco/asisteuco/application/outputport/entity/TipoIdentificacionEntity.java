@@ -15,7 +15,7 @@ import jakarta.persistence.Table;
 public final class TipoIdentificacionEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.UUID) // <-- AÑADE ESTA LÍNEA
+	@GeneratedValue(strategy = GenerationType.UUID)
 	@Column(name = "id")
 	private UUID id;
 	//TODO:Cuidado con dejar quemado el literal

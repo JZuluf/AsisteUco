@@ -1,4 +1,4 @@
-package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.dto.response;
+package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response;
 
 import java.util.List;
 

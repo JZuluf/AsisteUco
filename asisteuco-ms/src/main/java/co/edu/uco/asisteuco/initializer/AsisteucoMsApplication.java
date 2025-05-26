@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-// Añadimos scanBasePackages para incluir todos los paquetes raíz relevantes
 @SpringBootApplication(scanBasePackages = {
     "co.edu.uco.asisteuco.initializer",         
     "co.edu.uco.asisteuco.application",         

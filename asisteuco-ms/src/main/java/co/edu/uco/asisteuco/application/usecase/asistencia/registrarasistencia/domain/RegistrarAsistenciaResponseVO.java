@@ -8,7 +8,7 @@ public class RegistrarAsistenciaResponseVO {
     private List<String> mensajes;
 	
 	public RegistrarAsistenciaResponseVO() {
-		setMensajes(new ArrayList<>());
+		this.mensajes = new ArrayList<>();
 	}
 
 	public List<String> getMensajes() {
@@ -16,18 +16,23 @@ public class RegistrarAsistenciaResponseVO {
 	}
 
 	private void setMensajes(List<String> mensajes) {
-		//TODO: Asegurar que los datos no sean nulos y en caso que lo sean crear el valor por defecto.
-		this.mensajes = mensajes;
+		if (mensajes == null) {
+			this.mensajes = new ArrayList<>();
+		} else {
+			this.mensajes = mensajes;
+		}
 	}
 	
 	public void agregarMensajes(List<String> mensajes) {
-		//TODO: Validar que la lista de mensajes no llegue nula
-		getMensajes().addAll(mensajes);
+		if (mensajes != null && !mensajes.isEmpty()) {
+			getMensajes().addAll(mensajes);
+		}
 	}
 	
 	public void agregarMensaje(String mensaje) {
-		//TODO: Asegurar que no este nulo o vacio
-		getMensajes().add(mensaje);
+		if (mensaje != null && !mensaje.trim().isEmpty()) {
+			getMensajes().add(mensaje);
+		}
 	}
 
 	public boolean isValidacionCorrecta() {

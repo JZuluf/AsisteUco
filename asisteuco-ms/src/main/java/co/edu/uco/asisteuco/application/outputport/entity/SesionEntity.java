@@ -24,6 +24,13 @@ public class SesionEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id", updatable = false, nullable = false, columnDefinition = "UUID DEFAULT gen_random_uuid()")
     private UUID id;
+    
+    @Column(name = "aula")
+    private String aula;
+
+    @Column(name = "estado") 
+    private String estado;
+
 
     @Column(name = "fecha_hora_inicio", nullable = false)
     private LocalDateTime fechaHoraInicio;
@@ -35,12 +42,7 @@ public class SesionEntity {
     @JoinColumn(name = "grupo_id", nullable = false)
     private GrupoEntity grupo;
 
-    @Column(name = "aula")
-    private String aula;
-
-    @Column(name = "estado") // Podrías usar un Enum aquí
-    private String estado;
-
+   
     @OneToMany(mappedBy = "sesion", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<AsistenciaEntity> asistencias;
 

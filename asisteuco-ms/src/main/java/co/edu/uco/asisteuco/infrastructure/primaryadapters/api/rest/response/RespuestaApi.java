@@ -5,25 +5,35 @@ import java.util.List;
 
 /**
  * Esta clase es un wrapper genérico para todas las respuestas de la API.
- * Proporciona una estructura consistente con una lista de mensajes y una lista de datos.
+ * Proporciona una estructura consistente con:
+ *  - un indicador de éxito
+ *  - una lista de mensajes
+ *  - una lista de datos
+ *
  * @param <T> El tipo de dato del objeto (DTO) que se incluirá en la respuesta.
  */
 public final class RespuestaApi<T> {
 
-    // Lista de mensajes para el cliente (ej: "Operación exitosa", "Error de validación", etc.)
+    private boolean transaccionExitosa;
     private List<String> mensajes;
-
-    // Lista con los datos de la respuesta (ej: una lista de TipoIdentificacionDTO)
     private List<T> datos;
 
     public RespuestaApi() {
-        // Se inicializan las listas para evitar NullPointerExceptions
+        this.transaccionExitosa = true;
         this.mensajes = new ArrayList<>();
         this.datos = new ArrayList<>();
     }
-    
-    // Getters y Setters públicos para que Jackson (el serializador de JSON) pueda acceder a ellos.
 
+    // --- transaccionExitosa ---
+    public boolean isTransaccionExitosa() {
+        return transaccionExitosa;
+    }
+
+    public void setTransaccionExitosa(boolean transaccionExitosa) {
+        this.transaccionExitosa = transaccionExitosa;
+    }
+
+    // --- mensajes ---
     public List<String> getMensajes() {
         return mensajes;
     }
@@ -32,6 +42,7 @@ public final class RespuestaApi<T> {
         this.mensajes = mensajes;
     }
 
+    // --- datos ---
     public List<T> getDatos() {
         return datos;
     }

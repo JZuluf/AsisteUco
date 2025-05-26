@@ -24,7 +24,6 @@ public class ValidarQueEstudianteExista implements Validator<UUID,  ValidationRe
 		var resultadoValidacion = new ValidationResultVO();
 		
 		if (!estudianteRepository.existsById(id)) {
-			//TODO: No se pueden quemar los mensajes. Deben estar en el catalogo de mensajes.
 			resultadoValidacion.agregarMensaje("No existe un estudiante con el id: " + id);
 		}
 		

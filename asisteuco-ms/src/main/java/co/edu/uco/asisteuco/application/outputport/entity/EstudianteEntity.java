@@ -1,105 +1,95 @@
 package co.edu.uco.asisteuco.application.outputport.entity;
 
+import jakarta.persistence.*;
+import java.util.Objects;
 import java.util.UUID;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
-
-//TODO: Hacer el resto del entity con las tablas que faltan
-
 @Entity
-//TODO:Cuidado con dejar quemado el literal
-@Table(name = "Estudiante")
-
+@Table(
+    name = "estudiantes",
+    uniqueConstraints = @UniqueConstraint(
+        columnNames = {"tipo_identificacion_id", "numero_identificacion"}
+    )
+)
 public class EstudianteEntity {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.UUID)
-	@Column(name = "id", updatable = false, nullable = false, columnDefinition = "UUID DEFAULT gen_random_uuid()")
-	private UUID id;
-	@ManyToOne
-	@JoinColumn(name = "tipo_identificacion")
-	private TipoIdentificacionEntity tipoIdentificacion;
-	@Column(name = "numero_identificacion")
-	private String numeroIdentificacion;
-	@Column(name = "nombres_completos")
-	private String nombresCompletos;
-	
-	public EstudianteEntity() {
-		setDefaultId();
-		setDefaultTipoIdentificacion();
-		setDefaultNumeroIdentificacion();
-		setDefaultNombresCompletos();
-	}
-	
-	public EstudianteEntity(final UUID id) {
-		setId(id);
-		setDefaultTipoIdentificacion();
-		setDefaultNumeroIdentificacion();
-		setDefaultNombresCompletos();
-	}
-	
-	public EstudianteEntity(final UUID id,final TipoIdentificacionEntity tipoIdentificacion,final String numeroIdentificacion,final
-			String nombresCompletos) {
-		setId(id);
-		setTipoIdentificacion(tipoIdentificacion);
-		setNumeroIdentificacion(numeroIdentificacion);
-		setNombresCompletos(nombresCompletos);
-	}
-	
-	public UUID getId() {
-		return id;
-	}
-	
-	public void setId(final UUID id) {
-		this.id = id;
-	}
-	
-	private void setDefaultId() {
-		this.id = UUID.randomUUID();
-		setId(id);
-	}
-	
-	public TipoIdentificacionEntity getTipoIdentificacion() {
-		return tipoIdentificacion;
-	}
-	
-	public void setTipoIdentificacion(final TipoIdentificacionEntity tipoIdentificacion) {
-		this.tipoIdentificacion = tipoIdentificacion;
-	}
-	
-	private void setDefaultTipoIdentificacion() {
-		setTipoIdentificacion(new TipoIdentificacionEntity());
-	}
-	
-	public String getNumeroIdentificacion() {
-		return numeroIdentificacion;
-	}
-	
-	public void setNumeroIdentificacion(final String numeroIdentificacion) {
-		this.numeroIdentificacion = numeroIdentificacion;
-	}
-	
-	private void setDefaultNumeroIdentificacion() {
-		setNumeroIdentificacion("");
-	}
-	
-	public String getNombresCompletos() {
-		return nombresCompletos;
-	}
-	
-	public void setNombresCompletos(final String nombresCompletos) {
-		this.nombresCompletos = nombresCompletos;
-	}
-	
-	private void setDefaultNombresCompletos() {
-		setNombresCompletos("");
-	}
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "id", updatable = false, nullable = false)
+    private UUID id;
 
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(
+        name = "tipo_identificacion_id",
+        nullable = false,
+        foreignKey = @ForeignKey(name = "fk_estudiante_tipo_identificacion")
+    )
+    private TipoIdentificacionEntity tipoIdentificacion;
+
+    @Column(name = "numero_identificacion", nullable = false, length = 50)
+    private String numeroIdentificacion;
+
+    @Column(name = "nombres_completos", nullable = false, length = 200)
+    private String nombresCompletos;
+
+    /**
+     * Constructor protegido para JPA
+     */
+    
+    public EstudianteEntity() {
+        // Constructor para JPA
+    }
+
+    /**
+     * Constructor de negocio
+     *
+     * @param tipoIdentificacion Entidad de tipo de identificación (no nulo)
+     * @param numeroIdentificacion Número de identificación (no nulo)
+     * @param nombresCompletos Nombres completos del estudiante (no nulo)
+     */
+    
+    public EstudianteEntity(
+        TipoIdentificacionEntity tipoIdentificacion,
+        String numeroIdentificacion,
+        String nombresCompletos
+    ) {
+        this.id = UUID.randomUUID();
+        this.tipoIdentificacion = Objects.requireNonNull(tipoIdentificacion, "tipoIdentificacion no puede ser nulo");
+        this.numeroIdentificacion = Objects.requireNonNull(numeroIdentificacion, "numeroIdentificacion no puede ser nulo");
+        this.nombresCompletos = Objects.requireNonNull(nombresCompletos, "nombresCompletos no puede ser nulo");
+    }
+
+    // --- Getters y Setters ---
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public TipoIdentificacionEntity getTipoIdentificacion() {
+        return tipoIdentificacion;
+    }
+
+    public void setTipoIdentificacion(TipoIdentificacionEntity tipoIdentificacion) {
+        this.tipoIdentificacion = Objects.requireNonNull(tipoIdentificacion, "tipoIdentificacion no puede ser nulo");
+    }
+
+    public String getNumeroIdentificacion() {
+        return numeroIdentificacion;
+    }
+
+    public void setNumeroIdentificacion(String numeroIdentificacion) {
+        this.numeroIdentificacion = Objects.requireNonNull(numeroIdentificacion, "numeroIdentificacion no puede ser nulo");
+    }
+
+    public String getNombresCompletos() {
+        return nombresCompletos;
+    }
+
+    public void setNombresCompletos(String nombresCompletos) {
+        this.nombresCompletos = Objects.requireNonNull(nombresCompletos, "nombresCompletos no puede ser nulo");
+    }
 }
