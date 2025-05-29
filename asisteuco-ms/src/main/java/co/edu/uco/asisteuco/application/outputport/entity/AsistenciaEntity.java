@@ -3,77 +3,54 @@ package co.edu.uco.asisteuco.application.outputport.entity;
 import java.util.UUID;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity; 
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table; 
-import jakarta.persistence.FetchType; // Para controlar la carga de relaciones
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "asistencia")
 public class AsistenciaEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "id", updatable = false, nullable = false, columnDefinition = "UUID DEFAULT gen_random_uuid()")
+    @Id @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @ManyToOne(fetch = FetchType.LAZY) // Una asistencia pertenece a una sesión
-    @JoinColumn(name = "sesion_id", nullable = false) // Columna de clave foránea para la sesión
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "estudiante_grupo_id", nullable = false)
+    private EstudianteGrupoEntity estudianteGrupo;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "sesion_id", nullable = false)
     private SesionEntity sesion;
 
-    @ManyToOne(fetch = FetchType.LAZY) // Una asistencia pertenece a un estudiante
-    @JoinColumn(name = "estudiante_id", nullable = false) // Columna de clave foránea para el estudiante
-    private EstudianteEntity estudiante;
+    @Column(name = "asistio", nullable = false)
+    private Boolean asistio;
 
-    @Column(name = "asistio", nullable = false) // Para marcar si el estudiante asistió (true) o no (false)
-    private boolean asistio;
+    public AsistenciaEntity() { }
 
-    // Constructor por defecto (requerido por JPA)
-    public AsistenciaEntity() {
+    public UUID getId() { return id; }
+
+    public EstudianteGrupoEntity getEstudianteGrupo() {
+        return estudianteGrupo;
     }
-
-    // Constructor con campos (opcional, pero útil)
-    public AsistenciaEntity(SesionEntity sesion, EstudianteEntity estudiante, boolean asistio) {
-        this.sesion = sesion;
-        this.estudiante = estudiante;
-        this.asistio = asistio;
-    }
-
-    // Getters y Setters
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
+    public void setEstudianteGrupo(EstudianteGrupoEntity estudianteGrupo) {
+        this.estudianteGrupo = estudianteGrupo;
     }
 
     public SesionEntity getSesion() {
         return sesion;
     }
-
     public void setSesion(SesionEntity sesion) {
         this.sesion = sesion;
     }
 
-    public EstudianteEntity getEstudiante() {
-        return estudiante;
-    }
-
-    public void setEstudiante(EstudianteEntity estudiante) {
-        this.estudiante = estudiante;
-    }
-
-    public boolean isAsistio() { 
+    public Boolean getAsistio() {
         return asistio;
     }
-
-    public void setAsistio(boolean asistio) {
+    public void setAsistio(Boolean asistio) {
         this.asistio = asistio;
     }
 }

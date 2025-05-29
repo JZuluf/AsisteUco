@@ -1,84 +1,65 @@
 package co.edu.uco.asisteuco.application.outputport.entity;
 
 import java.util.UUID;
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Grupo")
-
+@Table(name = "grupo")
 public class GrupoEntity {
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.UUID)
-	@Column(name = "id", updatable = false, nullable = false, columnDefinition = "UUID DEFAULT gen_random_uuid()")
-	private UUID id;
-	@ManyToOne
-	@JoinColumn(name = "profesor_id")
-	private ProfesorEntity profesor;
-	@JoinColumn(name = "materia_id")
-	private String materia;
-	@Column(name = "cantidad_estudiantes")
-	private String cantidadEstudiantes;
-	
-	public UUID getId() {
-		return id;
-	}
-	
-	public void setId(final UUID id) {
-		this.id = id;
-	}
-	
-	public void setDefaultId() {
-		this.id = UUID.randomUUID();
-		setId(id);
-	}
-	
-	public ProfesorEntity getProfesor() {
-		return profesor;
-	}
-	
-	public void setProfesor(final ProfesorEntity profesor) {
-		this.profesor = profesor;
-	}
-	
-	public void setDefaultProfesor() {
-		this.profesor = new ProfesorEntity();
-		setProfesor(profesor);
-	}
-	
-	public String getMateria() {
-		return materia;
-	}
-	
-	public void setMateria(final String materia) {
-		this.materia = materia;
-	}
-	
-	public void setDefaultMateria() {
-		this.materia = "";
-		setMateria(materia);
-	}
-	
-	public String getCantidadEstudiantes() {
-		return cantidadEstudiantes;
-	}
-	
-	public void setCantidadEstudiantes(final String cantidadEstudiantes) {
-		this.cantidadEstudiantes = cantidadEstudiantes;
-	}
-	
-	public void setDefaultCantidadEstudiantes() {
-		this.cantidadEstudiantes = "";
-		setCantidadEstudiantes(cantidadEstudiantes);
-	}
-	
-	
+
+    @Id
+    @Column(nullable = false)
+    private UUID id;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "profesor_id", nullable = false)
+    private ProfesorEntity profesor;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "materia_id", nullable = false)
+    private MateriaEntity materia;
+
+    @Column(name = "cantidad_estudiantes", nullable = false)
+    private int cantidadEstudiantes;
+
+    public GrupoEntity() { }
+
+    public GrupoEntity(UUID id, ProfesorEntity profesor, MateriaEntity materia, int cantidadEstudiantes) {
+        this.id = id;
+        this.profesor = profesor;
+        this.materia = materia;
+        this.cantidadEstudiantes = cantidadEstudiantes;
+    }
+
+    public UUID getId() {
+        return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public ProfesorEntity getProfesor() {
+        return profesor;
+    }
+
+    public void setProfesor(ProfesorEntity profesor) {
+        this.profesor = profesor;
+    }
+
+    public MateriaEntity getMateria() {
+        return materia;
+    }
+
+    public void setMateria(MateriaEntity materia) {
+        this.materia = materia;
+    }
+
+    public int getCantidadEstudiantes() {
+        return cantidadEstudiantes;
+    }
+
+    public void setCantidadEstudiantes(int cantidadEstudiantes) {
+        this.cantidadEstudiantes = cantidadEstudiantes;
+    }
 }

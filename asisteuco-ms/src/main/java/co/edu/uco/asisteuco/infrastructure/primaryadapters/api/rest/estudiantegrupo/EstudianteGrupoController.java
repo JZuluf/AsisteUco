@@ -4,18 +4,24 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-import org.apache.hc.core5.http.HttpStatus;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.RegistrarEstudianteGrupoInteractor;
+import co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO;
+import co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.response.RegistrarEstudianteGrupoResponseDTO;
 import co.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO;
 import co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity;
 import co.edu.uco.asisteuco.application.outputport.repository.EstudianteGrupoRepository;
+import co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException;
 import co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi;
 
 @RestController
@@ -23,10 +29,43 @@ import co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.Res
 @CrossOrigin(origins = "*")
 public class EstudianteGrupoController {
 
+    private final RegistrarEstudianteGrupoInteractor registrarInteractor;
     private final EstudianteGrupoRepository repository;
 
-    public EstudianteGrupoController(EstudianteGrupoRepository repository) {
+    public EstudianteGrupoController(
+        RegistrarEstudianteGrupoInteractor registrarInteractor,
+        EstudianteGrupoRepository repository
+    ) {
+        this.registrarInteractor = registrarInteractor;
         this.repository = repository;
+    }
+
+    /**
+     * POST /api/v1/estudiante-grupo
+     */
+    @PostMapping
+    public ResponseEntity<RespuestaApi<RegistrarEstudianteGrupoResponseDTO>> registrar(
+            @RequestBody RegistrarEstudianteGrupoRequestDTO request) {
+       
+    	var api = new RespuestaApi<RegistrarEstudianteGrupoResponseDTO>();
+        var status = HttpStatus.CREATED;
+
+        try {
+            // ejecuta la lógica de registro
+            RegistrarEstudianteGrupoResponseDTO data = registrarInteractor.ejecutar(request);
+            api.getDatos().add(data);
+            api.getMensajes().add("Asignación estudiante-grupo registrada exitosamente.");
+        } catch (AsisteUcoException ex) {
+            status = HttpStatus.BAD_REQUEST;
+            api.getMensajes().clear();
+            api.getMensajes().add(ex.getMensajeUsuario());
+        } catch (Exception ex) {
+            status = HttpStatus.INTERNAL_SERVER_ERROR;
+            api.getMensajes().clear();
+            api.getMensajes().add("Error inesperado. Contacte al administrador.");
+        }
+
+        return new ResponseEntity<>(api, status);
     }
 
     @GetMapping
@@ -83,7 +122,7 @@ public class EstudianteGrupoController {
             .orElseGet(() -> {
                 api.setTransaccionExitosa(false);
                 api.getMensajes().add("No se encontró asignación con ID: " + id);
-                return ResponseEntity.status(HttpStatus.SC_NOT_FOUND).body(api);
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(api);
             });
     }
 }

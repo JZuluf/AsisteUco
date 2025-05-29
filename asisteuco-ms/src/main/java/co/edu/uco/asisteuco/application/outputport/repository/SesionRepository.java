@@ -1,5 +1,6 @@
 package co.edu.uco.asisteuco.application.outputport.repository;
 
+import java.util.List;
 import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,8 +10,6 @@ import co.edu.uco.asisteuco.application.outputport.entity.SesionEntity;
 
 @Repository
 public interface SesionRepository extends  JpaRepository<SesionEntity, UUID> {
-	// No additional methods are needed for now
-	// The GenericRepository interface provides basic CRUD operations
-	// and we can add custom queries if needed in the future
 
+	List<SesionEntity> findByGrupo_Id(UUID grupoId);
 }

@@ -9,7 +9,7 @@ public final class Profesor {
     private String numeroIdentificacion;
     private UUID tipoIdentificacion;
 
-    public Profesor(UUID id, String nombresCompletos, String numeroIdentificacion, UUID tipoIdentificacion) {
+    public Profesor(UUID id, String nombresCompletos, String numeroIdentificacion) {
         setId(id);
         setNombresCompletos(nombresCompletos);
         setNumeroIdentificacion(numeroIdentificacion);
