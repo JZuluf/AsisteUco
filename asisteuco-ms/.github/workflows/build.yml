@@ -1,63 +1,36 @@
-# Nombre del workflow que aparecerá en la pestaña Actions de GitHub
-name: SonarCloud Analysis for asisteuco-ms
-
-# Configuración de cuándo se disparará el workflow
+name: SonarQube
 on:
   push:
     branches:
-      - main # Asegúrate que 'main' sea tu rama principal. Si es 'master', cámbialo.
-    paths: # Opcional: Ejecutar solo si hay cambios en el proyecto específico
-      - 'asisteuco-ms/**'
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
-    paths: # Opcional: Ejecutar solo si hay cambios en el proyecto específico
-      - 'asisteuco-ms/**'
-
 jobs:
-  build_and_analyze_asisteuco:
-    name: Build and Analyze (asisteuco-ms)
+  build:
+    name: Build and analyze
     runs-on: ubuntu-latest
-
-    # Define el directorio de trabajo por defecto para todos los pasos de este job.
-    # Esto es crucial si tu pom.xml está en un subdirectorio.
-    defaults:
-      run:
-        working-directory: ./asisteuco-ms # Asume que el pom.xml está en 'asisteuco-ms/'
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Necesario para un análisis preciso de SonarQube
-
-      - name: Set up JDK 17 # Recomendado: Usar una versión LTS como 17 o 21
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '17' # O '21'. Evita versiones no LTS muy recientes para mayor estabilidad.
-          distribution: 'zulu'
-
-      - name: Cache SonarCloud packages
+          java-version: 17
+          distribution: 'zulu' # Alternative distribution options are available.
+      - name: Cache SonarQube packages
         uses: actions/cache@v4
         with:
-          path: ~/.sonar/cache # Caché global de Sonar
+          path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
           restore-keys: ${{ runner.os }}-sonar
-
       - name: Cache Maven packages
         uses: actions/cache@v4
         with:
-          path: ~/.m2 # Caché global de Maven
+          path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-
-      - name: Build and analyze with SonarCloud
+      - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Necesario para análisis de PRs
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}  # Asegúrate que el secret en GitHub se llame SONAR_TOKEN
-        # El comando 'mvn' se ejecutará dentro de 'asisteuco-ms/'
-        # debido a 'defaults.run.working-directory'
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar \
-            -Dsonar.projectKey=JZuluf_AsisteUco \
-            -Dsonar.organization=jzuluf
-            # -Dsonar.sources=src # Descomentar si es estrictamente necesario y tus fuentes no son detectadas automáticamente
-            # -Dsonar.java.source=17 # Descomentar y ajustar si necesitas especificar la versión fuente de Java para Sonar
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=JZuluf_AsisteUco
