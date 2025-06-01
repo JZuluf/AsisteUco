@@ -1,0 +1,9 @@
+package co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion;
+
+import co.edu.uco.asisteuco.application.interactor.InteractorConRetorno;
+import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO;
+import co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO;
+
+public interface RegistrarTipoIdentificacionInteractor extends InteractorConRetorno <RegistrarTipoIdentificacionRequestDTO, RegistrarTipoIdentificacionResponseDTO> {
+
+}

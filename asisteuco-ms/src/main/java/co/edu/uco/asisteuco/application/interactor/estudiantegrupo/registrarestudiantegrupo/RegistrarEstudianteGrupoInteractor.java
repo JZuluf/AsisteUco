@@ -1,0 +1,9 @@
+package co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo;
+
+import co.edu.uco.asisteuco.application.interactor.InteractorConRetorno;
+import co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO;
+import co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.response.RegistrarEstudianteGrupoResponseDTO;
+
+public interface RegistrarEstudianteGrupoInteractor extends InteractorConRetorno<RegistrarEstudianteGrupoRequestDTO, RegistrarEstudianteGrupoResponseDTO> {
+
+}
