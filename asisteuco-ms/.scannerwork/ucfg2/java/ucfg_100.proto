@@ -1,0 +1,75 @@
+
+__sonar_lambda_4$ß
+úC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/mapper/AsistenciaMapper.javaK S("1*ƒ
+1L L(Å˛
+L L(/O
+%18Hco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity"¢co.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#getEstudianteGrupo()Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteGrupoEntity;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity2getEstudianteGrupo()“
+œ
+L L(0N
+egHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity"__id*m
+
+__unknown_file (Q
+O
+%18Hco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity¯ı
+M M(-J
+%19Cco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity"ùco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getEstudiante()Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteEntity;*l
+
+__unknown_file (P
+N
+egHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity2getEstudiante() 
+«
+M M(.K
+estECco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity"__id*h
+
+__unknown_file (L
+J
+%19Cco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntityıÚ
+O O( 
+%20java.util.UUID"[co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getId()Ljava/util/UUID;*i
+
+__unknown_file (M
+K
+estECco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getId()ïí
+P P(.
+%21java.lang.String"kco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getNombresCompletos()Ljava/lang/String;*i
+
+__unknown_file (M
+K
+estECco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getNombresCompletos()Çˇ
+Q Q("
+%22java.lang.Boolean"cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#getAsistio()Ljava/lang/Boolean;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity2getAsistio() «
+N N(%`
+%23Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante"Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante¡
+æ
+N R(
+%24"Üco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#<init>(Ljava/util/UUID;Ljava/lang/String;Z)V*~
+
+__unknown_file (b
+`
+%23Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante*3
+
+__unknown_file (
+
+%20java.util.UUID*5
+
+__unknown_file (
+
+%21java.lang.String*6
+
+__unknown_file (
+
+%22java.lang.Boolean"n
+N R(b
+`
+%23Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante:T
+K K(H
+eCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntityB
+java.util.function.Function

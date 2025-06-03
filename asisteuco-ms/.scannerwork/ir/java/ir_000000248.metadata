@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#<init>(Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;Ljava/lang/String;Ljava/lang/String;)V
+false
+29c237352a779cf95a59e9cb99b5c8e2
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+java.util.UUID#randomUUID()Ljava/util/UUID;

@@ -1,0 +1,4 @@
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setNombresCompletos(Ljava/lang/String;)V
+false
+b0d11d6fbf7a6624c593d5e5ad744fb4
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

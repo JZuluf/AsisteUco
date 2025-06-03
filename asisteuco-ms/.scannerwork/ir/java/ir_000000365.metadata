@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#<init>(Lco/edu/uco/asisteuco/application/outputport/repository/AsistenciaRepository;Lco/edu/uco/asisteuco/application/usecase/estudiante/validator/ValidarQueEstudianteExista;Lco/edu/uco/asisteuco/application/usecase/sesion/validator/ValidarQueSesionExista;)V
+false
+3b639739551b70f42ee5bcc4740342c3
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#<init>()V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#instance-init#

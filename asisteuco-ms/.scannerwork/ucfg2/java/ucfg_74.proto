@@ -1,0 +1,15 @@
+
+gco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getFechaHoraInicio()Ljava/time/LocalDateTime;€
+vC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/SesionDTO.java (("1*ß
+1	 (¢
+Ÿ
+	 (
+%0java.time.LocalDateTime"__id*n
+
+__unknown_file (R*P;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO"
+fechaHoraInicio"+
+ (
+
+%0java.time.LocalDateTimeB=;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTOH

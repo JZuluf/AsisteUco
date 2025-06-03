@@ -1,0 +1,18 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.profesor.ProfesorController#listar(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)LResponseEntity;
+false
+6091fc2fb49f1aa864b3d3000d0f2f11
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#setNombresCompletos(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#setNumeroIdentificacion(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#setTipoIdentificacionId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#getResultados()Ljava/util/List;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#isTransaccionExitosa()Z
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setDatos(Ljava/util/List;)V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setMensajes(Ljava/util/List;)V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;

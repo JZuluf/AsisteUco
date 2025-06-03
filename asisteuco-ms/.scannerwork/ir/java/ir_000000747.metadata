@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#setResultados(Ljava/util/List;)V
+false
+e9589aa54e35390fae2b1e5f1e277e56
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

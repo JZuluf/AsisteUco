@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#exitoso(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/tipoidentificacion/registrartipoidentificacion/dto/response/RegistrarTipoIdentificacionResponseDTO;
+false
+fd0ac1fe79d2f3af253afc67a82e0920
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#<init>(ZLjava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#instance-init#

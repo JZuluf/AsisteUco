@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519800*java2.Bı
+w
+rsrc/main/java/co/edu/uco/asisteuco/application/interactor/materia/registrarmateria/RegistrarMateriaInteractor.java2
+
+package4
+I
+Dco.edu.uco.asisteuco.application.interactor.materia.registrarmateria5
+d
+_co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.RegistrarMateriaInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+ 
+RegistrarMateriaInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+q
+kco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO19
+s
+mco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.response.RegistrarMateriaResponseDTO21J
+
+1
+12Z
+
+3	
+354jw
+
+18
+181915
+
+20
+202115
+
+13
+131415
+9
+64
+678 *
+1 (,:3B
+	
+9
+10
+
+
+11
+12ri
+
+61316*
+15 (I
+
+61317*
+15 (I
+
+61817*
+1J (d
+
+62017*
+1f (Å

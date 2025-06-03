@@ -1,0 +1,15 @@
+co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.impl.RegistrarEstudianteGrupoInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/estudiantegrupo/registrarestudiantegrupo/dto/request/RegistrarEstudianteGrupoRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/estudiantegrupo/registrarestudiantegrupo/dto/response/RegistrarEstudianteGrupoResponseDTO;
+false
+405872cb3b59a2997b40941809974a13
+co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#getEstudianteId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#getGrupoId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.response.RegistrarEstudianteGrupoResponseDTO#<init>(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.response.RegistrarEstudianteGrupoResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#<init>(Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteEntity;)V
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#instance-init#
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+==
+!unknownMethod! !unknownMethod!
+existsByGrupo_IdAndEstudiante_Id co.edu.uco.asisteuco.application.outputport.repository.EstudianteGrupoRepository#existsByGrupo_IdAndEstudiante_Id(Ljava/util/UUID;Ljava/util/UUID;)Z
+getId co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getId()Ljava/util/UUID;

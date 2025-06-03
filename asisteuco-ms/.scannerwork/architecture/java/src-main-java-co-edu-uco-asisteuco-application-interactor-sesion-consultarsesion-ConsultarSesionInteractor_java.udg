@@ -1,0 +1,64 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522738*java2.Bô
+t
+osrc/main/java/co/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/ConsultarSesionInteractor.java2
+
+package4
+G
+Bco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion5
+a
+\co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.ConsultarSesionInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+ConsultarSesionInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+n
+hco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO19J
+
+1
+12Z
+
+3	
+354jc
+
+18
+181915
+9
+64
+678 *
+1 (+:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415rN
+
+61316*
+14 (H
+
+61317*
+14 (H
+
+61817*
+1I (b

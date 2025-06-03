@@ -39,6 +39,7 @@ public class RegistrarEstudianteInteractorImpl implements RegistrarEstudianteInt
         // Asignar demás campos
         entity.setNumeroIdentificacion(request.getNumeroIdentificacion());
         entity.setNombresCompletos(request.getNombresCompletos());
+        entity.setEmail(request.getEmail());
 
         // Guardar la entidad en la base de datos
         EstudianteEntity savedEntity = estudianteRepository.save(entity);

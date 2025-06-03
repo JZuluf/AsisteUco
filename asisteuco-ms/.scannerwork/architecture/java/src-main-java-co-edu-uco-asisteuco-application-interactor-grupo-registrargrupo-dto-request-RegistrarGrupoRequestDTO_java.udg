@@ -1,0 +1,224 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521567*java2.B¯
+}
+xsrc/main/java/co/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/request/RegistrarGrupoRequestDTO.java2
+
+package4
+Q
+Lco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request5
+j
+eco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+RegistrarGrupoRequestDTO12
+v
+pco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO.profesorId14
+
+field15
+
+private16
+
+
+profesorId17
+u
+oco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO.materiaId19
+
+	materiaId20
+
+yco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO.cantidadEstudiantes22
+
+cantidadEstudiantes23
+å
+Öco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getProfesorId()Ljava/util/UUID;25
+
+method26
+
+getProfesorId27
+
+
+references28
+ç
+Üco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#setProfesorId(Ljava/util/UUID;)V30
+
+setProfesorId31
+
+
+uses32
+ã
+Ñco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getMateriaId()Ljava/util/UUID;34
+
+getMateriaId35
+å
+Öco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#setMateriaId(Ljava/util/UUID;)V37
+
+setMateriaId38
+Ö
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getCantidadEstudiantes()I40
+
+getCantidadEstudiantes41
+á
+Äco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#setCantidadEstudiantes(I)V43
+
+setCantidadEstudiantes44J
+
+1
+12Z
+
+3	
+354jç
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+27
+@
+42:
+424326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+36:
+363726 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+9
+64
+678 *
+1 (,:3B
+	
+9
+10
+
+
+11
+12
+@
+29:
+293026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+21:
+212215 *
+1 (26:3B
+	
+9
+16
+
+
+11
+23
+@
+33:
+333426 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+39:
+394026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20ræ
+
+241328*
+1 (
+
+29632*
+1	 (
+
+29628*
+1	 (
+
+291328*
+1 (
+
+331828*
+1 (
+
+36632*
+1	 (
+
+36628*
+1	 (
+
+361828*
+1 (
+
+392128*
+1 (#
+
+42632*
+1	 (
+
+42628*
+1	 (
+
+422128*
+1 (!

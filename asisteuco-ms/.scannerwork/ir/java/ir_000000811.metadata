@@ -1,0 +1,17 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.sesion.SesionController#listar(Ljava/util/UUID;Ljava/util/UUID;)LResponseEntity;
+false
+f45e7dc582fa5d762c2d4ce346e7d185
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setDatos(Ljava/util/List;)V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setMensajes(Ljava/util/List;)V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;
+getMensajes co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#getMensajes()Ljava/util/List;
+getResultados co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#getResultados()Ljava/util/List;
+isTransaccionExitosa co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#isTransaccionExitosa()Z
+setGrupoId co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#setGrupoId(Ljava/util/UUID;)V
+setId co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#setId(Ljava/util/UUID;)V

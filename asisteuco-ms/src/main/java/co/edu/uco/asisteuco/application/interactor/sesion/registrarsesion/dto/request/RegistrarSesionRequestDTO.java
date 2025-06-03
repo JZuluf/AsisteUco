@@ -1,10 +1,12 @@
 package co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class RegistrarSesionRequestDTO {
     private UUID grupoId;
+    private LocalDate fecha;
     private LocalDateTime fechaHoraInicio;
     private LocalDateTime fechaHoraFin;
     private String aula;
@@ -39,6 +41,12 @@ public class RegistrarSesionRequestDTO {
 	}
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+	public LocalDate getFecha() {
+		return fecha;
+	}
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
 	}
 
 

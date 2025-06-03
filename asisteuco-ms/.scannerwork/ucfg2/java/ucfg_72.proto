@@ -1,0 +1,15 @@
+
+Vco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getGrupoId()Ljava/util/UUID;€
+vC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/SesionDTO.java ("1*Å
+1	 (‘
+Ž
+	 (
+%0java.util.UUID"__id*f
+
+__unknown_file (J*H;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO"	
+grupoId""
+ (
+
+%0java.util.UUIDB=;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTOH

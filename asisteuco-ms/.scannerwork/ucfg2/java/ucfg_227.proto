@@ -1,0 +1,15 @@
+
+mco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getFechaHoraInicio()Ljava/time/LocalDateTime;†
+|C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/entity/SesionEntity.java@ @(+"1*å
+1A A(¨
+¥
+A A(
+%0java.time.LocalDateTime"__id*t
+
+__unknown_file (X*VA
+?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity"
+fechaHoraInicio"+
+A A(
+
+%0java.time.LocalDateTimeBCA
+?co.edu.uco.asisteuco.application.outputport.entity.SesionEntityH

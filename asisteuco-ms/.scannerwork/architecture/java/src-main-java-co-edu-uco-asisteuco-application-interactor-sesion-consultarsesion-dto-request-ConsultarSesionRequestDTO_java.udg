@@ -1,0 +1,172 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523060*java2.BÓ
+
+Ä
+{src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/request/ConsultarSesionRequestDTO.java2
+
+package4
+S
+Nco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request5
+m
+hco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ConsultarSesionRequestDTO12
+q
+kco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO.id14
+
+field15
+
+private16
+
+id17
+v
+pco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO.grupoId19
+
+grupoId20
+á
+Äco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getId()Ljava/util/UUID;22
+
+method23
+
+getId24
+
+
+references25
+à
+Åco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#setId(Ljava/util/UUID;)V27
+
+setId28
+
+
+uses29
+å
+Öco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getGrupoId()Ljava/util/UUID;31
+
+
+getGrupoId32
+ç
+Üco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#setGrupoId(Ljava/util/UUID;)V34
+
+
+setGrupoId35J
+
+1
+12Z
+
+3	
+354j«
+9
+64
+678 *
+1 (':3B
+	
+9
+10
+
+
+11
+12
+@
+13:
+131415 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+17
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+33:
+333423 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+26:
+262723 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28
+@
+21:
+212223 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+24
+@
+30:
+303123 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32r‘
+
+211325*
+1
+ (
+
+26629*
+1 (
+
+26625*
+1 (
+
+261325*
+1 (
+
+
+301825*
+1
+ (
+
+33629*
+1 (
+
+33625*
+1 (
+
+331825*
+1 (

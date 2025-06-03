@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#setMensajes(Ljava/util/List;)V
+false
+ca74c24e78fae2ab9f193daa983d0f0d
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

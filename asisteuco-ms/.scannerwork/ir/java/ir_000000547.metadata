@@ -1,0 +1,17 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.estudiantegrupo.EstudianteGrupoController#listar(Ljava/util/UUID;Ljava/util/UUID;)LResponseEntity;
+false
+fbb70e6f2012aa18b553af79ddba9b44
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setDatos(Ljava/util/List;)V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+findByEstudiante_Id co.edu.uco.asisteuco.application.outputport.repository.EstudianteGrupoRepository#findByEstudiante_Id(Ljava/util/UUID;)Ljava/util/List;
+findByGrupo_Id co.edu.uco.asisteuco.application.outputport.repository.EstudianteGrupoRepository#findByGrupo_Id(Ljava/util/UUID;)Ljava/util/List;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

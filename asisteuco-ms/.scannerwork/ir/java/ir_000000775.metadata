@@ -1,0 +1,19 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.profesor.ProfesorController#obtenerPorId(Ljava/util/UUID;)LResponseEntity;
+false
+19364e6a9b967ace3931edd68e252474
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#setId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#getResultados()Ljava/util/List;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#isTransaccionExitosa()Z
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getDatos()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;
+get java.util.List#get(I)Ljava/lang/Object;
+isEmpty java.util.List#isEmpty()Z

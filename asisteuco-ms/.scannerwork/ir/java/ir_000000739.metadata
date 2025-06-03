@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#exitoso(Ljava/util/List;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO;
+false
+6dc2b25ac1467a3599fed504f78629e1
+co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#instance-init#
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

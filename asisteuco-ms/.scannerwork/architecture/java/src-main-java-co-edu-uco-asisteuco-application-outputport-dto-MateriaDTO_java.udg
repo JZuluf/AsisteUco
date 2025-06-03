@@ -1,0 +1,230 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521210*java2.B˘	
+R
+Msrc/main/java/co/edu/uco/asisteuco/application/outputport/dto/MateriaDTO.java2
+
+package4
+4
+/co.edu.uco.asisteuco.application.outputport.dto5
+?
+:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+
+MateriaDTO12
+C
+=co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO.id14
+
+field15
+
+private16
+
+id17
+F
+@co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO.clave19
+
+clave20
+G
+Aco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO.nombre22
+
+nombre23
+X
+Rco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#getId()Ljava/util/UUID;25
+
+method26
+
+getId27
+
+
+references28
+Y
+Sco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setId(Ljava/util/UUID;)V30
+
+setId31
+
+
+uses32
+]
+Wco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#getClave()Ljava/lang/String;34
+
+getClave35
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setClave(Ljava/lang/String;)V37
+
+setClave38
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#getNombre()Ljava/lang/String;40
+
+	getNombre41
+_
+Yco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setNombre(Ljava/lang/String;)V43
+
+	setNombre44J
+
+1
+12Z
+
+3	
+354jç
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+21:
+212215 *
+1 (26:3B
+	
+9
+16
+
+
+11
+23
+@
+36:
+363726 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+27
+@
+39:
+394026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+29:
+293026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+33:
+333426 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+42:
+424326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17ræ
+
+241328*
+1 (
+
+29632*
+1 (
+
+
+29628*
+1 (
+
+
+291328*
+1 (
+
+331828*
+1 (
+
+36632*
+1 (
+
+
+36628*
+1 (
+
+
+361828*
+1 (
+
+392128*
+1 (
+
+42632*
+1 (
+
+
+42628*
+1 (
+
+
+422128*
+1 (

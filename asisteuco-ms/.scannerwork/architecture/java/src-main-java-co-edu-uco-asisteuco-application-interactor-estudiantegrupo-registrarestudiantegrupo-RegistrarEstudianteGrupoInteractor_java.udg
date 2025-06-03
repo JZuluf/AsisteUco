@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520344*java2.BÛ
+ê
+äsrc/main/java/co/edu/uco/asisteuco/application/interactor/estudiantegrupo/registrarestudiantegrupo/RegistrarEstudianteGrupoInteractor.java2
+
+package4
+Y
+Tco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo5
+|
+wco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.RegistrarEstudianteGrupoInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+(
+"RegistrarEstudianteGrupoInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+ä
+Éco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO19
+å
+Öco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.response.RegistrarEstudianteGrupoResponseDTO21J
+
+1
+12Z
+
+3	
+354jw
+
+20
+202115
+9
+64
+678 *
+1 (4:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+
+18
+181915ri
+
+61316*
+1= (Q
+
+61317*
+1= (Q
+
+61817*
+1R (t
+
+62017*
+1v (ô

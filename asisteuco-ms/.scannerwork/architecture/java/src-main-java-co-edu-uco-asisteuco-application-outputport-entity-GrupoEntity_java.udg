@@ -1,0 +1,580 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521946*java2.Bš
+V
+Qsrc/main/java/co/edu/uco/asisteuco/application/outputport/entity/GrupoEntity.java2
+
+package4
+7
+2co.edu.uco.asisteuco.application.outputport.entity5
+C
+>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+GrupoEntity12
+
+Entity14
+
+unknown15
+
+annotated by16
+$
+Recovered#typeBindingLEntity;018
+
+
+uses19
+
+Table21
+#
+Recovered#typeBindingLTable;023
+G
+Aco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity.id25
+
+field26
+
+private27
+
+id28
+
+Id30
+ 
+Recovered#typeBindingLId;032
+
+Column34
+$
+Recovered#typeBindingLColumn;036
+M
+Gco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity.profesor38
+
+profesor39
+G
+Aco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity41
+
+is type42
+#
+jakarta.persistence.ManyToOne44
+'
+!Recovered#typeBindingLManyToOne;046
+$
+jakarta.persistence.JoinColumn48
+(
+"Recovered#typeBindingLJoinColumn;050
+L
+Fco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity.materia52
+
+materia53
+F
+@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity55
+
+	ManyToOne57
+X
+Rco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity.cantidadEstudiantes59
+
+cantidadEstudiantes60
+N
+Hco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#<init>()V62
+
+method63
+
+calls64
+å
+Þco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#<init>(Ljava/util/UUID;Lco/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity;Lco/edu/uco/asisteuco/application/outputport/entity/MateriaEntity;I)V66
+
+	has param67
+
+
+references68
+\
+Vco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getId()Ljava/util/UUID;70
+
+getId71
+]
+Wco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#setId(Ljava/util/UUID;)V73
+
+setId74
+–
+co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getProfesor()Lco/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity;76
+
+getProfesor77
+
+returns78
+—
+co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#setProfesor(Lco/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity;)V80
+
+setProfesor81
+”
+co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getMateria()Lco/edu/uco/asisteuco/application/outputport/entity/MateriaEntity;83
+
+
+getMateria84
+•
+Žco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#setMateria(Lco/edu/uco/asisteuco/application/outputport/entity/MateriaEntity;)V86
+
+
+setMateria87
+^
+Xco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getCantidadEstudiantes()I89
+
+getCantidadEstudiantes90
+_
+Yco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#setCantidadEstudiantes(I)V92
+
+setCantidadEstudiantes93J
+
+1
+12Z
+
+3	
+354jƒ
+
+
+13
+131415
+
+35
+353615
+@
+58:
+585926 *
+1 (26:3B
+	
+9
+27
+
+
+11
+60
+
+43
+434415
+@
+85:
+858663 *
+16 6(26:3B
+	
+9
+10
+
+
+11
+87
+@
+61:
+616263 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+56
+565715
+
+40
+404115
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+27
+
+
+11
+28
+
+33
+333415
+
+54
+545515
+
+49
+495015
+@
+37:
+373826 *
+1 (26:3B
+	
+9
+27
+
+
+11
+39
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+65:
+656663 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+75:
+757663 *
+1* *(26:3B
+	
+9
+10
+
+
+11
+77
+@
+69:
+697063 *
+1" "(26:3B
+	
+9
+10
+
+
+11
+71
+
+45
+454615
+
+20
+202115
+@
+72:
+727363 *
+1& &(26:3B
+	
+9
+10
+
+
+11
+74
+@
+79:
+798063 *
+1. .(26:3B
+	
+9
+10
+
+
+11
+81
+
+22
+222315
+
+47
+474815
+@
+91:
+919263 *
+1> >(26:3B
+	
+9
+10
+
+
+11
+93
+@
+82:
+828363 *
+12 2(26:3B
+	
+9
+10
+
+
+11
+84
+@
+88:
+888963 *
+1: :(26:3B
+	
+9
+10
+
+
+11
+90
+@
+51:
+515226 *
+1 (26:3B
+	
+9
+27
+
+
+11
+53
+
+17
+171815
+
+29
+293015
+
+31
+313215rî
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+242916*
+1
+ 
+(
+
+243119*
+1
+ 
+(
+
+243316*
+1 (
+
+243519*
+1 (
+
+374042*
+1 (
+
+374316*
+1 (
+
+374519*
+1 (
+
+374716*
+1 (
+
+374919*
+1 (
+
+374019*
+1 (
+
+374019*
+1 ($
+
+515442*
+1 (
+
+515616*
+1 (
+
+514519*
+1 (
+
+514716*
+1 (
+
+514919*
+1 (
+
+515419*
+1 (
+
+515419*
+1 ("
+
+583316*
+1 (
+
+583519*
+1 (
+
+61664*
+1 (
+
+654067*
+1! (/
+
+655467*
+1: (G
+
+65664*
+1 (
+
+654042*
+10 (8
+
+654019*
+1! (/
+
+655442*
+1H (O
+
+655419*
+1: (G
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+652468*
+1 (
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+654019*
+1 (
+
+653768*
+1 (
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+655419*
+1 (
+
+655168*
+1 (
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+655868*
+1 (!
+
+692468*
+1# #(
+
+72619*
+1'	 '(
+
+72668*
+1'	 '(
+
+722468*
+1' '(
+
+754078*
+1* *(
+
+754019*
+1* *(
+
+754019*
+1+ +(
+
+753768*
+1+ +(
+
+794067*
+1. .(+
+
+794042*
+1., .(4
+
+794019*
+1. .(+
+
+79619*
+1/	 /(
+
+79668*
+1/	 /(
+
+794019*
+1/ /(
+
+793768*
+1/ /(
+
+825478*
+12 2(
+
+825419*
+12 2(
+
+825419*
+13 3(
+
+825168*
+13 3(
+
+855467*
+16 6()
+
+855442*
+16* 6(1
+
+855419*
+16 6()
+
+85619*
+17	 7(
+
+85668*
+17	 7(
+
+855419*
+17 7(
+
+855168*
+17 7(
+
+885868*
+1; ;(#
+
+91619*
+1?	 ?(
+
+91668*
+1?	 ?(
+
+915868*
+1? ?(!

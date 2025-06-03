@@ -1,0 +1,16 @@
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/request/ConsultarSesionRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;
+false
+eeb59c19a506182ba028bba07ffb6996
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#exitoso(Ljava/lang/String;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;
+java.util.List#of()Ljava/util/List;
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+findByGrupo_Id co.edu.uco.asisteuco.application.outputport.repository.SesionRepository#findByGrupo_Id(Ljava/util/UUID;)Ljava/util/List;
+getGrupoId co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getGrupoId()Ljava/util/UUID;
+getId co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getId()Ljava/util/UUID;
+isEmpty java.util.List#isEmpty()Z
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

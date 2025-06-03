@@ -1,0 +1,321 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523200*java2.Bª
+X
+Ssrc/main/java/co/edu/uco/asisteuco/application/outputport/entity/MateriaEntity.java2
+
+package4
+7
+2co.edu.uco.asisteuco.application.outputport.entity5
+E
+@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+MateriaEntity12
+
+Entity14
+
+unknown15
+
+annotated by16
+$
+Recovered#typeBindingLEntity;018
+
+
+uses19
+
+Table21
+#
+Recovered#typeBindingLTable;023
+I
+Cco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity.id25
+
+field26
+
+private27
+
+id28
+
+jakarta.persistence.Id30
+ 
+Recovered#typeBindingLId;032
+(
+"jakarta.persistence.GeneratedValue34
+,
+&Recovered#typeBindingLGeneratedValue;036
+L
+Fco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity.clave38
+
+clave39
+ 
+jakarta.persistence.Column41
+$
+Recovered#typeBindingLColumn;043
+M
+Gco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity.nombre45
+
+nombre46
+^
+Xco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getId()Ljava/util/UUID;48
+
+method49
+
+getId50
+
+
+references51
+_
+Yco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#setId(Ljava/util/UUID;)V53
+
+setId54
+c
+]co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getClave()Ljava/lang/String;56
+
+getClave57
+d
+^co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#setClave(Ljava/lang/String;)V59
+
+setClave60
+d
+^co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getNombre()Ljava/lang/String;62
+
+	getNombre63
+e
+_co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#setNombre(Ljava/lang/String;)V65
+
+	setNombre66J
+
+1
+12Z
+
+3	
+354jÕ
+
+13
+131415
+@
+58:
+585949 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+60
+
+20
+202115
+
+42
+424315
+
+22
+222315
+@
+55:
+555649 *
+1 (26:3B
+	
+9
+10
+
+
+11
+57
+
+29
+293015
+
+33
+333415
+@
+37:
+373826 *
+1 (26:3B
+	
+9
+27
+
+
+11
+39
+@
+61:
+616249 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+63
+@
+52:
+525349 *
+1 (26:3B
+	
+9
+10
+
+
+11
+54
+
+40
+404115
+@
+64:
+646549 *
+1) )(26:3B
+	
+9
+10
+
+
+11
+66
+
+17
+171815
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+35
+353615
+@
+24:
+242526 *
+1	 	(26:3B
+	
+9
+27
+
+
+11
+28
+@
+44:
+444526 *
+1 (26:3B
+	
+9
+27
+
+
+11
+46
+
+31
+313215
+@
+47:
+474849 *
+1 (26:3B
+	
+9
+10
+
+
+11
+50rþ
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+242916*
+1	 	(
+
+243119*
+1	 	(
+
+243316*
+1
+ 
+(
+
+243519*
+1
+ 
+(
+
+374016*
+1 (
+
+374219*
+1 (
+
+444016*
+1 (
+
+444219*
+1 (
+
+472451*
+1 (
+
+52619*
+1 (
+
+
+52651*
+1 (
+
+
+522451*
+1 (
+
+553751*
+1 (
+
+58619*
+1" "(
+
+
+58651*
+1" "(
+
+
+583751*
+1" "(
+
+614451*
+1& &(
+
+64619*
+1* *(
+
+
+64651*
+1* *(
+
+
+644451*
+1* *(

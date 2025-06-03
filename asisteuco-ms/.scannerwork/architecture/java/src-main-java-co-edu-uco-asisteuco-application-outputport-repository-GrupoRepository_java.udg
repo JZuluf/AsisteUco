@@ -1,0 +1,149 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519971*java2.B«
+^
+Ysrc/main/java/co/edu/uco/asisteuco/application/outputport/repository/GrupoRepository.java2
+
+package4
+;
+6co.edu.uco.asisteuco.application.outputport.repository5
+K
+Fco.edu.uco.asisteuco.application.outputport.repository.GrupoRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+GrupoRepository12
++
+%Recovered#typeBindingLJpaRepository;014
+
+unknown15
+
+
+implements16
+
+
+Repository18
+
+annotated by19
+(
+"Recovered#typeBindingLRepository;021
+
+
+uses22
+D
+>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity24
+Ä
+zco.edu.uco.asisteuco.application.outputport.repository.GrupoRepository#findByProfesor_Id(Ljava/util/UUID;)Ljava/util/List;26
+
+method27
+
+findByProfesor_Id28
+
+yco.edu.uco.asisteuco.application.outputport.repository.GrupoRepository#findByMateria_Id(Ljava/util/UUID;)Ljava/util/List;30
+
+findByMateria_Id31
+û
+óco.edu.uco.asisteuco.application.outputport.repository.GrupoRepository#findByProfesor_IdAndMateria_Id(Ljava/util/UUID;Ljava/util/UUID;)Ljava/util/List;33
+$
+findByProfesor_IdAndMateria_Id34J
+
+1
+12Z
+
+3	
+354j—
+@
+32:
+323327 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+34
+
+13
+131415
+
+17
+171815
+
+20
+202115
+9
+64
+678 *
+1
+ 
+(!:3B
+	
+9
+10
+
+
+11
+12
+@
+25:
+252627 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28
+@
+29:
+293027 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+31
+
+23
+232415r”
+
+61316*
+1
+* 
+(7
+
+61719*
+1	 	(
+
+62022*
+1	 	(
+
+61322*
+1
+* 
+(7
+
+62322*
+1
+8 
+(C
+
+252322*
+1 (
+
+292322*
+1
+ (
+
+322322*
+1
+ (

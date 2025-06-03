@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#setMensajes(Ljava/util/List;)V
+false
+73394586edfa3bee55b12949582b2ba4
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

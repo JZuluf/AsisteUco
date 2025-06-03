@@ -1,0 +1,15 @@
+
+dco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getFechaHoraFin()Ljava/time/LocalDateTime;€
+vC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/SesionDTO.java   (%"1*Ü
+1!	 !(Ÿ
+œ
+!	 !(
+%0java.time.LocalDateTime"__id*k
+
+__unknown_file (O*M;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO"
+fechaHoraFin"+
+! !(
+
+%0java.time.LocalDateTimeB=;
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTOH

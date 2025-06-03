@@ -1,0 +1,4 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;
+false
+c9c3aa003b744996ba86273b1d228c7a
+java.util.Collections#unmodifiableList(Ljava/util/List;)Ljava/util/List;

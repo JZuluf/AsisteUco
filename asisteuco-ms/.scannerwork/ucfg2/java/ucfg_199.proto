@@ -1,0 +1,15 @@
+
+ñco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getFechaHoraInicio()Ljava/time/LocalDateTime;∞
+•C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/registrarsesion/dto/request/RegistrarSesionRequestDTO.java (("1*ê
+1	 (”
+–
+	 (
+%0java.time.LocalDateTime"__id*û
+
+__unknown_file (Å*j
+hco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO"
+fechaHoraInicio"+
+ (
+
+%0java.time.LocalDateTimeBlj
+hco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTOH

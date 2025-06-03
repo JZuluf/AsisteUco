@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.consultartipoidentificacion.dto.response.ConsultarTipoIdentificacionResponseDTO#exitoso(Ljava/lang/String;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/tipoidentificacion/consultartipoidentificacion/dto/response/ConsultarTipoIdentificacionResponseDTO;
+false
+019184e4fe5d1b944535cd2485d4b97b
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.consultartipoidentificacion.dto.response.ConsultarTipoIdentificacionResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.consultartipoidentificacion.dto.response.ConsultarTipoIdentificacionResponseDTO#instance-init#
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;

@@ -1,0 +1,18 @@
+
+„co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#isValidacionCorrecta()Z´
+©C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/RegistrarAsistenciaResponseVO.java& &($"1*é
+1'	 '(ÎË
+'	 '(
+%0java.util.List"Šco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#getMensajes()Ljava/util/List;*Œ
+
+__unknown_file (pn
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO2getMensajes()us
+'	 '( 
+%1boolean"java.util.List#isEmpty()Z*2
+
+__unknown_file (
+
+%0java.util.List2	isEmpty()"
+' '(!
+""Bpn
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVOHX

@@ -1,0 +1,9 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper#mapToEntities(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia;Lco/edu/uco/asisteuco/application/outputport/entity/SesionEntity;Ljava/util/List;)Ljava/util/List;
+false
+86ecae00c23d5281a7736e9ca1532899
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

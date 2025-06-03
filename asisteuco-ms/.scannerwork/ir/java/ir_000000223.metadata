@@ -1,0 +1,19 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.grupo.GrupoController#obtenerPorId(Ljava/util/UUID;)LResponseEntity;
+false
+272e0f93b31e5129f4d9386c38912ccd
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#setId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.response.ConsultarGrupoResponseDTO#getResultados()Ljava/util/List;
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.response.ConsultarGrupoResponseDTO#isTransaccionExitosa()Z
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getDatos()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;
+get java.util.List#get(I)Ljava/lang/Object;
+isEmpty java.util.List#isEmpty()Z

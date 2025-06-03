@@ -1,0 +1,288 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521597*java2.BÁ
+Z
+Usrc/main/java/co/edu/uco/asisteuco/application/outputport/dto/EstudianteGrupoDTO.java2
+
+package4
+4
+/co.edu.uco.asisteuco.application.outputport.dto5
+G
+Bco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+EstudianteGrupoDTO12
+K
+Eco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO.id14
+
+field15
+
+private16
+
+id17
+U
+Oco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO.estudianteId19
+
+estudianteId20
+P
+Jco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO.grupoId22
+
+grupoId23
+R
+Lco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#<init>()V25
+
+method26
+
+calls27
+Ç
+|co.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#<init>(Ljava/util/UUID;Ljava/util/UUID;Ljava/util/UUID;)V29
+
+
+uses30
+
+
+references31
+`
+Zco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#getId()Ljava/util/UUID;33
+
+getId34
+a
+[co.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#setId(Ljava/util/UUID;)V36
+
+setId37
+j
+dco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#getEstudianteId()Ljava/util/UUID;39
+
+getEstudianteId40
+k
+eco.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#setEstudianteId(Ljava/util/UUID;)V42
+
+setEstudianteId43
+e
+_co.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#getGrupoId()Ljava/util/UUID;45
+
+
+getGrupoId46
+f
+`co.edu.uco.asisteuco.application.outputport.dto.EstudianteGrupoDTO#setGrupoId(Ljava/util/UUID;)V48
+
+
+setGrupoId49J
+
+1
+12Z
+
+3	
+354jë
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+32:
+323326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+34
+@
+35:
+353626 *
+1 (26:3B
+	
+9
+10
+
+
+11
+37
+@
+28:
+282926 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+38:
+383926 *
+1 (26:3B
+	
+9
+10
+
+
+11
+40
+@
+44:
+444526 *
+1 (26:3B
+	
+9
+10
+
+
+11
+46
+@
+41:
+414226 *
+1 (26:3B
+	
+9
+10
+
+
+11
+43
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+12
+@
+47:
+474826 *
+1 (26:3B
+	
+9
+10
+
+
+11
+49
+@
+21:
+212215 *
+1 (26:3B
+	
+9
+16
+
+
+11
+23
+9
+64
+678 *
+1 ( :3B
+	
+9
+10
+
+
+11
+12rﬂ
+
+24627*
+1
+ 
+(
+
+28627*
+1 (
+
+28630*
+1	 (
+
+28631*
+1	 (
+
+281331*
+1 (
+
+28630*
+1	 (
+
+28631*
+1	 (
+
+281831*
+1 (
+
+28630*
+1	 (
+
+28631*
+1	 (
+
+282131*
+1 (
+
+321331*
+1" ($
+
+35630*
+1" (&
+
+35631*
+1" (&
+
+351331*
+1' ()
+
+381831*
+1, (8
+
+41630*
+16 (:
+
+41631*
+16 (:
+
+411831*
+1; (G
+
+442131*
+1' (.
+
+47630*
+1, (0
+
+47631*
+1, (0
+
+472131*
+11 (8

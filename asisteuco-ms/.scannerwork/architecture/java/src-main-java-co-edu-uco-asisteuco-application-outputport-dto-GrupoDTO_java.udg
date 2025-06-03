@@ -1,0 +1,281 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520059*java2.BÈ
+P
+Ksrc/main/java/co/edu/uco/asisteuco/application/outputport/dto/GrupoDTO.java2
+
+package4
+4
+/co.edu.uco.asisteuco.application.outputport.dto5
+=
+8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+GrupoDTO12
+A
+;co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO.id14
+
+field15
+
+private16
+
+id17
+I
+Cco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO.profesorId19
+
+
+profesorId20
+H
+Bco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO.materiaId22
+
+	materiaId23
+R
+Lco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO.cantidadEstudiantes25
+
+cantidadEstudiantes26
+V
+Pco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#getId()Ljava/util/UUID;28
+
+method29
+
+getId30
+
+
+references31
+W
+Qco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setId(Ljava/util/UUID;)V33
+
+setId34
+
+
+uses35
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#getProfesorId()Ljava/util/UUID;37
+
+getProfesorId38
+_
+Yco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setProfesorId(Ljava/util/UUID;)V40
+
+setProfesorId41
+]
+Wco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#getMateriaId()Ljava/util/UUID;43
+
+getMateriaId44
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setMateriaId(Ljava/util/UUID;)V46
+
+setMateriaId47
+X
+Rco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#getCantidadEstudiantes()I49
+
+getCantidadEstudiantes50
+Y
+Sco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setCantidadEstudiantes(I)V52
+
+setCantidadEstudiantes53J
+
+1
+12Z
+
+3	
+354j”
+@
+51:
+515229 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+53
+@
+48:
+484929 *
+1 (26:3B
+	
+9
+10
+
+
+11
+50
+@
+45:
+454629 *
+1 (26:3B
+	
+9
+10
+
+
+11
+47
+@
+32:
+323329 *
+1 (26:3B
+	
+9
+10
+
+
+11
+34
+@
+39:
+394029 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+24:
+242515 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+26
+@
+42:
+424329 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+27:
+272829 *
+1 (26:3B
+	
+9
+10
+
+
+11
+30
+@
+36:
+363729 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+@
+13:
+131415 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+17
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20r®
+
+271331*
+1 (
+
+32635*
+1	 (
+
+32631*
+1	 (
+
+321331*
+1 (
+
+361831*
+1 (
+
+39635*
+1	 (
+
+39631*
+1	 (
+
+391831*
+1 (
+
+422131*
+1 (
+
+45635*
+1	 (
+
+45631*
+1	 (
+
+452131*
+1 (
+
+482431*
+1 (#
+
+51635*
+1"	 "(
+
+51631*
+1"	 "(
+
+512431*
+1" "(!

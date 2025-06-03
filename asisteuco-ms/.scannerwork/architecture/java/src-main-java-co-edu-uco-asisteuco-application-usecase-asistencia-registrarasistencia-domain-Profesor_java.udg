@@ -1,0 +1,327 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522876*java2.B…
+o
+jsrc/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Profesor.java2
+
+package4
+S
+Nco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain5
+\
+Wco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+Profesor12
+`
+Zco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor.id14
+
+field15
+
+private16
+
+id17
+n
+hco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor.nombresCompletos19
+
+nombresCompletos20
+r
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor.numeroIdentificacion22
+
+numeroIdentificacion23
+p
+jco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor.tipoIdentificacion25
+
+tipoIdentificacion26
+œ
+•co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#<init>(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)V28
+
+method29
+
+calls30
+
+
+references31
+v
+pco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setId(Ljava/util/UUID;)V33
+
+unknown34
+‡
+€co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setNombresCompletos(Ljava/lang/String;)V36
+‹
+„co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setNumeroIdentificacion(Ljava/lang/String;)V38
+‡
+€co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setTipoIdentificacion(Ljava/util/UUID;)V40
+u
+oco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#getId()Ljava/util/UUID;42
+
+getId43
+
+setId44
+
+
+uses45
+…
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#getNombresCompletos()Ljava/lang/String;47
+
+getNombresCompletos48
+
+setNombresCompletos49
+Š
+ƒco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#getNumeroIdentificacion()Ljava/lang/String;51
+
+getNumeroIdentificacion52
+
+setNumeroIdentificacion53
+…
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#getTipoIdentificacion()Ljava/util/UUID;55
+
+getTipoIdentificacion56
+
+setTipoIdentificacion57J
+
+1
+12Z
+
+3	
+354j•
+@
+24:
+242515 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+26
+@
+32:
+323329 *
+1 (26:3B
+	
+9
+16
+
+
+11
+44
+@
+54:
+545529 *
+1+ +(26:3B
+	
+9
+10
+
+
+11
+56
+@
+46:
+464729 *
+1 (26:3B
+	
+9
+10
+
+
+11
+48
+@
+35:
+353629 *
+1 (26:3B
+	
+9
+10
+
+
+11
+49
+@
+27:
+272829 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+39:
+394029 *
+1/ /(26:3B
+	
+9
+10
+
+
+11
+57
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+37:
+373829 *
+1' '(26:3B
+	
+9
+10
+
+
+11
+53
+@
+41:
+414229 *
+1 (26:3B
+	
+9
+10
+
+
+11
+43
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+50:
+505129 *
+1# #(26:3B
+	
+9
+10
+
+
+11
+52
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12r±
+
+27630*
+1 (
+
+27631*
+1	 (
+
+273230*
+1	 (
+
+27631*
+1	 (
+
+273530*
+1	 (
+
+27631*
+1	 ( 
+
+273730*
+1	 ( 
+
+27631*
+1	 (
+
+273930*
+1	 (
+
+272431*
+1 (1
+
+411331*
+1 (
+
+32645*
+1	 (
+
+32631*
+1	 (
+
+321331*
+1 (
+
+461831*
+1 ( 
+
+35645*
+1 	  (
+
+35631*
+1 	  (
+
+351831*
+1   (
+
+502131*
+1$ $($
+
+37645*
+1(	 ((
+
+37631*
+1(	 ((
+
+372131*
+1( (("
+
+542431*
+1, ,("
+
+39645*
+10	 0(
+
+39631*
+10	 0(
+
+392431*
+10 0( 

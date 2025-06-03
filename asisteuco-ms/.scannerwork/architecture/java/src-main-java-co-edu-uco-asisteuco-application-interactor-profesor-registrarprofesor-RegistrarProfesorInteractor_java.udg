@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521053*java2.B„
+z
+usrc/main/java/co/edu/uco/asisteuco/application/interactor/profesor/registrarprofesor/RegistrarProfesorInteractor.java2
+
+package4
+K
+Fco.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor5
+g
+bco.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.RegistrarProfesorInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+!
+RegistrarProfesorInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+t
+nco.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.request.RegistrarProfesorRequestDTO19
+v
+pco.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.response.RegistrarProfesorResponseDTO21J
+
+1
+12Z
+
+3	
+354jw
+
+18
+181915
+9
+64
+678 *
+1 (-:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+
+20
+202115ri
+
+61316*
+16 (J
+
+61317*
+16 (J
+
+61817*
+1K (f
+
+62017*
+1h („

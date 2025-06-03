@@ -1,0 +1,17 @@
+co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.impl.RegistrarMateriaInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/materia/registrarmateria/dto/request/RegistrarMateriaRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/materia/registrarmateria/dto/response/RegistrarMateriaResponseDTO;
+false
+b67798ba0282185a4a5a32baf0937c97
+co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#getClave()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#getNombre()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.response.RegistrarMateriaResponseDTO#<init>(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.response.RegistrarMateriaResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#<init>()V
+co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#instance-init#
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#<init>(Ljava/lang/String;)V
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#instance-init#
+==
+!unknownMethod! !unknownMethod!
+existsByClave co.edu.uco.asisteuco.application.outputport.repository.MateriaRepository#existsByClave(Ljava/lang/String;)Z
+getId co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getId()Ljava/util/UUID;
+setClave co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#setClave(Ljava/lang/String;)V
+setNombre co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#setNombre(Ljava/lang/String;)V

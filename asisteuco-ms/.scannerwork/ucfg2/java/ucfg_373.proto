@@ -1,0 +1,21 @@
+
+’co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.DetalleAsistenciaDTO#getEstudianteGrupoId()Ljava/util/UUID;³
+¨C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/asistencia/registrarasistencia/dto/request/DetalleAsistenciaDTO.java	 	($"1*„
+1
+ 
+( Ð
+Í
+
+ 
+( 
+%0java.util.UUID"__id*¤
+
+__unknown_file (‡*„m
+kco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.DetalleAsistenciaDTO"
+estudianteGrupoId""
+
+ 
+(!
+
+%0java.util.UUIDBom
+kco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.DetalleAsistenciaDTOH

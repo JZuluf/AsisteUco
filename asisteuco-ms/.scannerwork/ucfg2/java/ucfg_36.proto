@@ -1,0 +1,16 @@
+
+[co.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTO#getSesionId()Ljava/util/UUID;„
+zC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/AsistenciaDTO.java ("1*Ê
+1' (/–
+“
+' (/
+%0java.util.UUID"__id*k
+
+__unknown_file (O*M?
+=co.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTO"
+
+sesionId""
+  (0
+
+%0java.util.UUIDBA?
+=co.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTOH

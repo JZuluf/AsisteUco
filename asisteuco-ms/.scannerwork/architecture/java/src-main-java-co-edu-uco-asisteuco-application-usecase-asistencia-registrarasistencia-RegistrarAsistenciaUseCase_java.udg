@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523085*java2.Bð
+z
+usrc/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/RegistrarAsistenciaUseCase.java2
+
+package4
+L
+Gco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia5
+g
+bco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.RegistrarAsistenciaUseCase7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+ 
+RegistrarAsistenciaUseCase12
+K
+Eco.edu.uco.asisteuco.application.interactor.usecase.UseCaseConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+_
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia19
+r
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO21J
+
+1
+12Z
+
+3	
+354jw
+9
+64
+678 *
+1 (,:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+
+18
+181915
+
+20
+202115rh
+
+61316*
+15 (F
+
+61317*
+15 (F
+
+61817*
+1H (R
+
+62017*
+1T (q

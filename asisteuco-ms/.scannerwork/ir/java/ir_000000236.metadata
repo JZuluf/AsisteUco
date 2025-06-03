@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;
+false
+3982b03e9e998ab28f8f51d20c2e26a0
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#instance-init#
+java.util.List#of()Ljava/util/List;
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;

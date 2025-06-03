@@ -1,0 +1,4 @@
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#<init>(Ljava/lang/String;Ljava/lang/String;)V
+false
+f8ac7016ec09c1c4c9c4fb15aec38214
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V

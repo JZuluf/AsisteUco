@@ -1,0 +1,96 @@
+
+}__sonar_lambda_13$co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl³
+¨C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/impl/ConsultarProfesorInteractorImpl.java> E("1*–
+1?" ?(3Ž‹
+?& ?(1B
+%17;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO";co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO½
+º
+?" ?(3
+%18"Eco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#<init>()V*`
+
+__unknown_file (D
+B
+%17;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO¹
+¶
+? ?(4B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO"__id*`
+
+__unknown_file (D
+B
+%17;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTOîë
+@ @(#
+%19java.util.UUID"Yco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getId()Ljava/util/UUID;*d
+
+__unknown_file (H
+F
+eAco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity2getId() 
+@ @($
+%20void"Tco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setId(Ljava/util/UUID;)V*`
+
+__unknown_file (D
+B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO*3
+
+__unknown_file (
+
+%19java.util.UUID2setId(Ljava/util/UUID;)‰†
+A, A(ER
+%21Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity"¦co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getTipoIdentificacion()Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;*d
+
+__unknown_file (H
+F
+eAco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity2getTipoIdentificacion()„
+A, A(M
+%22java.util.UUID"cco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#getId()Ljava/util/UUID;*p
+
+__unknown_file (T
+R
+%21Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity2getId()ÄÁ
+A A(N
+%23void"fco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setTipoIdentificacionId(Ljava/util/UUID;)V*`
+
+__unknown_file (D
+B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO*3
+
+__unknown_file (
+
+%22java.util.UUID2)setTipoIdentificacionId(Ljava/util/UUID;)–“
+B, B(G
+%24java.lang.String"mco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNumeroIdentificacion()Ljava/lang/String;*d
+
+__unknown_file (H
+F
+eAco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity2getNumeroIdentificacion()ÊÇ
+B B(H
+%25void"hco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setNumeroIdentificacion(Ljava/lang/String;)V*`
+
+__unknown_file (D
+B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO*5
+
+__unknown_file (
+
+%24java.lang.String2+setNumeroIdentificacion(Ljava/lang/String;)Ž‹
+C( C(?
+%26java.lang.String"ico.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNombresCompletos()Ljava/lang/String;*d
+
+__unknown_file (H
+F
+eAco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity2getNombresCompletos()Â¿
+C C(@
+%27void"dco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setNombresCompletos(Ljava/lang/String;)V*`
+
+__unknown_file (D
+B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO*5
+
+__unknown_file (
+
+%26java.lang.String2'setNombresCompletos(Ljava/lang/String;)"P
+D D(D
+B
+dto;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO:R
+> >(F
+eAco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntityB
+java.util.function.Function

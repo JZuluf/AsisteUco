@@ -1,0 +1,78 @@
+
+«co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper#mapToEntities(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia;Lco/edu/uco/asisteuco/application/outputport/entity/SesionEntity;Ljava/util/List;)Ljava/util/List;§
+œC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/mapper/AsistenciaMapper.java) (6"1*é
+1 (¶³
+ ('
+%0java.util.List"zco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;*‚
+
+__unknown_file (f
+d
+dominioYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia2getEstudiantes()¢Ÿ
+ (0
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%0java.util.List2stream()u
+s
+ ,(!
+%2java.util.function.Function"__declareFunction*1
+
+__unknown_file (
+__sonar_lambda_1$ž
+›
+
+__unknown_file (7
+!
+%2java.util.function.Function"
+estudiantesGrupo"__id*@
+
+__unknown_file ($
+"
+estudiantesGrupojava.util.ListÇ
+Ä
+
+__unknown_file (3
+!
+%2java.util.function.Function"
+sesionEntity"__id*m
+
+__unknown_file (Q
+O
+sesionEntity?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity¤¡
+ ,(
+%22java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*?
+
+__unknown_file (#
+!
+%2java.util.function.Function2"map(Ljava/util/function/Function;)¯
+¬
+- -((!
+%23java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors›˜
+ -()
+%24java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*<
+
+__unknown_file ( 
+
+%22java.util.stream.Stream*?
+
+__unknown_file (#
+!
+%23java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"#
+ -(*
+
+%24java.util.List:p
+ (d
+dominioYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia:[
+ (&O
+sesionEntity?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity:.
+ (8"
+estudiantesGrupojava.util.ListBc"a
+_co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapperH

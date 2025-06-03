@@ -1,0 +1,136 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522529*java2.BØ	
+
+zsrc/main/java/co/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/response/RegistrarGrupoResponseDTO.java2
+
+package4
+R
+Mco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response5
+l
+gco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+RegistrarGrupoResponseDTO12
+p
+jco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO.id14
+
+field15
+
+private16
+
+id17
+à
+Åco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#<init>(Ljava/util/UUID;)V19
+
+method20
+
+calls21
+
+
+uses22
+
+
+references23
+Ö
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#getId()Ljava/util/UUID;25
+
+getId26
+Ò
+Íco.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#exitoso(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/response/RegistrarGrupoResponseDTO;28
+
+exitoso29
+
+returns30J
+
+1
+12Z
+
+3	
+354j√
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+16
+
+
+11
+12
+9
+64
+678 *
+1 (-:3B
+	
+9
+10
+
+
+11
+12
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+27:
+272820 *
+1 (26:3B
+	
+9
+10
+
+
+11
+29
+@
+24:
+242520 *
+1 (26:3B
+	
+9
+10
+
+
+11
+26r“
+
+18621*
+1 (&
+
+18622*
+1		 	(
+
+18623*
+1		 	(
+
+181323*
+1	 	(
+
+241323*
+1 (
+
+27630*
+1 (,
+
+27622*
+1 (,
+
+27621*
+1 (-

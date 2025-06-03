@@ -1,0 +1,143 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519859*java2.B¬
+X
+Ssrc/main/java/co/edu/uco/asisteuco/infrastructure/configuration/SecurityConfig.java2
+
+package4
+6
+1co.edu.uco.asisteuco.infrastructure.configuration5
+E
+@co.edu.uco.asisteuco.infrastructure.configuration.SecurityConfig7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+SecurityConfig12
+
+Configuration14
+
+unknown15
+
+annotated by16
++
+%Recovered#typeBindingLConfiguration;018
+
+
+uses19
+
+EnableWebSecurity21
+/
+)Recovered#typeBindingLEnableWebSecurity;023
+
+yco.edu.uco.asisteuco.infrastructure.configuration.SecurityConfig#securityFilterChain(LHttpSecurity;)LSecurityFilterChain;25
+
+method26
+
+securityFilterChain27
+
+SecurityFilterChain29
+
+returns30
+*
+$Recovered#typeBindingLHttpSecurity;032
+
+	has param33
+
+
+Bean35
+"
+Recovered#typeBindingLBean;037
+
+is type38J
+
+1
+12Z
+
+3	
+354jù
+
+22
+222315
+
+28
+282915
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+
+36
+363715
+
+17
+171815
+@
+24:
+242526 *
+1 (26:3B
+	
+9
+10
+
+
+11
+27
+
+31
+313215
+
+20
+202115
+
+34
+343515r•
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+242830*
+1 (
+
+243133*
+14 (@
+
+243416*
+1 (
+
+243619*
+1 (
+
+
+242819*
+1 (
+
+243138*
+1A (E
+
+243119*
+14 (@

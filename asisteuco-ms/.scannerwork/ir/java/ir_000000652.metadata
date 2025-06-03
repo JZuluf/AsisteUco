@@ -1,0 +1,17 @@
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/request/ConsultarProfesorRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;
+false
+2d0f723c79330e9b0bae0daea863eea8
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getNombresCompletos()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getNumeroIdentificacion()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getTipoIdentificacionId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#exitoso(Ljava/util/List;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#fallido(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+isEmpty java.util.List#isEmpty()Z
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

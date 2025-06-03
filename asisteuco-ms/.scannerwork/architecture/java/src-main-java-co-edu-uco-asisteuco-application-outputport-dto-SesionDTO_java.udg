@@ -1,0 +1,404 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520156*java2.B„
+Q
+Lsrc/main/java/co/edu/uco/asisteuco/application/outputport/dto/SesionDTO.java2
+
+package4
+4
+/co.edu.uco.asisteuco.application.outputport.dto5
+>
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+	SesionDTO12
+B
+<co.edu.uco.asisteuco.application.outputport.dto.SesionDTO.id14
+
+field15
+
+private16
+
+id17
+G
+Aco.edu.uco.asisteuco.application.outputport.dto.SesionDTO.grupoId19
+
+grupoId20
+O
+Ico.edu.uco.asisteuco.application.outputport.dto.SesionDTO.fechaHoraInicio22
+
+fechaHoraInicio23
+L
+Fco.edu.uco.asisteuco.application.outputport.dto.SesionDTO.fechaHoraFin25
+
+fechaHoraFin26
+D
+>co.edu.uco.asisteuco.application.outputport.dto.SesionDTO.aula28
+
+
+aula29
+F
+@co.edu.uco.asisteuco.application.outputport.dto.SesionDTO.estado31
+
+estado32
+W
+Qco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getId()Ljava/util/UUID;34
+
+method35
+
+getId36
+
+
+references37
+X
+Rco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setId(Ljava/util/UUID;)V39
+
+setId40
+
+
+uses41
+\
+Vco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getGrupoId()Ljava/util/UUID;43
+
+
+getGrupoId44
+]
+Wco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setGrupoId(Ljava/util/UUID;)V46
+
+
+setGrupoId47
+m
+gco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getFechaHoraInicio()Ljava/time/LocalDateTime;49
+
+getFechaHoraInicio50
+n
+hco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraInicio(Ljava/time/LocalDateTime;)V52
+
+setFechaHoraInicio53
+j
+dco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getFechaHoraFin()Ljava/time/LocalDateTime;55
+
+getFechaHoraFin56
+k
+eco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraFin(Ljava/time/LocalDateTime;)V58
+
+setFechaHoraFin59
+[
+Uco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getAula()Ljava/lang/String;61
+
+getAula62
+\
+Vco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setAula(Ljava/lang/String;)V64
+
+setAula65
+]
+Wco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#getEstado()Ljava/lang/String;67
+
+	getEstado68
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setEstado(Ljava/lang/String;)V70
+
+	setEstado71J
+
+1
+12Z
+
+3	
+354jß	
+@
+42:
+424335 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+54:
+545535 *
+1   (26:3B
+	
+9
+10
+
+
+11
+56
+@
+48:
+484935 *
+1 (26:3B
+	
+9
+10
+
+
+11
+50
+@
+63:
+636435 *
+1) )(26:3B
+	
+9
+10
+
+
+11
+65
+@
+69:
+697035 *
+1/ /(26:3B
+	
+9
+10
+
+
+11
+71
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+60:
+606135 *
+1& &(26:3B
+	
+9
+10
+
+
+11
+62
+@
+66:
+666735 *
+1, ,(26:3B
+	
+9
+10
+
+
+11
+68
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+27:
+272815 *
+1 (26:3B
+	
+9
+16
+
+
+11
+29
+@
+38:
+383935 *
+1 (26:3B
+	
+9
+10
+
+
+11
+40
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+57:
+575835 *
+1# #(26:3B
+	
+9
+10
+
+
+11
+59
+@
+24:
+242515 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+26
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+33:
+333435 *
+1 (26:3B
+	
+9
+10
+
+
+11
+36
+@
+45:
+454635 *
+1 (26:3B
+	
+9
+10
+
+
+11
+47
+@
+30:
+303115 *
+1 (26:3B
+	
+9
+16
+
+
+11
+32
+@
+51:
+515235 *
+1 (26:3B
+	
+9
+10
+
+
+11
+53rü
+
+331337*
+1
+ (
+
+38641*
+1 (
+
+38637*
+1 (
+
+381337*
+1 (
+
+
+421837*
+1
+ (
+
+45641*
+1 (
+
+45637*
+1 (
+
+451837*
+1 (
+
+482137*
+1
+ (
+
+51641*
+1 (
+
+51637*
+1 (
+
+512137*
+1 (
+
+542437*
+1!
+ !(
+
+57641*
+1$ $(
+
+57637*
+1$ $(
+
+572437*
+1$ $(
+
+602737*
+1'
+ '(
+
+63641*
+1* *(
+
+63637*
+1* *(
+
+632737*
+1* *(
+
+663037*
+1-
+ -(
+
+69641*
+10 0(
+
+69637*
+10 0(
+
+693037*
+10 0(

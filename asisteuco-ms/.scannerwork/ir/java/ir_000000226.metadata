@@ -1,0 +1,21 @@
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.impl.RegistrarEstudianteInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/estudiante/registrarestudiante/dto/request/RegistrarEstudianteRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/estudiante/registrarestudiante/dto/response/RegistrarEstudianteResponseDTO;
+false
+d17fc2c489bc591f2c4dcff926b52663
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.request.RegistrarEstudianteRequestDTO#getNombresCompletos()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.request.RegistrarEstudianteRequestDTO#getNumeroIdentificacion()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.request.RegistrarEstudianteRequestDTO#getTipoIdentificacion()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#setMensajes(Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#setTransaccionExitosa(Z)V
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#<init>()V
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#<init>()V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setId(Ljava/util/UUID;)V
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+setNombresCompletos co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setNombresCompletos(Ljava/lang/String;)V
+setNumeroIdentificacion co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setNumeroIdentificacion(Ljava/lang/String;)V
+setTipoIdentificacion co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setTipoIdentificacion(Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;)V

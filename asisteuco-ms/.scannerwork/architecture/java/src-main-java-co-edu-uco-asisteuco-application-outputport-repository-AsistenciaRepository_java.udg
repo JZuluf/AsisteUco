@@ -1,0 +1,107 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523738*java2.B‹
+c
+^src/main/java/co/edu/uco/asisteuco/application/outputport/repository/AsistenciaRepository.java2
+
+package4
+;
+6co.edu.uco.asisteuco.application.outputport.repository5
+P
+Kco.edu.uco.asisteuco.application.outputport.repository.AsistenciaRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+AsistenciaRepository12
++
+%Recovered#typeBindingLJpaRepository;014
+
+unknown15
+
+
+implements16
+
+
+uses17
+I
+Cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity19
+É
+}co.edu.uco.asisteuco.application.outputport.repository.AsistenciaRepository#findBySesion_Id(Ljava/util/UUID;)Ljava/util/List;21
+
+method22
+
+findBySesion_Id23
+ç
+Üco.edu.uco.asisteuco.application.outputport.repository.AsistenciaRepository#findByEstudianteGrupo_Id(Ljava/util/UUID;)Ljava/util/List;25
+
+findByEstudianteGrupo_Id26J
+
+1
+12Z
+
+3	
+354jÁ
+
+13
+131415
+@
+20:
+202122 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+23
+@
+24:
+242522 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+26
+9
+64
+678 *
+1 (&:3B
+	
+9
+10
+
+
+11
+12
+
+18
+181915rÑ
+
+61316*
+1/ (<
+
+61317*
+1/ (<
+
+61817*
+1= (M
+
+201817*
+1
+ 
+(
+
+241817*
+1
+ (

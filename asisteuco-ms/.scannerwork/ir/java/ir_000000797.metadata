@@ -1,0 +1,16 @@
+co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.impl.RegistrarAsistenciaInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/asistencia/registrarasistencia/dto/request/RegistrarAsistenciaRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/asistencia/registrarasistencia/dto/response/RegistrarAsistenciaResponseDTO;
+false
+14b975723dc2f04375da7cd8afcb07aa
+co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.response.RegistrarAsistenciaResponseDTO#<init>(Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.response.RegistrarAsistenciaResponseDTO#instance-init#
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#<init>(Ljava/lang/String;)V
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#instance-init#
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+!unknownMethod! !unknownMethod!
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+getAsistencias co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.RegistrarAsistenciaRequestDTO#getAsistencias()Ljava/util/List;
+getSesionId co.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.RegistrarAsistenciaRequestDTO#getSesionId()Ljava/util/UUID;
+isEmpty java.util.List#isEmpty()Z
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

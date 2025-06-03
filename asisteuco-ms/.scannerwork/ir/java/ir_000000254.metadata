@@ -1,0 +1,4 @@
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setNumeroIdentificacion(Ljava/lang/String;)V
+false
+12c592785a866dacdc649b0f88abdacc
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

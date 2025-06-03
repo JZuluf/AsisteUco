@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#agregarMensajes(Ljava/util/List;)V
+false
+677afca82137061e236ac24981fb5d5e
+==
+addAll java.util.List#addAll(Ljava/util/Collection;)Z

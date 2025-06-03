@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.response.ConsultarMateriaResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/materia/consultarmateria/dto/response/ConsultarMateriaResponseDTO;
+false
+dd64c21ab78ef841c5dcfc9fe71946a9
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.response.ConsultarMateriaResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.response.ConsultarMateriaResponseDTO#instance-init#
+java.util.Collections#emptyList()Ljava/util/List;
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;

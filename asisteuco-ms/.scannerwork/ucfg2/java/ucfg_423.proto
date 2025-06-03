@@ -1,0 +1,183 @@
+
+É__sonar_lambda_17$co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.impl.ConsultarEstudianteInteractorImplπ
+ÆC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/impl/ConsultarEstudianteInteractorImpl.java5 C("startingBlock*’
+3?' ?((íè
+?' ?(>
+%21java.lang.String"kco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getNombresCompletos()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getNombresCompletos()ûõ
+?' ?(L
+%22java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*5
+
+__unknown_file (
+
+%21java.lang.String2toLowerCase()¢ü
+@3 @(H
+%23java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*9
+
+__unknown_file (
+
+nombresjava.lang.String2toLowerCase()Â‚
+?' @(I
+%24boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*5
+
+__unknown_file (
+
+%22java.lang.String*5
+
+__unknown_file (
+
+%23java.lang.String2"contains(Ljava/lang/CharSequence;)*
+1*…
+startingBlock5 C(ﬁ
+€
+
+__unknown_file (
+tipoIdjava.util.UUID"__id*û
+
+__unknown_file (Å*s
+qco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.impl.ConsultarEstudianteInteractorImpl"
+tipoId‡
+›
+
+__unknown_file (
+numerojava.lang.String"__id*û
+
+__unknown_file (Å*s
+qco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.impl.ConsultarEstudianteInteractorImpl"
+numero„
+‡
+
+__unknown_file (
+nombresjava.lang.String"__id*†
+
+__unknown_file (É*Äs
+qco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.impl.ConsultarEstudianteInteractorImpl"	
+nombres*
+11*¢
+4> >(#íè
+>' >(>
+%19java.lang.String"kco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getNombresCompletos()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getNombresCompletos()v
+t
+>' >(F
+%20boolean"	__compare*
+>? >(A
+!=*%
+>' >(>
+
+%19java.lang.String*
+>B >(F
+""*
+3
+1*ñ
+5=0 =(7}
+=0 =(A
+%18boolean"java.lang.String#isBlank()Z*9
+
+__unknown_file (
+
+nombresjava.lang.String2	isBlank()*
+4
+1*ë
+6= =(#z
+x
+= =(+
+%17boolean"	__compare*
+=$ =(&
+!=*)
+= =(#
+
+nombresjava.lang.String*
+=' =(+
+""*
+5
+1*ä
+7; ;(#öó
+;5 ;(P
+%15java.lang.String"oco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getNumeroIdentificacion()Ljava/lang/String;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getNumeroIdentificacion()ÿ’
+;' ;(Q
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
+
+__unknown_file (
+
+numerojava.lang.String*5
+
+__unknown_file (
+
+%15java.lang.String2equals(Ljava/lang/Object;)*
+6*ï
+8:/ :(5~|
+:/ :(?
+%14boolean"java.lang.String#isBlank()Z*8
+
+__unknown_file (
+
+numerojava.lang.String2	isBlank()*
+6
+7*ê
+9: :("y
+w
+: :(*
+%13boolean"	__compare*
+:# :(%
+!=*(
+: :("
+
+numerojava.lang.String*
+:& :(*
+""*
+6
+8*ˇ
+108 8(#çä
+85 8(NR
+%10Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity"®co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#getTipoIdentificacion()Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;*f
+
+__unknown_file (J
+H
+eCco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity2getTipoIdentificacion()ÑÅ
+85 8(V
+%11java.util.UUID"cco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#getId()Ljava/util/UUID;*p
+
+__unknown_file (T
+R
+%10Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity2getId()“œ
+8' 8(W
+%12boolean"*java.util.UUID#equals(Ljava/lang/Object;)Z*6
+
+__unknown_file (
+
+tipoIdjava.util.UUID*3
+
+__unknown_file (
+
+%11java.util.UUID2equals(Ljava/lang/Object;)*
+9*è
+116* 6(.v
+t
+7 7(*
+%9boolean"	__compare*
+7# 7(%
+!=*&
+7 7("
+
+tipoIdjava.util.UUID*
+7& 7(*
+""*
+9
+10*!
+1B B(&"
+B B('
+"":T
+5 5(H
+eCco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntityB 
+java.util.function.Predicate

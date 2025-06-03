@@ -1,0 +1,274 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522765*java2.B‰
+•
+üsrc/main/java/co/edu/uco/asisteuco/application/interactor/tipoidentificacion/registrartipoidentificacion/dto/request/RegistrarTipoIdentificacionRequestDTO.java2
+
+package4
+k
+fco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request5
+í
+åco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
++
+%RegistrarTipoIdentificacionRequestDTO12
+ò
+ëco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO.uuid14
+
+field15
+
+private16
+
+
+uuid17
+ô
+íco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO.clave19
+
+clave20
+ö
+ìco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO.nombre22
+
+nombre23
+ù
+ñco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#<init>()V25
+
+method26
+
+calls27
+¡
+∫co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#<init>(Ljava/lang/String;Ljava/lang/String;)V29
+
+
+uses30
+
+
+references31
+≠
+¶co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#getUuid()Ljava/util/UUID;33
+
+getUuid34
+Æ
+ßco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#setUuid(Ljava/util/UUID;)V36
+
+setUuid37
+∞
+©co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#getClave()Ljava/lang/String;39
+
+getClave40
+±
+™co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#setClave(Ljava/lang/String;)V42
+
+setClave43
+±
+™co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#getNombre()Ljava/lang/String;45
+
+	getNombre46
+≤
+´co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#setNombre(Ljava/lang/String;)V48
+
+	setNombre49J
+
+1
+12Z
+
+3	
+354jë
+@
+28:
+282926 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+38:
+383926 *
+1 (26:3B
+	
+9
+10
+
+
+11
+40
+9
+64
+678 *
+1 (9:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+32:
+323326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+34
+@
+41:
+414226 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+43
+@
+47:
+474826 *
+1) )(26:3B
+	
+9
+10
+
+
+11
+49
+@
+24:
+242526 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+44:
+444526 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+46
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+35:
+353626 *
+1 (26:3B
+	
+9
+10
+
+
+11
+37rê
+
+24627*
+1 (1
+
+28627*
+1	 (.
+
+28630*
+1 (
+
+28631*
+1 (
+
+281831*
+1 (
+
+28630*
+1 (
+
+28631*
+1 (
+
+282131*
+1 (
+
+321331*
+1 (
+
+35630*
+1	 (
+
+35631*
+1	 (
+
+351331*
+1 (
+
+381831*
+1 (
+
+41630*
+1"	 "(
+
+41631*
+1"	 "(
+
+411831*
+1" "(
+
+442131*
+1& &(
+
+47630*
+1*	 *(
+
+47631*
+1*	 *(
+
+472131*
+1* *(

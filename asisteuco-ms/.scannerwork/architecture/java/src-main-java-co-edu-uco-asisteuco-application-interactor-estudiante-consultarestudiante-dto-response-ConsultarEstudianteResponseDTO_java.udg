@@ -1,0 +1,406 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523013*java2.Bô
+è
+âsrc/main/java/co/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO.java2
+
+package4
+\
+Wco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response5
+{
+vco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+$
+ConsultarEstudianteResponseDTO12
+ê
+âco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO.transaccionExitosa14
+
+field15
+
+private16
+
+transaccionExitosa17
+Ö
+co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO.mensajes19
+
+mensajes20
+à
+Åco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO.resultados22
+
+
+resultados23
+á
+Äco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#<init>()V25
+
+method26
+
+calls27
+
+
+uses28
+
+
+references29
+®
+°co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V31
+°
+öco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#exitoso(Ljava/lang/String;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO;33
+
+exitoso34
+
+returns35
+ü
+òco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#exitoso(Ljava/util/List;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO;37
+ë
+äco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO;39
+
+fallido40
+è
+àco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#fallido(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/response/ConsultarEstudianteResponseDTO;42
+ï
+éco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#isTransaccionExitosa()Z44
+
+isTransaccionExitosa45
+ó
+êco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#setTransaccionExitosa(Z)V47
+
+setTransaccionExitosa48
+õ
+îco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#getMensajes()Ljava/util/List;50
+
+getMensajes51
+ú
+ïco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#setMensajes(Ljava/util/List;)V53
+
+setMensajes54
+ù
+ñco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#getResultados()Ljava/util/List;56
+
+getResultados57
+û
+óco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.response.ConsultarEstudianteResponseDTO#setResultados(Ljava/util/List;)V59
+
+setResultados60J
+
+1
+12Z
+
+3	
+354jô
+@
+36:
+363726 *
+1, ,(26:3B
+	
+9
+10
+
+
+11
+34
+@
+55:
+555626 *
+1d d(26:3B
+	
+9
+10
+
+
+11
+57
+9
+64
+678 *
+1 (2:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181915 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+20
+@
+52:
+525326 *
+1` `(26:3B
+	
+9
+10
+
+
+11
+54
+@
+24:
+242526 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+32:
+323326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+34
+@
+13:
+131415 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+17
+@
+21:
+212215 *
+1 (26:3B
+	
+9
+16
+
+
+11
+23
+@
+58:
+585926 *
+1h h(26:3B
+	
+9
+10
+
+
+11
+60
+@
+46:
+464726 *
+1X X(26:3B
+	
+9
+10
+
+
+11
+48
+@
+49:
+495026 *
+1\ \(26:3B
+	
+9
+10
+
+
+11
+51
+@
+30:
+303126 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+38:
+383926 *
+1; ;(26:3B
+	
+9
+10
+
+
+11
+40
+@
+41:
+414226 *
+1I I(26:3B
+	
+9
+10
+
+
+11
+40
+@
+43:
+434426 *
+1T T(26:3B
+	
+9
+10
+
+
+11
+45rÑ	
+
+24627*
+1 (*
+
+24628*
+1	 (
+
+24629*
+1	 (
+
+241329*
+1 ( 
+
+24628*
+1	 (
+
+24629*
+1	 (
+
+241829*
+1 (
+
+24628*
+1	 (
+
+24629*
+1	 (
+
+242129*
+1 (
+
+30627*
+1 (*
+
+30628*
+1	 (
+
+30629*
+1	 (
+
+301329*
+1 ( 
+
+30628*
+1	 (
+
+30629*
+1	 (
+
+301829*
+1 (
+
+30628*
+1	 (
+
+30629*
+1	 (
+
+302129*
+1 (
+
+32635*
+1 (5
+
+32628*
+1 (5
+
+32627*
+1" "(2
+
+36635*
+1, ,(5
+
+36628*
+1, ,(5
+
+36627*
+11 1(2
+
+38635*
+1; ;(5
+
+38628*
+1; ;(5
+
+38627*
+1? ?(2
+
+41635*
+1I I(5
+
+41628*
+1I I(5
+
+41627*
+1M M(2
+
+431329*
+1U U("
+
+46628*
+1Y	 Y(
+
+46629*
+1Y	 Y(
+
+461329*
+1Y Y( 
+
+491829*
+1] ](
+
+52628*
+1a	 a(
+
+52629*
+1a	 a(
+
+521829*
+1a a(
+
+552129*
+1e e(
+
+58628*
+1i	 i(
+
+58629*
+1i	 i(
+
+582129*
+1i i(

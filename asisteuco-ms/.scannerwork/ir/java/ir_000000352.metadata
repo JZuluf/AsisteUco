@@ -1,0 +1,20 @@
+co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.impl.RegistrarSesionInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/sesion/registrarsesion/dto/request/RegistrarSesionRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/sesion/registrarsesion/dto/response/RegistrarSesionResponseDTO;
+false
+471d09bea8a1c39d9b82d722c9f34483
+co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO#<init>(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#<init>()V
+co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#instance-init#
+==
+!unknownMethod! !unknownMethod!
+getAula co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getAula()Ljava/lang/String;
+getEstado co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getEstado()Ljava/lang/String;
+getFechaHoraFin co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getFechaHoraFin()Ljava/time/LocalDateTime;
+getFechaHoraInicio co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getFechaHoraInicio()Ljava/time/LocalDateTime;
+getGrupoId co.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getGrupoId()Ljava/util/UUID;
+getId co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getId()Ljava/util/UUID;
+setAula co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#setAula(Ljava/lang/String;)V
+setEstado co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#setEstado(Ljava/lang/String;)V
+setFechaHoraFin co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#setFechaHoraFin(Ljava/time/LocalDateTime;)V
+setFechaHoraInicio co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#setFechaHoraInicio(Ljava/time/LocalDateTime;)V
+setGrupo co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#setGrupo(Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;)V

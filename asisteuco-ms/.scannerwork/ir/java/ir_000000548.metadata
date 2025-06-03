@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.estudiantegrupo.EstudianteGrupoController#obtenerPorId(Ljava/util/UUID;)LResponseEntity;
+false
+35c112a2951096f9ea187d3d46dc7f42
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+==
+!unknownMethod! !unknownMethod!

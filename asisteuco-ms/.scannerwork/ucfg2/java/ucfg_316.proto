@@ -1,0 +1,104 @@
+
+s__sonar_lambda_8$co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.impl.ConsultarGrupoInteractorImpl™
+üC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/grupo/consultargrupo/impl/ConsultarGrupoInteractorImpl.java63 =("1*‹
+17 7((àÖ
+7 7(&?
+%208co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO"8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO∑
+¥
+7 7((
+%21"Bco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#<init>()V*]
+
+__unknown_file (A
+?
+%208co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO≥
+∞
+7 7()?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO"__id*]
+
+__unknown_file (A
+?
+%208co.edu.uco.asisteuco.application.outputport.dto.GrupoDTOËÂ
+8 8(#
+%22java.util.UUID"Vco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getId()Ljava/util/UUID;*a
+
+__unknown_file (E
+C
+e>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity2getId()öó
+8 8($
+%23void"Qco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setId(Ljava/util/UUID;)V*]
+
+__unknown_file (A
+?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO*3
+
+__unknown_file (
+
+%22java.util.UUID2setId(Ljava/util/UUID;)€ÿ
+9" 9(1H
+%24Aco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity"èco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getProfesor()Lco/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity;*a
+
+__unknown_file (E
+C
+e>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity2getProfesor()Ì
+9" 9(9
+%25java.util.UUID"Yco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getId()Ljava/util/UUID;*f
+
+__unknown_file (J
+H
+%24Aco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity2getId()™ß
+9 9(:
+%26void"Yco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setProfesorId(Ljava/util/UUID;)V*]
+
+__unknown_file (A
+?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO*3
+
+__unknown_file (
+
+%25java.util.UUID2setProfesorId(Ljava/util/UUID;)◊‘
+:! :(/G
+%27@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity"çco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getMateria()Lco/edu/uco/asisteuco/application/outputport/entity/MateriaEntity;*a
+
+__unknown_file (E
+C
+e>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity2getMateria()ÓÎ
+:! :(7
+%28java.util.UUID"Xco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getId()Ljava/util/UUID;*e
+
+__unknown_file (I
+G
+%27@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity2getId()®•
+: :(8
+%29void"Xco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setMateriaId(Ljava/util/UUID;)V*]
+
+__unknown_file (A
+?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO*3
+
+__unknown_file (
+
+%28java.util.UUID2setMateriaId(Ljava/util/UUID;)Ì
+;+ ;(E
+
+%30int"Xco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getCantidadEstudiantes()I*a
+
+__unknown_file (E
+C
+e>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity2getCantidadEstudiantes()ìê
+; ;(F
+%31void"Sco.edu.uco.asisteuco.application.outputport.dto.GrupoDTO#setCantidadEstudiantes(I)V*]
+
+__unknown_file (A
+?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO*(
+
+__unknown_file (
+
+
+%30int2setCantidadEstudiantes(I)"M
+< <(A
+?
+dto8co.edu.uco.asisteuco.application.outputport.dto.GrupoDTO:O
+63 6(4C
+e>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntityB
+java.util.function.Function

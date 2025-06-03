@@ -1,0 +1,8 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensaje(Ljava/lang/String;)V
+false
+92f3d7ba6c7f334d360845aa4f8c4622
+java.lang.String#isEmpty()Z
+java.lang.String#trim()Ljava/lang/String;
+==
+add java.util.List#add(Ljava/lang/Object;)Z
+getMensajes co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#getMensajes()Ljava/util/List;

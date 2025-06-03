@@ -1,0 +1,19 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.materia.MateriaController#obtenerPorId(Ljava/util/UUID;)LResponseEntity;
+false
+dfabc5aa771d0f648d82060cfba04da2
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.request.ConsultarMateriaRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.request.ConsultarMateriaRequestDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.request.ConsultarMateriaRequestDTO#setId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.response.ConsultarMateriaResponseDTO#getResultados()Ljava/util/List;
+co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.dto.response.ConsultarMateriaResponseDTO#isTransaccionExitosa()Z
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getDatos()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;
+get java.util.List#get(I)Ljava/lang/Object;
+isEmpty java.util.List#isEmpty()Z

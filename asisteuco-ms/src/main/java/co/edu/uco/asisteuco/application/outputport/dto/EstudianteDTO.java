@@ -7,17 +7,19 @@ public class EstudianteDTO {
     private UUID tipo_identificacion;
     private String numero_identificacion;
     private String nombres_completos;
+    private String email; 
 
     // Constructor vacío
     public EstudianteDTO() {
     }
 
     // Constructor con campos
-    public EstudianteDTO(UUID uuid, UUID tipoIdentificacion, String numeroIdentificacion, String nombresCompletos) {
+    public EstudianteDTO(UUID uuid, UUID tipoIdentificacion, String numeroIdentificacion, String nombresCompletos, String email) {
         this.uuid = uuid;
         this.tipo_identificacion = tipoIdentificacion;
         this.numero_identificacion = numeroIdentificacion;
         this.nombres_completos = nombresCompletos;
+        this.email = email;
     }
 
     // Getters y Setters
@@ -53,6 +55,14 @@ public class EstudianteDTO {
         this.nombres_completos = nombresCompletos;
     }
 
+    public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+    
     // Para debugging (opcional)
     @Override
     public String toString() {
@@ -63,4 +73,5 @@ public class EstudianteDTO {
                 ", nombresCompletos='" + nombres_completos + '\'' +
                 '}';
     }
+
 }

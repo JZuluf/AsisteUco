@@ -1,0 +1,17 @@
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.impl.RegistrarProfesorInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/profesor/registrarprofesor/dto/request/RegistrarProfesorRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/profesor/registrarprofesor/dto/response/RegistrarProfesorResponseDTO;
+false
+44af86b16f6fe95f5c09ef3c59b125dd
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.request.RegistrarProfesorRequestDTO#getNombresCompletos()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.request.RegistrarProfesorRequestDTO#getNumeroIdentificacion()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.request.RegistrarProfesorRequestDTO#getTipoIdentificacionId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.response.RegistrarProfesorResponseDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.response.RegistrarProfesorResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.response.RegistrarProfesorResponseDTO#setMensajes(Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.profesor.registrarprofesor.dto.response.RegistrarProfesorResponseDTO#setTransaccionExitosa(Z)V
+co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#instance-init#
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!
+existsByTipoIdentificacionIdAndNumeroIdentificacion co.edu.uco.asisteuco.application.outputport.repository.ProfesorRepository#existsByTipoIdentificacionIdAndNumeroIdentificacion(Ljava/util/UUID;Ljava/lang/String;)Z

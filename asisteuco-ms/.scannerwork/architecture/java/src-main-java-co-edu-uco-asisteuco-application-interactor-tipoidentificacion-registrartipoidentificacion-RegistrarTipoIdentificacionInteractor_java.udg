@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521623*java2.B¢
+™
+“src/main/java/co/edu/uco/asisteuco/application/interactor/tipoidentificacion/registrartipoidentificacion/RegistrarTipoIdentificacionInteractor.java2
+
+package4
+_
+Zco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion5
+†
+€co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.RegistrarTipoIdentificacionInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
++
+%RegistrarTipoIdentificacionInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+“
+Œco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO19
+•
+Žco.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO21J
+
+1
+12Z
+
+3	
+354jw
+9
+64
+678 *
+1 (7:3B
+	
+9
+10
+
+
+11
+12
+
+18
+181915
+
+20
+202115
+
+13
+131415ri
+
+61316*
+1@ (T
+
+61317*
+1@ (T
+
+61817*
+1V ({
+
+62017*
+1} (£

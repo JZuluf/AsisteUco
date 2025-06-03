@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#exitoso(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/response/RegistrarGrupoResponseDTO;
+false
+f98d5421864599410327db61f0ab762b
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#<init>(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#instance-init#

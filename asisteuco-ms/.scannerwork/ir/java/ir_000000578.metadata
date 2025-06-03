@@ -1,0 +1,8 @@
+co.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;
+false
+be8e4e5143c15ea08e258544fd2f2e89
+co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#<init>()V
+co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#instance-init#
+==
+!unknownMethod! !unknownMethod!
+agregarMensaje co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#agregarMensaje(Ljava/lang/String;)V

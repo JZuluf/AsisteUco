@@ -1,0 +1,64 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523273*java2.B¥
+€
+{src/main/java/co/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/ConsultarEstudianteInteractor.java2
+
+package4
+O
+Jco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante5
+m
+hco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.ConsultarEstudianteInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+#
+ConsultarEstudianteInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+z
+tco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO19J
+
+1
+12Z
+
+3	
+354jc
+
+13
+131415
+
+18
+181915
+9
+64
+678 *
+1 (/:3B
+	
+9
+10
+
+
+11
+12rN
+
+61316*
+18 (L
+
+61317*
+18 (L
+
+61817*
+1N (k

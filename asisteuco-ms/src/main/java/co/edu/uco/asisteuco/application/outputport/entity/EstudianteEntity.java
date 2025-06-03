@@ -31,6 +31,9 @@ public class EstudianteEntity {
 
     @Column(name = "nombres_completos", nullable = false, length = 200)
     private String nombresCompletos;
+    
+    @Column(name = "email", nullable = true, length = 100)
+    private String email;
 
     /**
      * Constructor protegido para JPA
@@ -92,4 +95,13 @@ public class EstudianteEntity {
     public void setNombresCompletos(String nombresCompletos) {
         this.nombresCompletos = Objects.requireNonNull(nombresCompletos, "nombresCompletos no puede ser nulo");
     }
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = Objects.requireNonNull(email, "email no puede ser nulo");
+	}
+    
 }

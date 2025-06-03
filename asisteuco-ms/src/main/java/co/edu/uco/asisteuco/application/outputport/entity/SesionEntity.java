@@ -1,5 +1,6 @@
 package co.edu.uco.asisteuco.application.outputport.entity;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List; 
 import java.util.UUID;
@@ -30,7 +31,9 @@ public class SesionEntity {
 
     @Column(name = "estado") 
     private String estado;
-
+    
+    @Column(name = "fecha", nullable = false)
+    private LocalDate fecha;
 
     @Column(name = "fecha_hora_inicio", nullable = false)
     private LocalDateTime fechaHoraInicio;
@@ -61,7 +64,15 @@ public class SesionEntity {
         this.id = id;
     }
 
-    public LocalDateTime getFechaHoraInicio() {
+    public LocalDate getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(LocalDate localDate) {
+		this.fecha = localDate;
+	}
+
+	public LocalDateTime getFechaHoraInicio() {
         return fechaHoraInicio;
     }
 
@@ -84,6 +95,7 @@ public class SesionEntity {
     public void setGrupo(GrupoEntity grupo) {
         this.grupo = grupo;
     }
+    
 
     public String getAula() {
         return aula;
@@ -108,4 +120,5 @@ public class SesionEntity {
     public void setAsistencias(List<AsistenciaEntity> asistencias) {
         this.asistencias = asistencias;
     }
+
 }

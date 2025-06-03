@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#fallido(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/estudiante/registrarestudiante/dto/response/RegistrarEstudianteResponseDTO;
+false
+6d224748b6aae523e78144f7f34a354b
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#<init>(ZLjava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.estudiante.registrarestudiante.dto.response.RegistrarEstudianteResponseDTO#instance-init#

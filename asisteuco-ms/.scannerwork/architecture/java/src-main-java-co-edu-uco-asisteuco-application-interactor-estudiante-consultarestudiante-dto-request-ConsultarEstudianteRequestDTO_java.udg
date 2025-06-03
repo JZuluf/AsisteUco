@@ -1,0 +1,298 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519899*java2.Bü
+ç
+ásrc/main/java/co/edu/uco/asisteuco/application/interactor/estudiante/consultarestudiante/dto/request/ConsultarEstudianteRequestDTO.java2
+
+package4
+[
+Vco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request5
+y
+tco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+#
+ConsultarEstudianteRequestDTO12
+}
+wco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO.id14
+
+field15
+
+private16
+
+id17
+é
+áco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO.tipoIdentificacion19
+
+tipoIdentificacion20
+ê
+âco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO.numeroIdentificacion22
+
+numeroIdentificacion23
+å
+Öco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO.nombresCompletos25
+
+nombresCompletos26
+Ñ
+~co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#<init>()V28
+
+method29
+
+calls30
+ì
+åco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#getId()Ljava/util/UUID;32
+
+getId33
+
+
+references34
+î
+çco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#setId(Ljava/util/UUID;)V36
+
+setId37
+
+
+uses38
+£
+úco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#getTipoIdentificacion()Ljava/util/UUID;40
+
+getTipoIdentificacion41
+§
+ùco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#setTipoIdentificacion(Ljava/util/UUID;)V43
+
+setTipoIdentificacion44
+ß
+†co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#getNumeroIdentificacion()Ljava/lang/String;46
+
+getNumeroIdentificacion47
+®
+°co.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#setNumeroIdentificacion(Ljava/lang/String;)V49
+
+setNumeroIdentificacion50
+£
+úco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#getNombresCompletos()Ljava/lang/String;52
+
+getNombresCompletos53
+§
+ùco.edu.uco.asisteuco.application.interactor.estudiante.consultarestudiante.dto.request.ConsultarEstudianteRequestDTO#setNombresCompletos(Ljava/lang/String;)V55
+
+setNombresCompletos56J
+
+1
+12Z
+
+3	
+354jï
+@
+31:
+313229 *
+1 (26:3B
+	
+9
+10
+
+
+11
+33
+@
+27:
+272829 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+9
+64
+678 *
+1 (1:3B
+	
+9
+10
+
+
+11
+12
+@
+24:
+242515 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+26
+@
+48:
+484929 *
+1# #(26:3B
+	
+9
+10
+
+
+11
+50
+@
+45:
+454629 *
+1 (26:3B
+	
+9
+10
+
+
+11
+47
+@
+35:
+353629 *
+1 (26:3B
+	
+9
+10
+
+
+11
+37
+@
+42:
+424329 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+51:
+515229 *
+1' '(26:3B
+	
+9
+10
+
+
+11
+53
+@
+54:
+545529 *
+1+ +(26:3B
+	
+9
+10
+
+
+11
+56
+@
+39:
+394029 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17r¬
+
+27630*
+1 ()
+
+311334*
+1 (
+
+35638*
+1	 (
+
+35634*
+1	 (
+
+351334*
+1 (
+
+391834*
+1 ("
+
+42638*
+1	 (
+
+42634*
+1	 (
+
+421834*
+1 ( 
+
+452134*
+1   ($
+
+48638*
+1$	 $(
+
+48634*
+1$	 $(
+
+482134*
+1$ $("
+
+512434*
+1( (( 
+
+54638*
+1,	 ,(
+
+54634*
+1,	 ,(
+
+542434*
+1, ,(

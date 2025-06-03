@@ -1,0 +1,213 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521886*java2.Bı
+Ñ
+src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/RegistrarAsistenciaResponseVO.java2
+
+package4
+S
+Nco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain5
+q
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+#
+RegistrarAsistenciaResponseVO12
+{
+uco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO.mensajes14
+
+field15
+
+private16
+
+mensajes17
+|
+vco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#<init>()V19
+
+method20
+
+calls21
+
+
+uses22
+
+
+references23
+ë
+äco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#getMensajes()Ljava/util/List;25
+
+getMensajes26
+í
+ãco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#setMensajes(Ljava/util/List;)V28
+
+setMensajes29
+ñ
+èco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensajes(Ljava/util/List;)V31
+
+agregarMensajes32
+ó
+êco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensaje(Ljava/lang/String;)V34
+
+agregarMensaje35
+ã
+Ñco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#isValidacionCorrecta()Z37
+
+isValidacionCorrecta38J
+
+1
+12Z
+
+3	
+354jâ
+@
+33:
+333420 *
+1   (26:3B
+	
+9
+10
+
+
+11
+35
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+27:
+272820 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+29
+9
+64
+678 *
+1 (+:3B
+	
+9
+10
+
+
+11
+12
+@
+24:
+242520 *
+1 (26:3B
+	
+9
+10
+
+
+11
+26
+@
+18:
+181920 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+12
+@
+36:
+363720 *
+1& &(26:3B
+	
+9
+10
+
+
+11
+38
+@
+30:
+303120 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32r¡
+
+18621*
+1
+	 
+(&
+
+18622*
+1 (
+
+18623*
+1 (
+
+181323*
+1 (
+
+241323*
+1
+ (
+
+27622*
+1 (
+
+27623*
+1 (
+
+271323*
+1	 (
+
+27622*
+1 (
+
+27623*
+1 (
+
+271323*
+1	 (
+
+30623*
+1 (
+
+302421*
+1 (
+
+33623*
+1" "(
+
+332421*
+1" "(
+
+36623*
+1'
+ '(
+
+362421*
+1'
+ '(

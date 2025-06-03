@@ -1,0 +1,75 @@
+
+z__sonar_lambda_11$co.edu.uco.asisteuco.application.interactor.materia.consultarmateria.impl.ConsultarMateriaInteractorImpl°
+¥C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/materia/consultarmateria/impl/ConsultarMateriaInteractorImpl.java: @("1*Å
+1;% ;(5Œ‰
+;) ;(3A
+%21:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO":co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO»
+¸
+;% ;(5
+%22"Dco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#<init>()V*_
+
+__unknown_file (C
+A
+%21:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO·
+´
+; ;(6A
+dto:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO"__id*_
+
+__unknown_file (C
+A
+%21:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTOìé
+< <('
+%23java.util.UUID"Xco.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getId()Ljava/util/UUID;*c
+
+__unknown_file (G
+E
+e@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity2getId()ž›
+< <((
+%24void"Sco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setId(Ljava/util/UUID;)V*_
+
+__unknown_file (C
+A
+dto:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO*3
+
+__unknown_file (
+
+%23java.util.UUID2setId(Ljava/util/UUID;)öó
+=! =(-
+%25java.lang.String"]co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getClave()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+e@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity2
+getClave()ª§
+= =(.
+%26void"Xco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setClave(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+dto:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO*5
+
+__unknown_file (
+
+%25java.lang.String2setClave(Ljava/lang/String;)øõ
+>" >(/
+%27java.lang.String"^co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity#getNombre()Ljava/lang/String;*c
+
+__unknown_file (G
+E
+e@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntity2getNombre()¬©
+> >(0
+%28void"Yco.edu.uco.asisteuco.application.outputport.dto.MateriaDTO#setNombre(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+dto:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO*5
+
+__unknown_file (
+
+%27java.lang.String2setNombre(Ljava/lang/String;)"O
+? ?(C
+A
+dto:co.edu.uco.asisteuco.application.outputport.dto.MateriaDTO:Q
+: :(E
+e@co.edu.uco.asisteuco.application.outputport.entity.MateriaEntityB
+java.util.function.Function

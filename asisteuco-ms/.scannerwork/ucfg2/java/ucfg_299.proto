@@ -1,0 +1,15 @@
+
+eco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#getTipoIdentificacionId()Ljava/util/UUID;Ç
+xC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/ProfesorDTO.java ('"1*‘
+1 (#†
+ù
+ (#
+%0java.util.UUID"__id*u
+
+__unknown_file (Y*W=
+;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO"
+tipoIdentificacionId""
+ ($
+
+%0java.util.UUIDB?=
+;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTOH

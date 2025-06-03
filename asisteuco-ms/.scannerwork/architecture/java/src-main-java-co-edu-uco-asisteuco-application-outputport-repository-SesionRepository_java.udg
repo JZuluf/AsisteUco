@@ -1,0 +1,103 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519836*java2.BÂ
+_
+Zsrc/main/java/co/edu/uco/asisteuco/application/outputport/repository/SesionRepository.java2
+
+package4
+;
+6co.edu.uco.asisteuco.application.outputport.repository5
+L
+Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+SesionRepository12
++
+%Recovered#typeBindingLJpaRepository;014
+
+unknown15
+
+
+implements16
+
+
+Repository18
+
+annotated by19
+(
+"Recovered#typeBindingLRepository;021
+
+
+uses22
+E
+?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity24
+~
+xco.edu.uco.asisteuco.application.outputport.repository.SesionRepository#findByGrupo_Id(Ljava/util/UUID;)Ljava/util/List;26
+
+method27
+
+findByGrupo_Id28J
+
+1
+12Z
+
+3	
+354jÕ
+
+13
+131415
+
+17
+171815
+@
+25:
+252627 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28
+
+20
+202115
+
+23
+232415
+9
+64
+678 *
+1 (":3B
+	
+9
+10
+
+
+11
+12rù
+
+61316*
+1, (9
+
+61719*
+1 (
+
+62022*
+1 (
+
+61322*
+1, (9
+
+62322*
+1: (F
+
+252322*
+1 (

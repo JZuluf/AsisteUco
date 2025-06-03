@@ -1,0 +1,19 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.sesion.SesionController#obtenerPorId(Ljava/util/UUID;)LResponseEntity;
+false
+e563b51b8153e938b2dab1237821606a
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getDatos()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#setTransaccionExitosa(Z)V
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z
+ejecutar co.edu.uco.asisteuco.application.interactor.InteractorConRetorno#ejecutar(Ljava/lang/Object;)Ljava/lang/Object;
+get java.util.List#get(I)Ljava/lang/Object;
+getResultados co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#getResultados()Ljava/util/List;
+isEmpty java.util.List#isEmpty()Z
+isTransaccionExitosa co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#isTransaccionExitosa()Z
+setId co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#setId(Ljava/util/UUID;)V

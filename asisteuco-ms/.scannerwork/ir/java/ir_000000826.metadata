@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.crosscutting.exception.AsisteUcoException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+false
+1d32cb698e3a1454d963b642987d3b27
+==
+<init> java.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V

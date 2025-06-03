@@ -1,0 +1,12 @@
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.impl.RegistrarGrupoInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/request/RegistrarGrupoRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/response/RegistrarGrupoResponseDTO;
+false
+cf833644f9d4a64743038b9ab6ed54d1
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getCantidadEstudiantes()I
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getMateriaId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.request.RegistrarGrupoRequestDTO#getProfesorId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.interactor.grupo.registrargrupo.dto.response.RegistrarGrupoResponseDTO#exitoso(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/interactor/grupo/registrargrupo/dto/response/RegistrarGrupoResponseDTO;
+co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#instance-init#
+java.util.UUID#randomUUID()Ljava/util/UUID;
+==
+!unknownMethod! !unknownMethod!
+getId co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getId()Ljava/util/UUID;

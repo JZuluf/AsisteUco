@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.response.ConsultarGrupoResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/grupo/consultargrupo/dto/response/ConsultarGrupoResponseDTO;
+false
+81c92973f61f37db0a05655ceac99ff2
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.response.ConsultarGrupoResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.response.ConsultarGrupoResponseDTO#instance-init#
+java.util.List#of()Ljava/util/List;
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;

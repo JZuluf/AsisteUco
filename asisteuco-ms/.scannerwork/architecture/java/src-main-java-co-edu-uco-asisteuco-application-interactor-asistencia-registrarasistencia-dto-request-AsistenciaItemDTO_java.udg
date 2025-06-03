@@ -1,0 +1,168 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521975*java2.Bœ
+Ä
+{src/main/java/co/edu/uco/asisteuco/application/interactor/asistencia/registrarasistencia/dto/request/AsistenciaItemDTO.java2
+
+package4
+[
+Vco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request5
+m
+hco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+AsistenciaItemDTO12
+Ä
+zco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO.estudianteGrupoId14
+
+field15
+
+private16
+
+estudianteGrupoId17
+v
+pco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO.asistio19
+
+asistio20
+ñ
+èco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO#getEstudianteGrupoId()Ljava/util/UUID;22
+
+method23
+
+getEstudianteGrupoId24
+
+
+references25
+ó
+êco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO#setEstudianteGrupoId(Ljava/util/UUID;)V27
+
+setEstudianteGrupoId28
+
+
+uses29
+è
+àco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO#getAsistio()Ljava/lang/Boolean;31
+
+
+getAsistio32
+ê
+âco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.AsistenciaItemDTO#setAsistio(Ljava/lang/Boolean;)V34
+
+
+setAsistio35J
+
+1
+12Z
+
+3	
+354j«
+@
+30:
+303123 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32
+@
+33:
+333423 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+21:
+212223 *
+1	 	(26:3B
+	
+9
+10
+
+
+11
+24
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+26:
+262723 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28r‘
+
+211325*
+1
+ 
+(!
+
+26629*
+1	 (
+
+26625*
+1	 (
+
+261325*
+1 (
+
+301825*
+1 (
+
+33629*
+1	 (
+
+33625*
+1	 (
+
+331825*
+1 (

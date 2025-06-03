@@ -1,0 +1,16 @@
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.impl.RegistrarTipoIdentificacionInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/tipoidentificacion/registrartipoidentificacion/dto/request/RegistrarTipoIdentificacionRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/tipoidentificacion/registrartipoidentificacion/dto/response/RegistrarTipoIdentificacionResponseDTO;
+false
+0ccc2c245a7adf5f5ae510e28020860f
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#getClave()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.request.RegistrarTipoIdentificacionRequestDTO#getNombre()Ljava/lang/String;
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#<init>()V
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#instance-init#
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#setMensajes(Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.tipoidentificacion.registrartipoidentificacion.dto.response.RegistrarTipoIdentificacionResponseDTO#setTransaccionExitosa(Z)V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#<init>()V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#instance-init#
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setClave(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setNombre(Ljava/lang/String;)V
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+==
+!unknownMethod! !unknownMethod!

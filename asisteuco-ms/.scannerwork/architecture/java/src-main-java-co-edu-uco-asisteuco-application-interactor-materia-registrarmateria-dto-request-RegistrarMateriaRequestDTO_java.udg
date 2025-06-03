@@ -1,0 +1,168 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519640*java2.Bù
+É
+~src/main/java/co/edu/uco/asisteuco/application/interactor/materia/registrarmateria/dto/request/RegistrarMateriaRequestDTO.java2
+
+package4
+U
+Pco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request5
+p
+kco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+ 
+RegistrarMateriaRequestDTO12
+w
+qco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO.clave14
+
+field15
+
+private16
+
+clave17
+x
+rco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO.nombre19
+
+nombre20
+è
+àco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#getClave()Ljava/lang/String;22
+
+method23
+
+getClave24
+
+
+references25
+ê
+âco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#setClave(Ljava/lang/String;)V27
+
+setClave28
+
+
+uses29
+ê
+âco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#getNombre()Ljava/lang/String;31
+
+	getNombre32
+ë
+äco.edu.uco.asisteuco.application.interactor.materia.registrarmateria.dto.request.RegistrarMateriaRequestDTO#setNombre(Ljava/lang/String;)V34
+
+	setNombre35J
+
+1
+12Z
+
+3	
+354j«
+9
+64
+678 *
+1 (.:3B
+	
+9
+10
+
+
+11
+12
+@
+30:
+303123 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32
+@
+13:
+131415 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+17
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+21:
+212223 *
+1 (26:3B
+	
+9
+10
+
+
+11
+24
+@
+33:
+333423 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+26:
+262723 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28r‘
+
+211325*
+1	 	(
+
+26629*
+1 (
+
+
+26625*
+1 (
+
+
+261325*
+1 (
+
+301825*
+1 (
+
+33629*
+1 (
+
+
+33625*
+1 (
+
+
+331825*
+1 (

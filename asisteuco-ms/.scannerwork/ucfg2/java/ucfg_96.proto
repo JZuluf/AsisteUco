@@ -1,0 +1,42 @@
+
+__sonar_lambda_2$ß
+úC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/mapper/AsistenciaMapper.java   (A"startingBlock*∑
+startingBlock   (Añ
+ì
+
+__unknown_file (c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante"__id*ã
+
+__unknown_file (o*ma
+_co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper"
+estDom*
+1*ù
+1 !  ("˚¯
+ !  (*
+%5java.util.UUID"`co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getId()Ljava/util/UUID;*k
+
+__unknown_file (O
+M
+eHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity2getId()£†
+ 2  (@
+%6java.util.UUID"qco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#getId()Ljava/util/UUID;*Å
+
+__unknown_file (e
+c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante2getId()Ã…
+ !  (A
+%7boolean"*java.util.UUID#equals(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%5java.util.UUID*2
+
+__unknown_file (
+
+%6java.util.UUID2equals(Ljava/lang/Object;)"
+ !  (A
+
+%7boolean:Y
+   (M
+eHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntityB 
+java.util.function.Predicate

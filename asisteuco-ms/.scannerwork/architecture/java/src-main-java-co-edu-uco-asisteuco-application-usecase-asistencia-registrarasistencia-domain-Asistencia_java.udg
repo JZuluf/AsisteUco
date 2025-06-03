@@ -1,0 +1,301 @@
+
+1.0	AsisteUcoJavaFrontend"1748816523121*java2.Bœ
+q
+lsrc/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia.java2
+
+package4
+S
+Nco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain5
+^
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+
+Asistencia12
+f
+`co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia.sesion14
+
+field15
+
+private16
+
+sesion17
+[
+Uco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion19
+
+unknown20
+
+is type21
+
+
+uses22
+h
+bco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia.profesor24
+
+profesor25
+]
+Wco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor27
+k
+eco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia.estudiantes29
+
+estudiantes30
+_
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante32
+ª
+£co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#<init>(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Profesor;Ljava/util/List;)V34
+
+method35
+
+	has param36
+
+calls37
+
+
+references38
+
+returns39
+Ã
+¼co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getSesion()Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;41
+
+	getSesion42
+Ç
+Àco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getProfesor()Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Profesor;44
+
+getProfesor45
+€
+zco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;47
+
+getEstudiantes48J
+
+1
+12Z
+
+3	
+354jÅ
+@
+23:
+232415 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+25
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+33:
+333435 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+40:
+404135 *
+1 (26:3B
+	
+9
+10
+
+
+11
+42
+@
+28:
+282915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+30
+
+31
+313220
+@
+46:
+464735 *
+1 (26:3B
+	
+9
+10
+
+
+11
+48
+
+18
+181920
+
+26
+262720
+@
+13:
+131415 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+17
+@
+43:
+434435 *
+1 (26:3B
+	
+9
+10
+
+
+11
+45rû
+
+131821*
+1	 	(
+
+131822*
+1	 	(
+
+131822*
+1	 	( 
+
+232621*
+1
+ 
+(
+
+232622*
+1
+ 
+(
+
+232622*
+1
+ 
+($
+
+283122*
+1 ("
+
+331836*
+1 (#
+
+332636*
+12 (:
+
+33637*
+1 (
+
+331821*
+1$ (*
+
+331822*
+1 (#
+
+332621*
+1; (C
+
+332622*
+12 (:
+
+333122*
+1P (Z
+
+33622*
+1	 (
+
+33638*
+1	 (
+
+331822*
+1 (
+
+331338*
+1 (
+
+331839*
+1 (
+
+33622*
+1	 (
+
+33638*
+1	 (
+
+332622*
+1 (
+
+332338*
+1 (
+
+332639*
+1 ( 
+
+33622*
+1	 (
+
+33638*
+1	 (
+
+332838*
+1 (
+
+401839*
+1 (
+
+401822*
+1 (
+
+401822*
+1 (
+
+401338*
+1 (
+
+432639*
+1 (
+
+432622*
+1 (
+
+432622*
+1 (
+
+432338*
+1 (
+
+463122*
+1 (
+
+462838*
+1- (8

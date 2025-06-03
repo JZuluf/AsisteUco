@@ -1,0 +1,229 @@
+
+∆co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/request/ConsultarSesionRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;≠
+¢C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/impl/ConsultarSesionInteractorImpl.java1 (9"startingBlock*–
+2% %(-ø
+º
+% %(Tq
+%12jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO"Úco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;*ä
+
+__unknown_file (n"l
+jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO*;
+
+__unknown_file (
+No se encontraron sesiones."
+% %(Us
+q
+%12jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO*î
+3$ $(}{
+$ $(
+%11boolean"java.util.List#isEmpty()Z*9
+
+__unknown_file (
+
+	entidadesjava.util.List2	isEmpty()*
+2
+1*π
+startingBlock9 (X‰
+·
+ (
+%34"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*ç
+
+__unknown_file (q
+o
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO±
+Æ
+T (Wo
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO"__annotation*#
+
+__unknown_file (
+
+%34*
+8*ﬂ
+4! !(ı
+Ú
+! !(N
+%10Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository"__id*è
+
+__unknown_file (s*qg
+eco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl"
+repoS
+Q
+! !(&
+	entidadesjava.util.List"__id*"
+
+__unknown_file (
+""*
+3*ù
+5 (Ù
+Ò
+ (M
+%7Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository"__id*è
+
+__unknown_file (s*qg
+eco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl"
+repo…∆
+, (<
+%8java.util.UUID"Öco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getGrupoId()Ljava/util/UUID;*ç
+
+__unknown_file (q
+o
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO2getGrupoId()‡›
+ (=
+%9java.util.List"xco.edu.uco.asisteuco.application.outputport.repository.SesionRepository#findByGrupo_Id(Ljava/util/UUID;)Ljava/util/List;*k
+
+__unknown_file (O
+M
+%7Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository*2
+
+__unknown_file (
+
+%8java.util.UUID2 findByGrupo_Id(Ljava/util/UUID;)c
+a
+ (=
+	entidadesjava.util.List"__id*2
+
+__unknown_file (
+
+%9java.util.List*
+3*’
+6 (…∆
+ (#
+%5java.util.UUID"Öco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getGrupoId()Ljava/util/UUID;*ç
+
+__unknown_file (q
+o
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO2getGrupoId()r
+p
+ (+
+%6boolean"	__compare*
+$ (&
+!=*"
+ (#
+
+%5java.util.UUID*
+' (+
+""*
+4
+5*ô
+7 (Ù
+Ò
+ (M
+%2Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository"__id*è
+
+__unknown_file (s*qg
+eco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl"
+repoøº
+& (1
+%3java.util.UUID"Äco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getId()Ljava/util/UUID;*ç
+
+__unknown_file (q
+o
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO2getId()w
+u
+H (Q
+%4java.util.List"#java.util.List#of()Ljava/util/List;*.
+
+__unknown_file ("
+java.util.ListS
+Q
+ (R
+	entidadesjava.util.List"__id*"
+
+__unknown_file (
+""*
+3*†
+8 (%S
+Q
+ (%
+	entidadesjava.util.List"__id*"
+
+__unknown_file (
+""øº
+ (
+%0java.util.UUID"Äco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getId()Ljava/util/UUID;*ç
+
+__unknown_file (q
+o
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO2getId()r
+p
+ (
+%1boolean"	__compare*
+ (
+!=*"
+ (
+
+%0java.util.UUID*
+ (
+""*
+6
+7*Ö
+1( (((™ß
+( ((1
+%13java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*9
+
+__unknown_file (
+
+	entidadesjava.util.List2stream()›
+⁄
+(6 1(	"
+%14java.util.function.Function"__declareFunction*ñ
+
+__unknown_file (zx
+v__sonar_lambda_9$co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl¶£
+( 1(
+
+%30java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*<
+
+__unknown_file ( 
+
+%13java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%14java.util.function.Function2"map(Ljava/util/function/Function;)Ø
+¨
+1 1(&!
+%31java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectorsõò
+( 1('
+%32java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*<
+
+__unknown_file ( 
+
+%30java.util.stream.Stream*?
+
+__unknown_file (#
+!
+%31java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)_
+]
+( 1((
+dtosjava.util.List"__id*3
+
+__unknown_file (
+
+%32java.util.Listç
+ä
+3 3(^q
+%33jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO"Çco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#exitoso(Ljava/lang/String;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;*ä
+
+__unknown_file (n"l
+jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO*C
+
+__unknown_file ('%
+#Sesiones consultadas correctamente.*4
+
+__unknown_file (
+
+dtosjava.util.List"
+3 3(_s
+q
+%33jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO:{
+: (Wo
+reqhco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTOBig
+eco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImplH

@@ -1,0 +1,5 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#<init>(Ljava/util/UUID;)V
+false
+a0e302c56b0f659f283f9f578556649a
+java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
+java.lang.IllegalArgumentException#instance-init#

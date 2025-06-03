@@ -1,0 +1,7 @@
+organization=jzuluf
+projectKey=AsisteUco
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.63940
+dashboardUrl=https://sonarcloud.io/dashboard?id=AsisteUco
+ceTaskId=AZctlriwfsiRa2-UqyHy
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZctlriwfsiRa2-UqyHy

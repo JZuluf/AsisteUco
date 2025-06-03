@@ -1,0 +1,213 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521917*java2.B¡
+h
+csrc/main/java/co/edu/uco/asisteuco/application/usecase/sesion/validator/ValidarQueSesionExista.java2
+
+package4
+>
+9co.edu.uco.asisteuco.application.usecase.sesion.validator5
+U
+Pco.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ValidarQueSesionExista12
+B
+<co.edu.uco.asisteuco.application.usecase.validator.Validator14
+
+unknown15
+
+
+implements16
+
+Service18
+
+annotated by19
+%
+Recovered#typeBindingLService;021
+
+
+uses22
+K
+Eco.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO24
+g
+aco.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista.sesionRepository26
+
+field27
+
+private28
+
+sesionRepository29
+M
+Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository31
+
+is type32
+ª
+£co.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista#<init>(Lco/edu/uco/asisteuco/application/outputport/repository/SesionRepository;)V34
+
+method35
+
+	has param36
+
+calls37
+
+
+references38
+¹
+²co.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;40
+
+validate41
+
+returns42
+o
+ico.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#agregarMensaje(Ljava/lang/String;)V44J
+
+1
+12Z
+
+3	
+354jù
+@
+33:
+333435 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+
+20
+202115
+
+23
+232415
+
+43
+434415
+
+17
+171815
+
+30
+303115
+@
+25:
+252627 *
+1 (26:3B
+	
+9
+28
+
+
+11
+29
+@
+39:
+394035 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+9
+64
+678 *
+1 ($:3B
+	
+9
+10
+
+
+11
+12r›
+
+61316*
+10 (9
+
+61719*
+1 (
+
+62022*
+1 (	
+
+61322*
+10 (9
+
+62322*
+1@ (R
+
+253032*
+1 (#
+
+253022*
+1 (#
+
+253022*
+1$ (4
+
+333036*
+1# (3
+
+33637*
+1 ("
+
+333032*
+14 (D
+
+333022*
+1# (3
+
+33622*
+1	 (
+
+33638*
+1	 (
+
+333022*
+1 (
+
+332538*
+1 (
+
+392342*
+1 (
+
+392322*
+1 (
+
+392332*
+1 ( 
+
+392337*
+1' (9
+
+392538*
+1 (
+
+393022*
+1 (
+
+392538*
+1 (
+
+392338*
+1 ( 
+
+394337*
+1! (/

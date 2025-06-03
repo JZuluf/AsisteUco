@@ -1,0 +1,527 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521131*java2.Bû
+Y
+Tsrc/main/java/co/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity.java2
+
+package4
+7
+2co.edu.uco.asisteuco.application.outputport.entity5
+F
+Aco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ProfesorEntity12
+
+Entity14
+
+unknown15
+
+annotated by16
+$
+Recovered#typeBindingLEntity;018
+
+
+uses19
+
+Table21
+#
+Recovered#typeBindingLTable;023
+J
+Dco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity.id25
+
+field26
+
+private27
+
+id28
+
+Id30
+ 
+Recovered#typeBindingLId;032
+
+GeneratedValue34
+,
+&Recovered#typeBindingLGeneratedValue;036
+ 
+jakarta.persistence.Column38
+$
+Recovered#typeBindingLColumn;040
+Z
+Tco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity.tipoIdentificacion42
+
+tipoIdentificacion43
+Q
+Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity45
+
+is type46
+#
+jakarta.persistence.ManyToOne48
+'
+!Recovered#typeBindingLManyToOne;050
+$
+jakarta.persistence.JoinColumn52
+(
+"Recovered#typeBindingLJoinColumn;054
+\
+Vco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity.numeroIdentificacion56
+
+numeroIdentificacion57
+X
+Rco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity.nombresCompletos59
+
+nombresCompletos60
+Q
+Kco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#<init>()V62
+
+method63
+
+calls64
+Ã
+¼co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#<init>(Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;Ljava/lang/String;Ljava/lang/String;)V66
+
+	has param67
+
+
+references68
+_
+Yco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getId()Ljava/util/UUID;70
+
+getId71
+`
+Zco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#setId(Ljava/util/UUID;)V73
+
+setId74
+­
+¦co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getTipoIdentificacion()Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;76
+
+getTipoIdentificacion77
+
+returns78
+®
+§co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#setTipoIdentificacion(Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;)V80
+
+setTipoIdentificacion81
+s
+mco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNumeroIdentificacion()Ljava/lang/String;83
+
+getNumeroIdentificacion84
+t
+nco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#setNumeroIdentificacion(Ljava/lang/String;)V86
+
+setNumeroIdentificacion87
+o
+ico.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNombresCompletos()Ljava/lang/String;89
+
+getNombresCompletos90
+p
+jco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#setNombresCompletos(Ljava/lang/String;)V92
+
+setNombresCompletos93J
+
+1
+12Z
+
+3	
+354jƒ
+
+@
+69:
+697063 *
+1" "(26:3B
+	
+9
+10
+
+
+11
+71
+
+13
+131415
+
+39
+394015
+@
+82:
+828363 *
+1* *(26:3B
+	
+9
+10
+
+
+11
+84
+@
+88:
+888963 *
+1/ /(26:3B
+	
+9
+10
+
+
+11
+90
+
+47
+474815
+@
+61:
+616263 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+27
+
+
+11
+28
+@
+79:
+798063 *
+1& &(26:3B
+	
+9
+10
+
+
+11
+81
+
+33
+333415
+@
+75:
+757663 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+77
+@
+85:
+858663 *
+1+ +(26:3B
+	
+9
+10
+
+
+11
+87
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+58:
+585926 *
+1 (26:3B
+	
+9
+27
+
+
+11
+60
+
+35
+353615
+
+53
+535415
+@
+72:
+727363 *
+1# #(26:3B
+	
+9
+10
+
+
+11
+74
+@
+91:
+919263 *
+10 0(26:3B
+	
+9
+10
+
+
+11
+93
+
+44
+444515
+
+49
+495015
+
+20
+202115
+
+22
+222315
+
+51
+515215
+
+37
+373815
+@
+41:
+414226 *
+1 (26:3B
+	
+9
+27
+
+
+11
+43
+@
+55:
+555626 *
+1 (26:3B
+	
+9
+27
+
+
+11
+57
+
+17
+171815
+
+29
+293015
+
+31
+313215
+@
+65:
+656663 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12r¥
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+242916*
+1
+ 
+(
+
+243119*
+1
+ 
+(
+
+243316*
+1 (
+
+243519*
+1 (
+
+243716*
+1 (
+
+243919*
+1 (
+
+414446*
+1 (%
+
+414716*
+1 (
+
+414919*
+1 (
+
+415116*
+1 (
+
+415319*
+1 (
+
+414419*
+1 (%
+
+414419*
+1& (8
+
+553716*
+1 (
+
+553919*
+1 (
+
+583716*
+1 (
+
+583919*
+1 (
+
+61664*
+1 (
+
+654467*
+1 (3
+
+65664*
+1 (
+
+654446*
+14 (8
+
+654419*
+1 (3
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+654419*
+1 ( 
+
+654168*
+1 ( 
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+655568*
+1 ("
+
+65619*
+1	 (
+
+65668*
+1	 (
+
+655868*
+1 (
+
+692468*
+1"" "($
+
+72619*
+1#" #(&
+
+72668*
+1#" #(&
+
+722468*
+1#' #()
+
+754478*
+1% %($
+
+754419*
+1% %($
+
+754419*
+1%F %(X
+
+754168*
+1%F %(X
+
+794467*
+1&' &(?
+
+794446*
+1&@ &(R
+
+794419*
+1&' &(?
+
+79619*
+1'	 '(
+
+79668*
+1'	 '(
+
+794419*
+1' '( 
+
+794168*
+1' '( 
+
+825568*
+1*6 *(J
+
+85619*
+1,	 ,(
+
+85668*
+1,	 ,(
+
+855568*
+1, ,("
+
+885868*
+1/2 /(B
+
+91619*
+11	 1(
+
+91668*
+11	 1(
+
+915868*
+11 1(

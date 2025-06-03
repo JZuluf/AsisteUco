@@ -1,0 +1,9 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.sesion.SesionController#eliminar(Ljava/util/UUID;)LResponseEntity;
+false
+2d595cc120c593e160f2e4be73882cff
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#<init>()V
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#getMensajes()Ljava/util/List;
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.response.RespuestaApi#instance-init#
+==
+!unknownMethod! !unknownMethod!
+add java.util.List#add(Ljava/lang/Object;)Z

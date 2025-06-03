@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#isValidacionCorrecta()Z
+false
+0b41136d9eefab70923102a6354a144d
+==
+getMensajes co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#getMensajes()Ljava/util/List;
+isEmpty java.util.List#isEmpty()Z

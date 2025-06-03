@@ -1,11 +1,13 @@
 package co.edu.uco.asisteuco.application.outputport.dto;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class SesionDTO {
     private UUID id;
     private UUID grupoId;
+    private LocalDate fecha;
     private LocalDateTime fechaHoraInicio;
     private LocalDateTime fechaHoraFin;
     private String aula;
@@ -46,6 +48,12 @@ public class SesionDTO {
 	}
 	public void setEstado(String estado) {
 		this.estado = estado;
+	}
+	public LocalDate getFecha() {
+		return fecha;
+	}
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
 	}
     
     

@@ -1,0 +1,115 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520365*java2.BŸ
+O
+Jsrc/main/java/co/edu/uco/asisteuco/initializer/AsisteucoMsApplication.java2
+
+package4
+%
+ co.edu.uco.asisteuco.initializer5
+<
+7co.edu.uco.asisteuco.initializer.AsisteucoMsApplication7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+AsisteucoMsApplication12
+
+SpringBootApplication14
+
+unknown15
+
+annotated by16
+3
+-Recovered#typeBindingLSpringBootApplication;018
+
+
+uses19
+
+EnableJpaRepositories21
+3
+-Recovered#typeBindingLEnableJpaRepositories;023
+
+
+EntityScan25
+(
+"Recovered#typeBindingLEntityScan;027
+X
+Rco.edu.uco.asisteuco.initializer.AsisteucoMsApplication#main([Ljava/lang/String;)V29
+
+method30
+
+
+main31J
+
+1
+12Z
+
+3	
+354jõ
+
+13
+131415
+
+20
+202115
+9
+64
+678 *
+1 ($:3B
+	
+9
+10
+
+
+11
+12
+
+22
+222315
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+
+17
+171815
+
+26
+262715
+
+24
+242515r¶
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+62416*
+1 (
+
+62619*
+1 (
+
+28619*
+1 (5

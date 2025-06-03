@@ -1,0 +1,151 @@
+
+__sonar_lambda_1$ß
+úC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/mapper/AsistenciaMapper.java ,("startingBlock*ã
+startingBlock ,(ﬂ
+‹
+
+__unknown_file ("
+estudiantesGrupojava.util.List"__id*ï
+
+__unknown_file (y*wa
+_co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper"
+estudiantesGrupoà
+Ö
+
+__unknown_file (O
+sesionEntity?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity"__id*ë
+
+__unknown_file (u*sa
+_co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper"
+sesionEntity*
+1*Ì 
+1+ (;∞≠
++ (D
+%3java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*@
+
+__unknown_file ($
+"
+estudiantesGrupojava.util.List2stream()v
+t
+   (A"
+%4java.util.function.Predicate"__declareFunction*1
+
+__unknown_file (
+__sonar_lambda_2$◊
+‘
+
+__unknown_file (.
+"
+%4java.util.function.Predicate"
+estDom"__id*Å
+
+__unknown_file (e
+c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante¨©
++  (B
+%8java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%3java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%4java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)™ß
++ !( 
+%9java.util.Optional"7java.util.stream.Stream#findFirst()Ljava/util/Optional;*;
+
+__unknown_file (
+
+%8java.util.stream.Stream2findFirst()v
+t
+"! $("
+%10java.util.function.Supplier"__declareFunction*1
+
+__unknown_file (
+__sonar_lambda_3$◊
+‘
+
+__unknown_file (.
+"
+%10java.util.function.Supplier"
+estDom"__id*Å
+
+__unknown_file (e
+c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante’“
++ $(O
+%15Hco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%9java.util.Optional*@
+
+__unknown_file ($
+"
+%10java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)“
+œ
+ $(N
+egHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity"__id*m
+
+__unknown_file (Q
+O
+%15Hco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntityûõ
+&8 &(HJ
+%16Cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity"Cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntityÕ
+ 
+&4 &(J
+%17"Mco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#<init>()V*h
+
+__unknown_file (L
+J
+%16Cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity÷
+”
+& &(KW
+asistenciaEntityCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity"__id*h
+
+__unknown_file (L
+J
+%16Cco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity‚ﬂ
+' '(8
+%18void"ëco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#setSesion(Lco/edu/uco/asisteuco/application/outputport/entity/SesionEntity;)V*u
+
+__unknown_file (Y
+W
+asistenciaEntityCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity*m
+
+__unknown_file (Q
+O
+sesionEntity?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2LsetSesion(Lco/edu/uco/asisteuco/application/outputport/entity/SesionEntity;)ÖÇ
+( ((7
+%19void"£co.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#setEstudianteGrupo(Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteGrupoEntity;)V*u
+
+__unknown_file (Y
+W
+asistenciaEntityCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity*l
+
+__unknown_file (P
+N
+egHco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity2^setEstudianteGrupo(Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteGrupoEntity;)ñì
+*, *(>
+%20boolean"fco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#isAsistio()Z*Å
+
+__unknown_file (e
+c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante2isAsistio()∆√
+* *(?
+%21void"dco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#setAsistio(Ljava/lang/Boolean;)V*u
+
+__unknown_file (Y
+W
+asistenciaEntityCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity*,
+
+__unknown_file (
+
+%20boolean2setAsistio(Ljava/lang/Boolean;)"e
++ +((Y
+W
+asistenciaEntityCco.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity:o
+ (c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.EstudianteB
+java.util.function.Function

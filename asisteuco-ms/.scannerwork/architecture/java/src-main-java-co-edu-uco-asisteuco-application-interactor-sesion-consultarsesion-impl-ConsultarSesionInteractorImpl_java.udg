@@ -1,0 +1,478 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522374*java2.Bç!
+}
+xsrc/main/java/co/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/impl/ConsultarSesionInteractorImpl.java2
+
+package4
+L
+Gco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl5
+j
+eco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+#
+ConsultarSesionInteractorImpl12
+b
+\co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.ConsultarSesionInteractor14
+
+unknown15
+
+
+implements16
+
+Service18
+
+annotated by19
+%
+Recovered#typeBindingLService;021
+
+
+uses22
+p
+jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl.repo24
+
+field25
+
+private26
+
+
+repo27
+M
+Gco.edu.uco.asisteuco.application.outputport.repository.SesionRepository29
+
+is type30
+ø
+∏co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl#<init>(Lco/edu/uco/asisteuco/application/outputport/repository/SesionRepository;)V32
+
+method33
+
+	has param34
+
+calls35
+
+
+references36
+Õ
+∆co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/request/ConsultarSesionRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;38
+
+ejecutar39
+p
+jco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO41
+
+returns42
+n
+hco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO44
+?
+9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO46
+E
+?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity48
+á
+Äco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getId()Ljava/util/UUID;50
+å
+Öco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.request.ConsultarSesionRequestDTO#getGrupoId()Ljava/util/UUID;52
+~
+xco.edu.uco.asisteuco.application.outputport.repository.SesionRepository#findByGrupo_Id(Ljava/util/UUID;)Ljava/util/List;54
+˘
+Úco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#fallido(Ljava/lang/String;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;56
+X
+Rco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setId(Ljava/util/UUID;)V58
+]
+Wco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getId()Ljava/util/UUID;60
+]
+Wco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setGrupoId(Ljava/util/UUID;)V62
+D
+>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity64
+\
+Vco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getId()Ljava/util/UUID;66
+ë
+äco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getGrupo()Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;68
+n
+hco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraInicio(Ljava/time/LocalDateTime;)V70
+s
+mco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getFechaHoraInicio()Ljava/time/LocalDateTime;72
+k
+eco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraFin(Ljava/time/LocalDateTime;)V74
+p
+jco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getFechaHoraFin()Ljava/time/LocalDateTime;76
+\
+Vco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setAula(Ljava/lang/String;)V78
+a
+[co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getAula()Ljava/lang/String;80
+^
+Xco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setEstado(Ljava/lang/String;)V82
+c
+]co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getEstado()Ljava/lang/String;84
+â
+Çco.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.dto.response.ConsultarSesionResponseDTO#exitoso(Ljava/lang/String;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/dto/response/ConsultarSesionResponseDTO;86J
+
+1
+12Z
+
+3	
+354jù
+9
+64
+678 *
+1 (+:3B
+	
+9
+10
+
+
+11
+12
+
+53
+535415
+
+83
+838415
+
+85
+858615
+@
+31:
+313233 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+@
+23:
+232425 *
+1 (26:3B
+	
+9
+26
+
+
+11
+27
+
+55
+555615
+
+57
+575815
+
+73
+737415
+
+49
+495015
+
+75
+757615
+@
+37:
+373833 *
+1 (26:3B
+	
+9
+10
+
+
+11
+39
+
+61
+616215
+
+69
+697015
+
+63
+636415
+
+40
+404115
+
+43
+434415
+
+65
+656615
+
+67
+676815
+
+79
+798015
+
+20
+202115
+
+17
+171815
+
+47
+474815
+
+77
+777815
+
+81
+818215
+
+59
+596015
+
+13
+131415
+
+71
+717215
+
+45
+454615
+
+28
+282915
+
+51
+515215r≥
+
+61316*
+17 (P
+
+61719*
+1 (
+
+62022*
+1 (	
+
+61322*
+17 (P
+
+232830*
+1 (#
+
+232822*
+1 (#
+
+232822*
+1$ ((
+
+312834*
+1* (:
+
+31635*
+1 ()
+
+312830*
+1; (?
+
+312822*
+1* (:
+
+31622*
+1	 (
+
+31636*
+1	 (
+
+312822*
+1 (
+
+312336*
+1 (
+
+374042*
+1 (&
+
+374334*
+1; (T
+
+374022*
+1 (&
+
+374522*
+1' (0
+
+374330*
+1U (X
+
+374322*
+1; (T
+
+374722*
+1 (
+
+374336*
+1 (
+
+374935*
+1 (
+
+372336*
+1 (
+
+372822*
+1 (
+
+372336*
+1 (
+
+374336*
+1' (*
+
+374935*
+1+ (0
+
+374336*
+1 (
+
+375135*
+1 ("
+
+372836*
+1 (
+
+375335*
+1 (,
+
+372336*
+1 (
+
+372822*
+1 (
+
+372336*
+1 (
+
+374336*
+1- (0
+
+375135*
+11 (;
+
+372336*
+1! !(
+
+372822*
+1! !(
+
+372336*
+1! !(
+
+374042*
+1% %(.
+
+374036*
+1% %(.
+
+375535*
+1%/ %(6
+
+374522*
+1( ((
+
+374730*
+1(7 ((8
+
+374530*
+1) )(
+
+374535*
+1) )("
+
+374536*
+1* *(
+
+375735*
+1* *(
+
+374736*
+1*$ *(%
+
+375935*
+1*& *(+
+
+374536*
+1+ +(
+
+376135*
+1+ +(
+
+376336*
+1+$ +(%
+
+376535*
+1+1 +(6
+
+376342*
+1+$ +(%
+
+374736*
+1+$ +(%
+
+376735*
+1+& +(.
+
+374536*
+1, ,(
+
+376935*
+1, ,(!
+
+374736*
+1,$ ,(%
+
+377135*
+1,& ,(8
+
+374536*
+1- -(
+
+377335*
+1- -(
+
+374736*
+1-$ -(%
+
+377535*
+1-& -(5
+
+374536*
+1. .(
+
+377735*
+1. .(
+
+374736*
+1.$ .(%
+
+377935*
+1.& .(-
+
+374536*
+1/ /(
+
+378135*
+1/ /(
+
+374736*
+1/$ /(%
+
+378335*
+1/& /(/
+
+374042*
+13 3(*
+
+374036*
+13 3(*
+
+378535*
+13+ 3(2

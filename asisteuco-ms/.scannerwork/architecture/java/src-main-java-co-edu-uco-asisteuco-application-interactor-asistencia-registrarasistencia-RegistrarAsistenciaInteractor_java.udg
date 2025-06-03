@@ -1,0 +1,72 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520310*java2.B£
+€
+{src/main/java/co/edu/uco/asisteuco/application/interactor/asistencia/registrarasistencia/RegistrarAsistenciaInteractor.java2
+
+package4
+O
+Jco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia5
+m
+hco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.RegistrarAsistenciaInteractor7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+#
+RegistrarAsistenciaInteractor12
+F
+@co.edu.uco.asisteuco.application.interactor.InteractorConRetorno14
+
+unknown15
+
+
+implements16
+
+
+uses17
+z
+tco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.request.RegistrarAsistenciaRequestDTO19
+|
+vco.edu.uco.asisteuco.application.interactor.asistencia.registrarasistencia.dto.response.RegistrarAsistenciaResponseDTO21J
+
+1
+12Z
+
+3	
+354jw
+
+18
+181915
+
+13
+131415
+
+20
+202115
+9
+64
+678 *
+1 (/:3B
+	
+9
+10
+
+
+11
+12ri
+
+61316*
+18 (L
+
+61317*
+18 (L
+
+61817*
+1M (j
+
+62017*
+1l (Š

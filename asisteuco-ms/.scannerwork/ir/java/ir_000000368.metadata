@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#ValidarQueEstudianteExista(Ljava/util/UUID;)V
+false
+77c23aec88fc07927c492e9c3ea38b40
+==
+agregarMensajes co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensajes(Ljava/util/List;)V
+getMensajes co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#getMensajes()Ljava/util/List;
+validate co.edu.uco.asisteuco.application.usecase.estudiante.validator.ValidarQueEstudianteExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;

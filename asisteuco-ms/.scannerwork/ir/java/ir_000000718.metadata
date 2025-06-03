@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#<init>(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)V
+false
+66f52093281e3186fdca5aef12a96c83
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setNombresCompletos(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setNumeroIdentificacion(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#setTipoIdentificacion(Ljava/util/UUID;)V

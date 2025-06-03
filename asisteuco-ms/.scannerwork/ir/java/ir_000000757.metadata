@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#<init>(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Profesor;Ljava/util/List;)V
+false
+b9d7bd846b1071bd3cdb142092b21896
+java.util.Collections#emptyList()Ljava/util/List;
+java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

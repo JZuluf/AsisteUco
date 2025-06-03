@@ -1,0 +1,427 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522497*java2.B–!
+ƒ
+~src/main/java/co/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/impl/ConsultarProfesorInteractorImpl.java2
+
+package4
+P
+Kco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl5
+p
+kco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+%
+ConsultarProfesorInteractorImpl12
+h
+bco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.ConsultarProfesorInteractor14
+
+unknown15
+
+
+implements16
+
+Service18
+
+annotated by19
+%
+Recovered#typeBindingLService;021
+
+
+uses22
+|
+vco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl.repository24
+
+field25
+
+private26
+
+
+repository27
+O
+Ico.edu.uco.asisteuco.application.outputport.repository.ProfesorRepository29
+
+is type30
+Ç
+Àco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl#<init>(Lco/edu/uco/asisteuco/application/outputport/repository/ProfesorRepository;)V32
+
+method33
+
+	has param34
+
+calls35
+
+
+references36
+ß
+Øco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.impl.ConsultarProfesorInteractorImpl#ejecutar(Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/request/ConsultarProfesorRequestDTO;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;38
+
+ejecutar39
+v
+pco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO41
+
+returns42
+t
+nco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO44
+A
+;co.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO46
+G
+Aco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity48
+
+†co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getId()Ljava/util/UUID;50
+Ÿ
+˜co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getTipoIdentificacionId()Ljava/util/UUID;52
+¡
+šco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getNumeroIdentificacion()Ljava/lang/String;54
+
+–co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.request.ConsultarProfesorRequestDTO#getNombresCompletos()Ljava/lang/String;56
+ƒ
+üco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#fallido(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;58
+Z
+Tco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setId(Ljava/util/UUID;)V60
+_
+Yco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getId()Ljava/util/UUID;62
+l
+fco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setTipoIdentificacionId(Ljava/util/UUID;)V64
+Q
+Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity66
+i
+cco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#getId()Ljava/util/UUID;68
+­
+¦co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getTipoIdentificacion()Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;70
+n
+hco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setNumeroIdentificacion(Ljava/lang/String;)V72
+s
+mco.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNumeroIdentificacion()Ljava/lang/String;74
+j
+dco.edu.uco.asisteuco.application.outputport.dto.ProfesorDTO#setNombresCompletos(Ljava/lang/String;)V76
+o
+ico.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNombresCompletos()Ljava/lang/String;78
+“
+Œco.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#exitoso(Ljava/util/List;Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;80J
+
+1
+12Z
+
+3	
+354já
+
+61
+616215
+
+49
+495015
+
+63
+636415
+
+71
+717215
+
+73
+737415
+
+77
+777815
+
+59
+596015
+
+13
+131415
+
+45
+454615
+
+53
+535415
+
+69
+697015
+@
+23:
+232425 *
+1 (26:3B
+	
+9
+26
+
+
+11
+27
+
+47
+474815
+
+40
+404115
+
+79
+798015
+
+28
+282915
+@
+31:
+313233 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+65
+656615
+
+43
+434415
+@
+37:
+373833 *
+1 (26:3B
+	
+9
+10
+
+
+11
+39
+
+51
+515215
+
+75
+757615
+
+20
+202115
+
+17
+171815
+
+55
+555615
+
+67
+676815
+9
+64
+678 *
+1 (-:3B
+	
+9
+10
+
+
+11
+12
+
+57
+575815rï
+
+61316*
+19 (T
+
+61719*
+1 (
+
+62022*
+1 (	
+
+61322*
+19 (T
+
+232830*
+1 (%
+
+232822*
+1 (%
+
+232822*
+1& (0
+
+312834*
+1, (>
+
+31635*
+1 (+
+
+312830*
+1? (I
+
+312822*
+1, (>
+
+31622*
+1	 (
+
+31636*
+1	 (
+
+312822*
+1 (
+
+312336*
+1 (
+
+374042*
+1 ((
+
+374334*
+1? (Z
+
+374022*
+1 ((
+
+374522*
+1) (4
+
+374330*
+1[ (b
+
+374322*
+1? (Z
+
+374722*
+1 (
+
+374336*
+1 (
+
+374935*
+1 ( 
+
+374336*
+1 (
+
+375135*
+1 (6
+
+374336*
+1 ( 
+
+375335*
+1! (8
+
+374336*
+1 (!
+
+375535*
+1" (5
+
+372336*
+1" "("
+
+372822*
+1" "("
+
+372336*
+1" "("
+
+372336*
+1& &("
+
+372822*
+1& &("
+
+372336*
+1& &("
+
+374042*
+19 9(0
+
+374036*
+19 9(0
+
+375735*
+191 9(8
+
+374522*
+1= =(
+
+374730*
+1> >(
+
+374530*
+1? ?( 
+
+374522*
+1? ?(
+
+374535*
+1?' ?(2
+
+374536*
+1@ @(
+
+375935*
+1@ @(
+
+374736*
+1@ @(
+
+376135*
+1@ @("
+
+374536*
+1A A(
+
+376335*
+1A A(,
+
+376536*
+1A- A(.
+
+376735*
+1AG A(L
+
+376542*
+1A- A(.
+
+374736*
+1A- A(.
+
+376935*
+1A/ A(D
+
+374536*
+1B B(
+
+377135*
+1B B(,
+
+374736*
+1B- B(.
+
+377335*
+1B/ B(F
+
+374536*
+1C C(
+
+377535*
+1C C((
+
+374736*
+1C) C(*
+
+377735*
+1C+ C(>
+
+374042*
+1H H(,
+
+374036*
+1H H(,
+
+377935*
+1H- H(4

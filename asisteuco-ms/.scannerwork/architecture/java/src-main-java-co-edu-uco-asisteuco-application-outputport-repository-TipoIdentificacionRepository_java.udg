@@ -1,0 +1,172 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521419*java2.B≠
+k
+fsrc/main/java/co/edu/uco/asisteuco/application/outputport/repository/TipoIdentificacionRepository.java2
+
+package4
+;
+6co.edu.uco.asisteuco.application.outputport.repository5
+X
+Sco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+"
+TipoIdentificacionRepository12
++
+%Recovered#typeBindingLJpaRepository;014
+
+unknown15
+
+
+implements16
+
+
+Repository18
+
+annotated by19
+(
+"Recovered#typeBindingLRepository;021
+
+
+uses22
+Q
+Kco.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity24
+ä
+Éco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByClave(Ljava/lang/String;)Ljava/util/List;26
+
+method27
+
+findByClave28
+ã
+Ñco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByNombre(Ljava/lang/String;)Ljava/util/List;30
+
+findByNombre31
+•
+ûco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByClaveAndNombre(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;33
+
+findByClaveAndNombre34
+|
+vco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#existsByClave(Ljava/lang/String;)Z36
+
+existsByClave37
+}
+wco.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#existsByNombre(Ljava/lang/String;)Z39
+
+existsByNombre40J
+
+1
+12Z
+
+3	
+354j’
+
+13
+131415
+@
+38:
+383927 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+40
+
+17
+171815
+@
+29:
+293027 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+31
+@
+35:
+353627 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+37
+
+20
+202115
+@
+32:
+323327 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+34
+9
+64
+678 *
+1 (.:3B
+	
+9
+10
+
+
+11
+12
+
+23
+232415
+@
+25:
+252627 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+28r”
+
+61316*
+17 (D
+
+61719*
+1 (
+
+62022*
+1 (
+
+61322*
+17 (D
+
+62322*
+1E (]
+
+252322*
+1
+ ("
+
+292322*
+1
+ ("
+
+322322*
+1
+ ("

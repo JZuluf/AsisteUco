@@ -1,0 +1,12 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#ejecutar(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia;)Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/RegistrarAsistenciaResponseVO;
+false
+52c9e99a62ef3f5c1e069254fb0c896c
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getSesion()Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion#getId()Ljava/util/UUID;
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#registrarAsistenciaEstudiantes(Ljava/util/List;)V
+==
+agregarMensajes co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensajes(Ljava/util/List;)V
+getMensajes co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#getMensajes()Ljava/util/List;
+isValidacionCorrecta co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#isValidacionCorrecta()Z
+validate co.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;

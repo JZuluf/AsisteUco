@@ -1,0 +1,129 @@
+
+v__sonar_lambda_9$co.edu.uco.asisteuco.application.interactor.sesion.consultarsesion.impl.ConsultarSesionInteractorImpl­
+¢C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/consultarsesion/impl/ConsultarSesionInteractorImpl.java(6 1(	"1*Ö!
+1) )(#Š‡
+) )(!@
+%159co.edu.uco.asisteuco.application.outputport.dto.SesionDTO"9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO¹
+¶
+) )(#
+%16"Cco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#<init>()V*^
+
+__unknown_file (B
+@
+%159co.edu.uco.asisteuco.application.outputport.dto.SesionDTO³
+°
+) )($>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO"__id*^
+
+__unknown_file (B
+@
+%159co.edu.uco.asisteuco.application.outputport.dto.SesionDTOêç
+*# *(,
+%17java.util.UUID"Wco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getId()Ljava/util/UUID;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2getId()š—
+* *(-
+%18void"Rco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setId(Ljava/util/UUID;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*3
+
+__unknown_file (
+
+%17java.util.UUID2setId(Ljava/util/UUID;)ÑÎ
++# +(/E
+%19>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity"Šco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getGrupo()Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2
+getGrupo()êç
++# +(7
+%20java.util.UUID"Vco.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getId()Ljava/util/UUID;*c
+
+__unknown_file (G
+E
+%19>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity2getId()¤¡
++ +(8
+%21void"Wco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setGrupoId(Ljava/util/UUID;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*3
+
+__unknown_file (
+
+%20java.util.UUID2setGrupoId(Ljava/util/UUID;)–“
+,# ,(9
+%22java.time.LocalDateTime"mco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getFechaHoraInicio()Ljava/time/LocalDateTime;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2getFechaHoraInicio()ÏÌ
+, ,(:
+%23void"hco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraInicio(Ljava/time/LocalDateTime;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*<
+
+__unknown_file ( 
+
+%22java.time.LocalDateTime2-setFechaHoraInicio(Ljava/time/LocalDateTime;)
+-# -(6
+%24java.time.LocalDateTime"jco.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getFechaHoraFin()Ljava/time/LocalDateTime;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2getFechaHoraFin()ÉÆ
+- -(7
+%25void"eco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setFechaHoraFin(Ljava/time/LocalDateTime;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*<
+
+__unknown_file ( 
+
+%24java.time.LocalDateTime2*setFechaHoraFin(Ljava/time/LocalDateTime;)òï
+.# .(.
+%26java.lang.String"[co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getAula()Ljava/lang/String;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2	getAula()¤¡
+. .(/
+%27void"Vco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setAula(Ljava/lang/String;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*5
+
+__unknown_file (
+
+%26java.lang.String2setAula(Ljava/lang/String;)öó
+/# /(0
+%28java.lang.String"]co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getEstado()Ljava/lang/String;*b
+
+__unknown_file (F
+D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntity2getEstado()¨¥
+/ /(1
+%29void"Xco.edu.uco.asisteuco.application.outputport.dto.SesionDTO#setEstado(Ljava/lang/String;)V*\
+
+__unknown_file (@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO*5
+
+__unknown_file (
+
+%28java.lang.String2setEstado(Ljava/lang/String;)"L
+0 0(@
+>
+d9co.edu.uco.asisteuco.application.outputport.dto.SesionDTO:P
+(6 ((7D
+e?co.edu.uco.asisteuco.application.outputport.entity.SesionEntityB
+java.util.function.Function

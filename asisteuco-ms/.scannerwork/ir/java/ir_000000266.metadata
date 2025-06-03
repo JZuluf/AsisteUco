@@ -1,0 +1,10 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.estudiante.EstudianteController#consultarPorFiltros(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)LResponseEntity;
+false
+576ee80eae976dbb60bcaaab39bfa1de
+java.lang.String#isBlank()Z
+==
+!unknownMethod! !unknownMethod!
+findByNombresCompletosContainingIgnoreCase co.edu.uco.asisteuco.application.outputport.repository.EstudianteRepository#findByNombresCompletosContainingIgnoreCase(Ljava/lang/String;)Ljava/util/List;
+findByNumeroIdentificacion co.edu.uco.asisteuco.application.outputport.repository.EstudianteRepository#findByNumeroIdentificacion(Ljava/lang/String;)Ljava/util/List;
+findByTipoIdentificacionId co.edu.uco.asisteuco.application.outputport.repository.EstudianteRepository#findByTipoIdentificacionId(Ljava/util/UUID;)Ljava/util/List;
+findByTipoIdentificacionIdAndNumeroIdentificacion co.edu.uco.asisteuco.application.outputport.repository.EstudianteRepository#findByTipoIdentificacionIdAndNumeroIdentificacion(Ljava/util/UUID;Ljava/lang/String;)Ljava/util/List;

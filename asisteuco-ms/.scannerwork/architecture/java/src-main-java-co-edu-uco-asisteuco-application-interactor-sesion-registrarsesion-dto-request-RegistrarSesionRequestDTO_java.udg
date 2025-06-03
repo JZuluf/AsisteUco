@@ -1,0 +1,345 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521512*java2.BÃ
+Ä
+{src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/registrarsesion/dto/request/RegistrarSesionRequestDTO.java2
+
+package4
+S
+Nco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request5
+m
+hco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+RegistrarSesionRequestDTO12
+v
+pco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO.grupoId14
+
+field15
+
+private16
+
+grupoId17
+~
+xco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO.fechaHoraInicio19
+
+fechaHoraInicio20
+{
+uco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO.fechaHoraFin22
+
+fechaHoraFin23
+s
+mco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO.aula25
+
+
+aula26
+u
+oco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO.estado28
+
+estado29
+å
+Öco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getGrupoId()Ljava/util/UUID;31
+
+method32
+
+
+getGrupoId33
+
+
+references34
+ç
+Üco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#setGrupoId(Ljava/util/UUID;)V36
+
+
+setGrupoId37
+
+
+uses38
+ù
+ñco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getFechaHoraInicio()Ljava/time/LocalDateTime;40
+
+getFechaHoraInicio41
+û
+óco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#setFechaHoraInicio(Ljava/time/LocalDateTime;)V43
+
+setFechaHoraInicio44
+ö
+ìco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getFechaHoraFin()Ljava/time/LocalDateTime;46
+
+getFechaHoraFin47
+õ
+îco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#setFechaHoraFin(Ljava/time/LocalDateTime;)V49
+
+setFechaHoraFin50
+ã
+Ñco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getAula()Ljava/lang/String;52
+
+getAula53
+å
+Öco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#setAula(Ljava/lang/String;)V55
+
+setAula56
+ç
+Üco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#getEstado()Ljava/lang/String;58
+
+	getEstado59
+é
+áco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.request.RegistrarSesionRequestDTO#setEstado(Ljava/lang/String;)V61
+
+	setEstado62J
+
+1
+12Z
+
+3	
+354jô
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+39:
+394032 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+35:
+353632 *
+1 (26:3B
+	
+9
+10
+
+
+11
+37
+@
+21:
+212215 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+23
+@
+60:
+606132 *
+1( ((26:3B
+	
+9
+10
+
+
+11
+62
+@
+45:
+454632 *
+1 (26:3B
+	
+9
+10
+
+
+11
+47
+@
+30:
+303132 *
+1 (26:3B
+	
+9
+10
+
+
+11
+33
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+@
+57:
+575832 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+59
+@
+51:
+515232 *
+1 (26:3B
+	
+9
+10
+
+
+11
+53
+9
+64
+678 *
+1 (':3B
+	
+9
+10
+
+
+11
+12
+@
+27:
+272815 *
+1 (26:3B
+	
+9
+16
+
+
+11
+29
+@
+54:
+545532 *
+1" "(26:3B
+	
+9
+10
+
+
+11
+56
+@
+24:
+242515 *
+1
+ 
+(26:3B
+	
+9
+16
+
+
+11
+26
+@
+42:
+424332 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+48:
+484932 *
+1 (26:3B
+	
+9
+10
+
+
+11
+50rí
+
+301334*
+1
+ (
+
+35638*
+1 (
+
+35634*
+1 (
+
+351334*
+1 (
+
+391834*
+1
+ (
+
+42638*
+1 (
+
+42634*
+1 (
+
+421834*
+1 (
+
+452134*
+1
+ (
+
+48638*
+1 (
+
+48634*
+1 (
+
+482134*
+1 (
+
+512434*
+1 
+  (
+
+54638*
+1# #(
+
+54634*
+1# #(
+
+542434*
+1# #(
+
+572734*
+1&
+ &(
+
+60638*
+1) )(
+
+60634*
+1) )(
+
+602734*
+1) )(

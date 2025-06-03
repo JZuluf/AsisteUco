@@ -1,0 +1,81 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521251*java2.Bê
+T
+Osrc/main/java/co/edu/uco/asisteuco/application/usecase/validator/Validator.java2
+
+package4
+7
+2co.edu.uco.asisteuco.application.usecase.validator5
+A
+<co.edu.uco.asisteuco.application.usecase.validator.Validator7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+	Validator12
+q
+kco.edu.uco.asisteuco.application.usecase.validator.Validator#validate(Ljava/lang/Object;)Ljava/lang/Object;14
+
+method15
+
+validate16
+
+O18
+
+unknown19
+
+returns20
+
+I22
+
+	has param23
+
+is type24J
+
+1
+12Z
+
+3	
+354j•
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+21
+212219
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+10
+
+
+11
+16
+
+17
+171819rQ
+
+131720*
+1 (
+
+132123*
+1 (
+
+132124*
+1 (

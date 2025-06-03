@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#<init>(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)V
+false
+5ef62ac7c4e272ebff249307626604e7
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setClave(Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setId(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.outputport.entity.TipoIdentificacionEntity#setNombre(Ljava/lang/String;)V

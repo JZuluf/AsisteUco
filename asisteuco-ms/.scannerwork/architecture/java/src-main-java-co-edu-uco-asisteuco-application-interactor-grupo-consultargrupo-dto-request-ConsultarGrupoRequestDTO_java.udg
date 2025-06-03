@@ -1,0 +1,224 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522606*java2.BØ
+}
+xsrc/main/java/co/edu/uco/asisteuco/application/interactor/grupo/consultargrupo/dto/request/ConsultarGrupoRequestDTO.java2
+
+package4
+Q
+Lco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request5
+j
+eco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ConsultarGrupoRequestDTO12
+n
+hco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO.id14
+
+field15
+
+private16
+
+id17
+v
+pco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO.profesorId19
+
+
+profesorId20
+u
+oco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO.materiaId22
+
+	materiaId23
+É
+}co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#getId()Ljava/util/UUID;25
+
+method26
+
+getId27
+
+
+references28
+Ñ
+~co.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#setId(Ljava/util/UUID;)V30
+
+setId31
+
+
+uses32
+å
+Öco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#getProfesorId()Ljava/util/UUID;34
+
+getProfesorId35
+ç
+Üco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#setProfesorId(Ljava/util/UUID;)V37
+
+setProfesorId38
+ã
+Ñco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#getMateriaId()Ljava/util/UUID;40
+
+getMateriaId41
+å
+Öco.edu.uco.asisteuco.application.interactor.grupo.consultargrupo.dto.request.ConsultarGrupoRequestDTO#setMateriaId(Ljava/util/UUID;)V43
+
+setMateriaId44J
+
+1
+12Z
+
+3	
+354jç
+@
+36:
+363726 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+16
+
+
+11
+17
+9
+64
+678 *
+1 (,:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20
+@
+21:
+212215 *
+1 (26:3B
+	
+9
+16
+
+
+11
+23
+@
+33:
+333426 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+@
+42:
+424326 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+29:
+293026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+39:
+394026 *
+1 (26:3B
+	
+9
+10
+
+
+11
+41
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+27ræ
+
+241328*
+1 (
+
+29632*
+1	 (
+
+29628*
+1	 (
+
+291328*
+1 (
+
+331828*
+1 (
+
+36632*
+1	 (
+
+36628*
+1	 (
+
+361828*
+1 (
+
+392128*
+1 (
+
+42632*
+1	 (
+
+42628*
+1	 (
+
+422128*
+1 (

@@ -33,6 +33,7 @@ public class RegistrarSesionInteractorImpl implements RegistrarSesionInteractor 
 
         SesionEntity entidad = new SesionEntity();
         entidad.setGrupo(grupo);
+        entidad.setFecha(req.getFecha());
         entidad.setFechaHoraInicio(req.getFechaHoraInicio());
         entidad.setFechaHoraFin   (req.getFechaHoraFin());
         entidad.setAula           (req.getAula());

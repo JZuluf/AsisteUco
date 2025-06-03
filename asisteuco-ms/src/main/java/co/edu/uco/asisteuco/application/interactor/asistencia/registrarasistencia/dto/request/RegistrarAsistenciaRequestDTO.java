@@ -21,3 +21,4 @@ public class RegistrarAsistenciaRequestDTO {
         this.asistencias = asistencias;
     }
 }
+

@@ -1,0 +1,8 @@
+co.edu.uco.asisteuco.infrastructure.primaryadapters.api.rest.tipoidentificacion.TipoIdentificacionController#consultarPorFiltros(Ljava/lang/String;Ljava/lang/String;)LResponseEntity;
+false
+40a1cb0c0bbb98182ba36ca3a26d45f7
+==
+!unknownMethod! !unknownMethod!
+findByClave co.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByClave(Ljava/lang/String;)Ljava/util/List;
+findByClaveAndNombre co.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByClaveAndNombre(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+findByNombre co.edu.uco.asisteuco.application.outputport.repository.TipoIdentificacionRepository#findByNombre(Ljava/lang/String;)Ljava/util/List;

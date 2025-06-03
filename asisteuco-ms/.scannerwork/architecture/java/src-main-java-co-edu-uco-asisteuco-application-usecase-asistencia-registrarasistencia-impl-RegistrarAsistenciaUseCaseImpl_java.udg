@@ -1,0 +1,770 @@
+
+1.0	AsisteUcoJavaFrontend"1748816520434*java2.B¶(
+É
+~src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/impl/RegistrarAsistenciaUseCaseImpl.java2
+
+package4
+Q
+Lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl5
+p
+kco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+$
+RegistrarAsistenciaUseCaseImpl12
+h
+bco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.RegistrarAsistenciaUseCase14
+
+unknown15
+
+
+implements16
+
+Service18
+
+annotated by19
+%
+Recovered#typeBindingLService;021
+
+
+uses22
+Ç
+|co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl.estudianteExiste24
+
+field25
+
+private26
+
+estudianteExiste27
+^
+Xco.edu.uco.asisteuco.application.usecase.estudiante.validator.ValidarQueEstudianteExista29
+
+is type30
+~
+xco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl.sesionExiste32
+
+sesionExiste33
+V
+Pco.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista35
+á
+Äco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl.asistenciaRepository37
+
+asistenciaRepository38
+Q
+Kco.edu.uco.asisteuco.application.outputport.repository.AsistenciaRepository40
+{
+uco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl.resultado42
+
+	resultado43
+r
+lco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO45
+ı
+Óco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#<init>(Lco/edu/uco/asisteuco/application/outputport/repository/AsistenciaRepository;Lco/edu/uco/asisteuco/application/usecase/estudiante/validator/ValidarQueEstudianteExista;Lco/edu/uco/asisteuco/application/usecase/sesion/validator/ValidarQueSesionExista;)V47
+
+method48
+
+	has param49
+
+calls50
+
+
+references51
+∆
+øco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#ejecutar(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia;)Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/RegistrarAsistenciaResponseVO;53
+
+ejecutar54
+
+returns55
+_
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia57
+ã
+Ñco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#isValidacionCorrecta()Z59
+ñ
+èco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#agregarMensajes(Ljava/util/List;)V61
+K
+Eco.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO63
+i
+cco.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#getMensajes()Ljava/util/List;65
+π
+≤co.edu.uco.asisteuco.application.usecase.sesion.validator.ValidarQueSesionExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;67
+[
+Uco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion69
+s
+mco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion#getId()Ljava/util/UUID;71
+√
+ºco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getSesion()Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;73
+§
+ùco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#registrarAsistenciaEstudiantes(Ljava/util/List;)V75
+Ä
+zco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;77
+$
+registrarAsistenciaEstudiantes78
+_
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante80
+†
+ôco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#ValidarQueEstudianteExista(Ljava/util/UUID;)V82
+w
+qco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#getId()Ljava/util/UUID;84
+Ó
+Áco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.impl.RegistrarAsistenciaUseCaseImpl#registrarAsistenciaEstudiante(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Estudiante;)V86
+ë
+äco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.RegistrarAsistenciaResponseVO#getMensajes()Ljava/util/List;88
+ 
+ValidarQueEstudianteExista89
+¡
+∫co.edu.uco.asisteuco.application.usecase.estudiante.validator.ValidarQueEstudianteExista#validate(Ljava/util/UUID;)Lco/edu/uco/asisteuco/application/usecase/validator/ValidationResultVO;91
+#
+registrarAsistenciaEstudiante92
+l
+fco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#isAsistio()Z94J
+
+1
+12Z
+
+3	
+354j«
+
+70
+707115
+
+62
+626315
+
+79
+798015
+
+83
+838415
+@
+81:
+818248 *
+1{ {(26:3B
+	
+9
+26
+
+
+11
+89
+
+44
+444515
+
+58
+585915
+
+34
+343515
+@
+36:
+363725 *
+1 (26:3B
+	
+9
+26
+
+
+11
+38
+
+56
+565715
+@
+31:
+313225 *
+1 (26:3B
+	
+9
+26
+
+
+11
+33
+@
+46:
+464748 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+90
+909115
+@
+74:
+747548 *
+1^ ^(26:3B
+	
+9
+26
+
+
+11
+78
+@
+41:
+414225 *
+1 (26:3B
+	
+9
+26
+
+
+11
+43
+9
+64
+678 *
+1 (,:3B
+	
+9
+10
+
+
+11
+12
+
+87
+878815
+
+93
+939415
+
+64
+646515
+
+72
+727315
+
+20
+202115
+
+17
+171815
+
+76
+767715
+@
+52:
+525348 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+54
+
+39
+394015
+
+68
+686915
+
+13
+131415
+B
+85<
+858648 *
+1Ä Ä(26:3B
+	
+9
+26
+
+
+11
+92
+
+28
+282915
+@
+23:
+232425 *
+1 (26:3B
+	
+9
+26
+
+
+11
+27
+
+66
+666715
+
+60
+606115r‚
+
+61316*
+18 (R
+
+61719*
+1 (
+
+62022*
+1 (	
+
+61322*
+18 (R
+
+232830*
+1 ('
+
+232822*
+1 ('
+
+232822*
+1( (8
+
+313430*
+1 (#
+
+313422*
+1 (#
+
+313422*
+1$ (0
+
+363930*
+1 (!
+
+363922*
+1 (!
+
+363922*
+1" (6
+
+414430*
+1 (*
+
+414422*
+1 (*
+
+414422*
+1+ (4
+
+463949*
+1+ (?
+
+462849*
+1 ('
+
+463449*
+1: (P
+
+46650*
+1 (*
+
+463930*
+1@ (T
+
+463922*
+1+ (?
+
+462830*
+1( (8
+
+462822*
+1 ('
+
+463430*
+1Q (]
+
+463422*
+1: (P
+
+46622*
+1	 (
+
+46651*
+1	 (
+
+463922*
+1 ("
+
+463651*
+1 ("
+
+46622*
+1	 (
+
+46651*
+1	 (
+
+462822*
+1 (
+
+462351*
+1 (
+
+46622*
+1	 (
+
+46651*
+1	 (
+
+463422*
+1 (
+
+463151*
+1 (
+
+464422*
+1	 (
+
+464151*
+1	 (
+
+464450*
+1 (6
+
+524455*
+1" "()
+
+525649*
+1"3 "(=
+
+524422*
+1" "()
+
+525630*
+1"> "(E
+
+525622*
+1"3 "(=
+
+524451*
+1*
+ *(
+
+525850*
+1* *((
+
+524151*
+1*
+ *(
+
+524422*
+1*
+ *(
+
+524151*
+1*
+ *(
+
+524451*
+1, ,(
+
+526050*
+1, ,(
+
+524151*
+1, ,(
+
+524422*
+1, ,(
+
+524151*
+1, ,(
+
+526251*
+1,  ,(,
+
+526450*
+1,S ,(^
+
+526255*
+1,  ,(,
+
+523451*
+1,  ,(,
+
+526650*
+1,- ,(5
+
+523151*
+1,  ,(,
+
+523422*
+1,  ,(,
+
+523151*
+1,  ,(,
+
+526851*
+1,6 ,(=
+
+527050*
+1,J ,(O
+
+526855*
+1,6 ,(=
+
+525651*
+1,6 ,(=
+
+527250*
+1,> ,(G
+
+524451*
+13
+ 3(
+
+525850*
+13 3((
+
+524151*
+13
+ 3(
+
+524422*
+13
+ 3(
+
+524151*
+13
+ 3(
+
+524451*
+1:
+ :(
+
+525850*
+1: :((
+
+524151*
+1:
+ :(
+
+524422*
+1:
+ :(
+
+524151*
+1:
+ :(
+
+524451*
+1A
+ A(
+
+525850*
+1A A((
+
+524151*
+1A
+ A(
+
+524422*
+1A
+ A(
+
+524151*
+1A
+ A(
+
+524451*
+1H
+ H(
+
+525850*
+1H H((
+
+524151*
+1H
+ H(
+
+524422*
+1H
+ H(
+
+524151*
+1H
+ H(
+
+524451*
+1O
+ O(
+
+525850*
+1O O((
+
+524151*
+1O
+ O(
+
+524422*
+1O
+ O(
+
+524151*
+1O
+ O(
+
+524451*
+1T T(
+
+525850*
+1T T(+
+
+524151*
+1T T(
+
+524422*
+1T T(
+
+524151*
+1T T(
+
+52651*
+1V V(+
+
+527450*
+1V V(+
+
+525651*
+1V, V(3
+
+527650*
+1V4 V(B
+
+524422*
+1Z Z(
+
+524151*
+1Z Z(
+
+747922*
+1^6 ^(@
+
+747930*
+1` `(
+
+744430*
+1b b(8
+
+744450*
+1b? b(\
+
+74651*
+1f f('
+
+748150*
+1f f('
+
+747951*
+1f( f(2
+
+748350*
+1f3 f(8
+
+744451*
+1i i(8
+
+745850*
+1i9 i(M
+
+744451*
+1n n(8
+
+745850*
+1n9 n(M
+
+744451*
+1s s(8
+
+745850*
+1s9 s(M
+
+74651*
+1t t(.
+
+748550*
+1t t(.
+
+744451*
+1w w(
+
+746050*
+1w w(&
+
+744151*
+1w w(
+
+744422*
+1w w(
+
+744151*
+1w w(
+
+744451*
+1w' w(N
+
+748750*
+1wO w(Z
+
+814451*
+1|	 |(
+
+816050*
+1| |("
+
+814151*
+1|	 |(
+
+814422*
+1|	 |(
+
+814151*
+1|	 |(
+
+816251*
+1|# |(3
+
+816450*
+1|K |(V
+
+816255*
+1|# |(3
+
+812851*
+1|# |(3
+
+819050*
+1|4 |(<
+
+812351*
+1|# |(3
+
+812822*
+1|# |(3
+
+812351*
+1|# |(3
+
+857949*
+1Ä0 Ä(:
+
+857930*
+1Ä; Ä(E
+
+857922*
+1Ä0 Ä(:
+
+857951*
+1Ö Ö(
+
+859350*
+1Ö Ö("

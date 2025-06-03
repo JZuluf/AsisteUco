@@ -1,0 +1,6 @@
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#fallido(Ljava/util/List;)Lco/edu/uco/asisteuco/application/interactor/profesor/consultarprofesor/dto/response/ConsultarProfesorResponseDTO;
+false
+9b03a5b5c024ce6801dd8c2c46f00259
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#<init>(ZLjava/util/List;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.interactor.profesor.consultarprofesor.dto.response.ConsultarProfesorResponseDTO#instance-init#
+java.util.List#of()Ljava/util/List;

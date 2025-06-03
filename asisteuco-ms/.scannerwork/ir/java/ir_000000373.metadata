@@ -1,0 +1,25 @@
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper#mapToDomain(Ljava/util/List;)Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia;
+false
+9c5bcb81249df5fe2ce6a9e917d24904
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#<init>(Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Sesion;Lco/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Profesor;Ljava/util/List;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#instance-init#
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#<init>(Ljava/util/UUID;Ljava/lang/String;Ljava/lang/String;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Profesor#instance-init#
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion#<init>(Ljava/util/UUID;)V
+co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Sesion#instance-init#
+java.lang.RuntimeException#<init>(Ljava/lang/String;)V
+java.lang.RuntimeException#instance-init#
+java.util.stream.Collectors#toList()Ljava/util/stream/Collector;
+==
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+get java.util.List#get(I)Ljava/lang/Object;
+getGrupo co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getGrupo()Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;
+getId co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getId()Ljava/util/UUID;
+getId co.edu.uco.asisteuco.application.outputport.entity.SesionEntity#getId()Ljava/util/UUID;
+getNombresCompletos co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNombresCompletos()Ljava/lang/String;
+getNumeroIdentificacion co.edu.uco.asisteuco.application.outputport.entity.ProfesorEntity#getNumeroIdentificacion()Ljava/lang/String;
+getProfesor co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity#getProfesor()Lco/edu/uco/asisteuco/application/outputport/entity/ProfesorEntity;
+getSesion co.edu.uco.asisteuco.application.outputport.entity.AsistenciaEntity#getSesion()Lco/edu/uco/asisteuco/application/outputport/entity/SesionEntity;
+isEmpty java.util.List#isEmpty()Z
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

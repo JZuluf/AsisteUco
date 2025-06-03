@@ -1,0 +1,25 @@
+
+zco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia#getEstudiantes()Ljava/util/List;¡
+–C:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/domain/Asistencia.java (*"1*Å
+1 (¶
+³
+, (7
+%0java.util.List"__id*Š
+
+__unknown_file (n*l[
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Asistencia"
+estudiantesØ
+Õ
+ (8
+%1java.util.List"Hjava.util.Collections#unmodifiableList(Ljava/util/List;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*2
+
+__unknown_file (
+
+%0java.util.List""
+ (9
+
+%1java.util.ListB][
+Yco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.AsistenciaH

@@ -1,0 +1,45 @@
+
+__sonar_lambda_3$ß
+úC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/usecase/asistencia/registrarasistencia/mapper/AsistenciaMapper.java"! $("startingBlock*∑
+startingBlock"! $(ñ
+ì
+
+__unknown_file (c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante"__id*ã
+
+__unknown_file (o*ma
+_co.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.mapper.AsistenciaMapper"
+estDom*
+1*ä
+1# #(A§°
+#D #(R
+%11java.util.UUID"qco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante#getId()Ljava/util/UUID;*Å
+
+__unknown_file (e
+c
+estDomYco.edu.uco.asisteuco.application.usecase.asistencia.registrarasistencia.domain.Estudiante2getId()é
+ã
+# #(R
+%12java.lang.String"__concat*7
+# #(A+)
+'Estudiante-Grupo no encontrado con id: *#
+#D #(R
+
+%11java.util.UUIDKI
+"+ "(;!
+%13java.lang.RuntimeException"java.lang.RuntimeExceptionƒ
+¡
+"' $(
+%14"6java.lang.RuntimeException#<init>(Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%13java.lang.RuntimeException*5
+
+__unknown_file (
+
+%12java.lang.String"/
+"' $(#
+!
+%13java.lang.RuntimeExceptionB
+java.util.function.Supplier

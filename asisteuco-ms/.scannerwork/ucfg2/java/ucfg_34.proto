@@ -1,0 +1,15 @@
+
+dco.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTO#getEstudianteGrupoId()Ljava/util/UUID;„
+zC:/Users/josez/git/AsisteUco/asisteuco-ms/src/main/java/co/edu/uco/asisteuco/application/outputport/dto/AsistenciaDTO.java ($"1*Ó
+10 (AŸ
+œ
+0 (A
+%0java.util.UUID"__id*t
+
+__unknown_file (X*V?
+=co.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTO"
+estudianteGrupoId""
+) (B
+
+%0java.util.UUIDBA?
+=co.edu.uco.asisteuco.application.outputport.dto.AsistenciaDTOH

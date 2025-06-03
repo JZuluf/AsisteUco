@@ -1,0 +1,71 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522907*java2.B÷
+X
+Ssrc/main/java/co/edu/uco/asisteuco/application/interactor/InteractorSinRetorno.java2
+
+package4
+0
++co.edu.uco.asisteuco.application.interactor5
+E
+@co.edu.uco.asisteuco.application.interactor.InteractorSinRetorno7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+InteractorSinRetorno12
+d
+^co.edu.uco.asisteuco.application.interactor.InteractorSinRetorno#ejecutar(Ljava/lang/Object;)V14
+
+method15
+
+ejecutar16
+
+I18
+
+unknown19
+
+	has param20
+
+is type21J
+
+1
+12Z
+
+3	
+354j‘
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+10
+
+
+11
+16
+9
+64
+678 *
+1 (&:3B
+	
+9
+10
+
+
+11
+12
+
+17
+171819r6
+
+131720*
+1 (
+
+131721*
+1 (

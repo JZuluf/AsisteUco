@@ -1,0 +1,508 @@
+
+1.0	AsisteUcoJavaFrontend"1748816522673*java2.Bí
+`
+[src/main/java/co/edu/uco/asisteuco/application/outputport/entity/EstudianteGrupoEntity.java2
+
+package4
+7
+2co.edu.uco.asisteuco.application.outputport.entity5
+M
+Hco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+EstudianteGrupoEntity12
+
+Entity14
+
+unknown15
+
+annotated by16
+$
+Recovered#typeBindingLEntity;018
+
+
+uses19
+
+Table21
+#
+Recovered#typeBindingLTable;023
+Q
+Kco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity.id25
+
+field26
+
+private27
+
+id28
+
+jakarta.persistence.Id30
+ 
+Recovered#typeBindingLId;032
+(
+"jakarta.persistence.GeneratedValue34
+,
+&Recovered#typeBindingLGeneratedValue;036
+ 
+jakarta.persistence.Column38
+$
+Recovered#typeBindingLColumn;040
+Y
+Sco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity.estudiante42
+
+
+estudiante43
+I
+Cco.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity45
+
+is type46
+#
+jakarta.persistence.ManyToOne48
+'
+!Recovered#typeBindingLManyToOne;050
+$
+jakarta.persistence.JoinColumn52
+(
+"Recovered#typeBindingLJoinColumn;054
+T
+Nco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity.grupo56
+
+grupo57
+D
+>co.edu.uco.asisteuco.application.outputport.entity.GrupoEntity59
+X
+Rco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#<init>()V61
+
+method62
+
+calls63
+ﬁ
+◊co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#<init>(Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteEntity;)V65
+
+	has param66
+
+
+references67
+f
+`co.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getId()Ljava/util/UUID;69
+
+getId70
+g
+aco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#setId(Ljava/util/UUID;)V72
+
+setId73
+ö
+ìco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getGrupo()Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;75
+
+getGrupo76
+
+returns77
+õ
+îco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#setGrupo(Lco/edu/uco/asisteuco/application/outputport/entity/GrupoEntity;)V79
+
+setGrupo80
+§
+ùco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#getEstudiante()Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteEntity;82
+
+getEstudiante83
+•
+ûco.edu.uco.asisteuco.application.outputport.entity.EstudianteGrupoEntity#setEstudiante(Lco/edu/uco/asisteuco/application/outputport/entity/EstudianteEntity;)V85
+
+setEstudiante86J
+
+1
+12Z
+
+3	
+354j—
+9
+64
+678 *
+1 (#:3B
+	
+9
+10
+
+
+11
+12
+
+13
+131415
+@
+41:
+414226 *
+1 (26:3B
+	
+9
+27
+
+
+11
+43
+
+39
+394015
+
+47
+474815
+@
+24:
+242526 *
+1
+ 
+(26:3B
+	
+9
+27
+
+
+11
+28
+@
+60:
+606162 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+35
+353615
+@
+55:
+555626 *
+1 (26:3B
+	
+9
+27
+
+
+11
+57
+@
+64:
+646562 *
+1 (26:3B
+	
+9
+10
+
+
+11
+12
+
+53
+535415
+@
+68:
+686962 *
+1 (26:3B
+	
+9
+10
+
+
+11
+70
+
+58
+585915
+
+49
+495015
+@
+78:
+787962 *
+1( ((26:3B
+	
+9
+10
+
+
+11
+80
+
+20
+202115
+@
+71:
+717262 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+73
+
+22
+222315
+
+44
+444515
+
+51
+515215
+
+29
+293015
+
+33
+333415
+@
+81:
+818262 *
+1, ,(26:3B
+	
+9
+10
+
+
+11
+83
+
+37
+373815
+
+17
+171815
+@
+84:
+848562 *
+1/ /(26:3B
+	
+9
+10
+
+
+11
+86
+@
+74:
+747562 *
+1% %(26:3B
+	
+9
+10
+
+
+11
+76
+
+31
+313215rÊ
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+242916*
+1
+ 
+(
+
+243119*
+1
+ 
+(
+
+243316*
+1 (
+
+243519*
+1 (
+
+243716*
+1 (
+
+243919*
+1 (
+
+414446*
+1 (
+
+414716*
+1 (
+
+414919*
+1 (
+
+415116*
+1 (
+
+415319*
+1 (
+
+414419*
+1 (
+
+414419*
+1 ((
+
+555846*
+1 (
+
+554716*
+1 (
+
+554919*
+1 (
+
+555116*
+1 (
+
+555319*
+1 (
+
+555819*
+1 (
+
+555819*
+1 (
+
+60663*
+1 (!
+
+645866*
+1( (3
+
+644466*
+1A (Q
+
+64663*
+1 (!
+
+645846*
+14 (9
+
+645819*
+1( (3
+
+644446*
+1R (\
+
+644419*
+1A (Q
+
+64619*
+1	 (
+
+64667*
+1	 (
+
+645819*
+1 (
+
+645567*
+1 (
+
+64619*
+1	 (
+
+64667*
+1	 (
+
+644419*
+1 (
+
+644167*
+1 (
+
+682467*
+1 (
+
+71619*
+1"	 "(
+
+71667*
+1"	 "(
+
+712467*
+1" "(
+
+745877*
+1% %(
+
+745819*
+1% %(
+
+745819*
+1& &(
+
+745567*
+1& &(
+
+785866*
+1( ((%
+
+785846*
+1(& ((+
+
+785819*
+1( ((%
+
+78619*
+1)	 )(
+
+78667*
+1)	 )(
+
+785819*
+1) )(
+
+785567*
+1) )(
+
+814477*
+1, ,(
+
+814419*
+1, ,(
+
+814419*
+1- -(
+
+814167*
+1- -(
+
+844466*
+1/ /(/
+
+844446*
+1/0 /(:
+
+844419*
+1/ /(/
+
+84619*
+10	 0(
+
+84667*
+10	 0(
+
+844419*
+10 0(
+
+844167*
+10 0(

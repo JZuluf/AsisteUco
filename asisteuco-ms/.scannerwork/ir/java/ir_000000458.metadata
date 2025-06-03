@@ -1,0 +1,7 @@
+co.edu.uco.asisteuco.application.usecase.validator.ValidationResultVO#agregarMensaje(Ljava/lang/String;)V
+false
+3e4088bd86d3d13b19e8f6f1ad041435
+java.lang.String#isEmpty()Z
+java.lang.String#trim()Ljava/lang/String;
+==
+add java.util.List#add(Ljava/lang/Object;)Z

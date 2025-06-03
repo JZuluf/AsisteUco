@@ -1,0 +1,134 @@
+
+1.0	AsisteUcoJavaFrontend"1748816521330*java2.BÀ
+Ç
+}src/main/java/co/edu/uco/asisteuco/application/interactor/sesion/registrarsesion/dto/response/RegistrarSesionResponseDTO.java2
+
+package4
+T
+Oco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response5
+o
+jco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+ 
+RegistrarSesionResponseDTO12
+s
+mco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO.id14
+
+field15
+
+private16
+
+id17
+ã
+Ñco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO#<init>(Ljava/util/UUID;)V19
+
+method20
+
+calls21
+
+
+uses22
+
+
+references23
+â
+Çco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO#getId()Ljava/util/UUID;25
+
+getId26
+ä
+Éco.edu.uco.asisteuco.application.interactor.sesion.registrarsesion.dto.response.RegistrarSesionResponseDTO#setId(Ljava/util/UUID;)V28
+
+setId29J
+
+1
+12Z
+
+3	
+354j√
+@
+24:
+242520 *
+1 (26:3B
+	
+9
+10
+
+
+11
+26
+@
+13:
+131415 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+17
+@
+18:
+181920 *
+1	 	(26:3B
+	
+9
+10
+
+
+11
+12
+@
+27:
+272820 *
+1 (26:3B
+	
+9
+10
+
+
+11
+29
+9
+64
+678 *
+1 ((:3B
+	
+9
+10
+
+
+11
+12r”
+
+18621*
+1	 	(&
+
+18622*
+1	2 	(6
+
+18623*
+1	2 	(6
+
+181323*
+1	7 	(9
+
+241323*
+1" ($
+
+27622*
+1 (
+
+27623*
+1 (
+
+271323*
+1 (

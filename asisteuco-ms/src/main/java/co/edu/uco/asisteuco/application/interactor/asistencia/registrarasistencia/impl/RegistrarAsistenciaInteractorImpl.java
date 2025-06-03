@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,30 +27,34 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
     private final AsistenciaRepository asistenciaRepo;
     private final SesionRepository sesionRepo;
     private final EstudianteGrupoRepository egRepo;
+    private final JavaMailSender mailSender;
 
     public RegistrarAsistenciaInteractorImpl(
             AsistenciaRepository asistenciaRepo,
             SesionRepository sesionRepo,
-            EstudianteGrupoRepository egRepo) {
+            EstudianteGrupoRepository egRepo,
+            JavaMailSender mailSender
+    ) {
         this.asistenciaRepo = asistenciaRepo;
         this.sesionRepo = sesionRepo;
         this.egRepo = egRepo;
+        this.mailSender = mailSender;
     }
 
     @Override
     @Transactional
     public RegistrarAsistenciaResponseDTO ejecutar(RegistrarAsistenciaRequestDTO request) {
-        // 1) Busco la sesión
+        // 1) Obtener la sesión
         SesionEntity sesion = sesionRepo.findById(request.getSesionId())
             .orElseThrow(() -> new AsisteUcoException("Sesión no encontrada: " + request.getSesionId()));
 
-        // 2) Valido que haya detalles
+        // 2) Validar que existan detalles
         List<DetalleAsistenciaDTO> detalles = request.getAsistencias();
         if (detalles == null || detalles.isEmpty()) {
             throw new AsisteUcoException("Debe enviar al menos un registro de asistencia.");
         }
 
-        // 3) Por cada detalle, obtengo el EstudianteGrupo y creo la entidad
+        // 3) Mapear a entidades AsistenciaEntity
         List<AsistenciaEntity> registros = detalles.stream()
             .map(det -> {
                 EstudianteGrupoEntity eg = egRepo.findById(det.getEstudianteGrupoId())
@@ -63,10 +69,42 @@ public class RegistrarAsistenciaInteractorImpl implements RegistrarAsistenciaInt
             })
             .collect(Collectors.toList());
 
-        // 4) Persisto todos en una sola transacción (INSERTs)
+        // 4) Persistir todas las asistencias
         asistenciaRepo.saveAll(registros);
 
-        // 5) Devuelvo los IDs generados
+        // 5) Enviar correo a quienes NO asistieron
+        for (DetalleAsistenciaDTO det : detalles) {
+            if (det.getAsistio() != null && !det.getAsistio()) {
+                EstudianteGrupoEntity eg = egRepo.findById(det.getEstudianteGrupoId())
+                    .orElseThrow(() -> new AsisteUcoException(
+                        "No existe asignación estudiante-grupo al enviar correo: " + det.getEstudianteGrupoId()));
+
+                String nombreEstudiante = eg.getEstudiante().getNombresCompletos();
+                String correoDestinatario = eg.getEstudiante().getEmail();
+                String asunto = "Faltaste a la sesión: " + sesion.getFecha();
+                String cuerpo = String.format(
+                    "Hola %s,%n%nHemos visto que no asististe a la sesión \"%s\".%n" +
+                    "Si tienes alguna duda, por favor contáctanos.%n%nSaludos,%nEquipo AsisteUco",
+                    nombreEstudiante, sesion.getFecha()
+                );
+
+                SimpleMailMessage message = new SimpleMailMessage();
+                // 'from' debe coincidir con spring.mail.username en application.properties
+                message.setFrom("tu.cuenta@gmail.com");
+                message.setTo(correoDestinatario);
+                message.setSubject(asunto);
+                message.setText(cuerpo);
+
+                try {
+                    mailSender.send(message);
+                } catch (Exception e) {
+                    // Solo registramos el fallo; la transacción de guardado ya se completó
+                    System.err.println("Error enviando correo a " + correoDestinatario + ": " + e.getMessage());
+                }
+            }
+        }
+
+        // 6) Devolver los IDs generados
         List<UUID> ids = registros.stream()
                                   .map(AsistenciaEntity::getId)
                                   .collect(Collectors.toList());

@@ -1,0 +1,4 @@
+co.edu.uco.asisteuco.application.outputport.entity.EstudianteEntity#setTipoIdentificacion(Lco/edu/uco/asisteuco/application/outputport/entity/TipoIdentificacionEntity;)V
+false
+6669753080c63b099eb7b3f3d6a8034a
+java.util.Objects#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;

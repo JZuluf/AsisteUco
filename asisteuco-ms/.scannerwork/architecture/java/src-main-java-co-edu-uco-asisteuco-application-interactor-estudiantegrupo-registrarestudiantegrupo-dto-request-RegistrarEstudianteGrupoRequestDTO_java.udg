@@ -1,0 +1,188 @@
+
+1.0	AsisteUcoJavaFrontend"1748816519942*java2.B»
+ú
+ñsrc/main/java/co/edu/uco/asisteuco/application/interactor/estudiantegrupo/registrarestudiantegrupo/dto/request/RegistrarEstudianteGrupoRequestDTO.java2
+
+package4
+e
+`co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request5
+â
+Éco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+(
+"RegistrarEstudianteGrupoRequestDTO12
+í
+ãco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO.grupoId14
+
+field15
+
+private16
+
+grupoId17
+ó
+êco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO.estudianteId19
+
+estudianteId20
+î
+çco.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#<init>()V22
+
+method23
+
+calls24
+ß
+†co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#getGrupoId()Ljava/util/UUID;26
+
+
+getGrupoId27
+
+
+references28
+®
+°co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#setGrupoId(Ljava/util/UUID;)V30
+
+
+setGrupoId31
+
+
+uses32
+¨
+•co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#getEstudianteId()Ljava/util/UUID;34
+
+getEstudianteId35
+≠
+¶co.edu.uco.asisteuco.application.interactor.estudiantegrupo.registrarestudiantegrupo.dto.request.RegistrarEstudianteGrupoRequestDTO#setEstudianteId(Ljava/util/UUID;)V37
+
+setEstudianteId38J
+
+1
+12Z
+
+3	
+354jâ
+@
+36:
+363723 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+@
+25:
+252623 *
+1 (26:3B
+	
+9
+10
+
+
+11
+27
+@
+13:
+131415 *
+1 (	26:3B
+	
+9
+16
+
+
+11
+17
+@
+29:
+293023 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+33:
+333423 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35
+9
+64
+678 *
+1 (6:3B
+	
+9
+10
+
+
+11
+12
+@
+21:
+212223 *
+1
+ 
+(26:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181915 *
+1 (26:3B
+	
+9
+16
+
+
+11
+20rÓ
+
+21624*
+1
+ 
+(.
+
+251328*
+1 (
+
+29632*
+1	 (
+
+29628*
+1	 (
+
+291328*
+1 (
+
+331828*
+1 (
+
+36632*
+1	 (
+
+36628*
+1	 (
+
+361828*
+1 (
